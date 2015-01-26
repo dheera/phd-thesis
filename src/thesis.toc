@@ -56,6 +56,6 @@
 \contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{100}
 \contentsline {section}{\numberline {4.4}Conclusions}{101}
 \contentsline {chapter}{\numberline {5}Conclusions}{115}
-\contentsline {chapter}{Appendices}{116}
-\contentsline {chapter}{\numberline {A}HydraHarp file converter}{117}
-\contentsline {chapter}{\numberline {B}SPAD file converter}{129}
+\contentsline {chapter}{Appendices}{119}
+\contentsline {chapter}{\numberline {A}HydraHarp file converter}{121}
+\contentsline {chapter}{\numberline {B}SPAD file converter}{133}

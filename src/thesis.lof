@@ -13,7 +13,7 @@
 \contentsline {figure}{\numberline {2-11}{\ignorespaces PC-OCT experimental setup. CWDM: course Wavelength division Multiplexer, OPA: optical parametric amplifier, PBS: polarizing beamsplitter.}}{38}
 \contentsline {figure}{\numberline {2-12}{\ignorespaces Transmittance of 1550 nm and 1570 nm channels of the CWDM, scanned using a InGaAs detector and tunable fiber-coupled laser with a maximum wavelength of 1575 nm, showing nearly flat-top transmission and sharp falloff, allowing the reference and signal to be efficiently separated.}}{39}
 \contentsline {figure}{\numberline {2-13}{\ignorespaces (a) Center position and (b) FWHM of the PC-OCT interferometric envelope, with (c) synchronized measurements of the ambient room temperature, showing the effect of temperature on the index of refraction of the long fibers in the experiment.}}{41}
-\contentsline {figure}{\numberline {2-14}{\ignorespaces }}{42}
+\contentsline {figure}{\numberline {2-14}{\ignorespaces Three PC-OCT scans with a high reflectivity mirror used as a target, translated by 450 $\mu $m between subsequent scans.}}{42}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3-1}{\ignorespaces Conceptual ghost imaging schematic, reproduced from Erkmen et al. \cite {erkmen-unified}.}}{49}
 \contentsline {figure}{\numberline {3-2}{\ignorespaces Pseudothermal SLM-based ghost imaging setup which can be operated in either phase-sensitive mode (anti-correlated SLM phase patterns) or phase-insensitive mode (identical SLM phase patterns).}}{52}
