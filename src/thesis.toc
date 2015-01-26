@@ -1,0 +1,61 @@
+\contentsline {chapter}{\numberline {1}Introduction}{19}
+\contentsline {chapter}{\numberline {2}Phase-conjugate optical coherence tomography}{23}
+\contentsline {section}{\numberline {2.1}Optical coherence tomography configurations}{24}
+\contentsline {subsection}{\numberline {2.1.1}Conventional OCT}{24}
+\contentsline {subsection}{\numberline {2.1.2}Quantum OCT}{26}
+\contentsline {subsection}{\numberline {2.1.3}Phase-conjugate OCT}{28}
+\contentsline {section}{\numberline {2.2}Generating phase-sensitive light with parametric downconversion}{30}
+\contentsline {subsection}{\numberline {2.2.1}Single-mode parametric fluorescence}{30}
+\contentsline {subsection}{\numberline {2.2.2}SPDC under strong pumping}{35}
+\contentsline {section}{\numberline {2.3}Experimental setup}{36}
+\contentsline {subsection}{\numberline {2.3.1}SPDC source}{36}
+\contentsline {subsection}{\numberline {2.3.2}Double-pass configuration and phase conjugation}{37}
+\contentsline {subsection}{\numberline {2.3.3}Dispersion simulation using long fiber spool}{39}
+\contentsline {subsection}{\numberline {2.3.4}Interferometric measurement}{40}
+\contentsline {subsection}{\numberline {2.3.5}Data collection}{40}
+\contentsline {section}{\numberline {2.4}Results}{41}
+\contentsline {section}{\numberline {2.5}Conclusions}{44}
+\contentsline {chapter}{\numberline {3}Classical phase-sensitive ghost imaging}{47}
+\contentsline {section}{\numberline {3.1}Near- and far-field ghost imaging}{49}
+\contentsline {section}{\numberline {3.2}Ghost imaging with spatial light modulators}{51}
+\contentsline {subsection}{\numberline {3.2.1}SLM: Principle of operation}{51}
+\contentsline {subsection}{\numberline {3.2.2}Pitfalls}{51}
+\contentsline {section}{\numberline {3.3}Experimental setup}{53}
+\contentsline {section}{\numberline {3.4}Results}{55}
+\contentsline {section}{\numberline {3.5}Signal-to-noise ratio}{58}
+\contentsline {section}{\numberline {3.6}Computational ghost imaging}{59}
+\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{63}
+\contentsline {section}{\numberline {3.8}Computational compressed ghost imaging}{67}
+\contentsline {section}{\numberline {3.9}Conclusions}{68}
+\contentsline {chapter}{\numberline {4}Single-photon imaging}{73}
+\contentsline {section}{\numberline {4.1}First-photon imaging}{75}
+\contentsline {subsection}{\numberline {4.1.1}Experimental setup and calibration}{75}
+\contentsline {subsubsection}{Focusing of laser beam}{78}
+\contentsline {subsubsection}{Addition of background noise}{79}
+\contentsline {subsubsection}{Photon flux waveform measurement}{80}
+\contentsline {subsubsection}{Acquisition procedure}{81}
+\contentsline {subsection}{\numberline {4.1.2}Computational reconstruction procedure}{82}
+\contentsline {subsubsection}{Reflectivity reconstruction}{83}
+\contentsline {subsubsection}{Background noise censoring}{85}
+\contentsline {subsubsection}{Depth reconstruction}{86}
+\contentsline {subsubsection}{Software implementation}{87}
+\contentsline {subsection}{\numberline {4.1.3}Results}{88}
+\contentsline {subsubsection}{Mannequin}{88}
+\contentsline {subsubsection}{Depth chart}{88}
+\contentsline {subsubsection}{Reflectivity chart}{92}
+\contentsline {section}{\numberline {4.2}Reflectivity from depth data}{92}
+\contentsline {section}{\numberline {4.3}Imaging using a SPAD array}{93}
+\contentsline {subsection}{\numberline {4.3.1}Hardware specifications}{94}
+\contentsline {subsubsection}{Modes of operation}{94}
+\contentsline {subsection}{\numberline {4.3.2}Experimental setup}{96}
+\contentsline {subsection}{\numberline {4.3.3}Computational reconstruction approach}{98}
+\contentsline {subsubsection}{Reflectivity reconstruction}{98}
+\contentsline {subsubsection}{Background noise rejection}{98}
+\contentsline {subsubsection}{Depth reconstruction}{99}
+\contentsline {subsection}{\numberline {4.3.4}Preliminary results}{99}
+\contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{100}
+\contentsline {section}{\numberline {4.4}Conclusions}{101}
+\contentsline {chapter}{\numberline {5}Conclusions}{115}
+\contentsline {chapter}{Appendices}{116}
+\contentsline {chapter}{\numberline {A}HydraHarp file converter}{117}
+\contentsline {chapter}{\numberline {B}SPAD file converter}{129}

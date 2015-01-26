@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: intro.aux
+A level-1 auxiliary file: pcoct.aux
+A level-1 auxiliary file: ghost.aux
+A level-1 auxiliary file: first.aux
+A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: appendix-ht3read.aux
+A level-1 auxiliary file: appendix-spadcounts.aux
+The style file: unsrt.bst
+Database file #1: thesis.bib
+Repeated entry---line 705 of file thesis.bib
+ : @article{shapiro-computational
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "jack-hgcdte" isn't style-file defined
+--line 896 of file thesis.bib
+Repeated entry---line 950 of file thesis.bib
+ : @article {nicolas-applications
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "TODO"
+Warning--empty journal in snyder-random
+Warning--empty journal in mallat-wavelet
+Warning--empty journal in boyd-convex
+Warning--empty journal in bertsekas-introduction
+You've used 72 entries,
+            1791 wiz_defined-function locations,
+            860 strings with 15637 characters,
+and the built_in function-call counts, 17239 in all, are:
+= -- 1464
+> -- 898
+< -- 3
++ -- 327
+- -- 255
+* -- 1406
+:= -- 2843
+add.period$ -- 213
+call.type$ -- 72
+change.case$ -- 69
+chr.to.int$ -- 0
+cite$ -- 76
+duplicate$ -- 651
+empty$ -- 1597
+format.name$ -- 255
+if$ -- 3686
+int.to.chr$ -- 0
+int.to.str$ -- 72
+missing$ -- 65
+newline$ -- 360
+num.names$ -- 74
+pop$ -- 121
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 266
+stack$ -- 0
+substring$ -- 1356
+swap$ -- 91
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 162
+width$ -- 74
+write$ -- 775
+(There were 2 error messages)
