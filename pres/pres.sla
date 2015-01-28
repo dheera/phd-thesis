@@ -42,12 +42,23 @@
         <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="Abyssinica SIL Regular"/>
             <Subset Name="Latin Modern Roman 12 Italic"/>
+            <Subset Name="Latin Modern Roman 9 Italic"/>
             <Subset Name="Latin Modern Roman 9 Regular"/>
             <Subset Name="Roboto Condensed Regular"/>
             <Subset Name="Roboto Light"/>
             <Subset Name="Roboto Medium"/>
             <Subset Name="Roboto Regular"/>
             <Subset Name="Roboto Thin"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -383,7 +394,7 @@
             <para LINESP="40"/>
             <ITEXT FONT="Roboto Medium" FONTSIZE="26" FCOLOR="Black" CH="PC-OCT "/>
             <ITEXT FONT="Roboto Light" FONTSIZE="26" FCOLOR="Black" CH="employs a classical phase-sensitive source which is "/>
-            <ITEXT FONT="Roboto Medium" FONTSIZE="26" FCOLOR="Black" CH="maximally correlated in the classical sens"/>
+            <ITEXT FONT="Roboto Medium" FONTSIZE="26" FCOLOR="Black" CH="maximally correlated in the classical sense"/>
             <para LINESP="40"/>
             <para LINESP="40"/>
             <PageItemAttributes/>
