@@ -6,13 +6,13 @@
 \contentsline {subsection}{\numberline {2.1.3}Phase-conjugate OCT}{28}
 \contentsline {section}{\numberline {2.2}Generating phase-sensitive light with parametric downconversion}{30}
 \contentsline {subsection}{\numberline {2.2.1}Single-mode parametric fluorescence}{30}
-\contentsline {subsection}{\numberline {2.2.2}SPDC under strong pumping}{35}
-\contentsline {section}{\numberline {2.3}Experimental setup}{36}
+\contentsline {subsection}{\numberline {2.2.2}SPDC under strong pumping}{34}
+\contentsline {section}{\numberline {2.3}Experimental setup}{35}
 \contentsline {subsection}{\numberline {2.3.1}SPDC source}{36}
-\contentsline {subsection}{\numberline {2.3.2}Double-pass configuration and phase conjugation}{37}
-\contentsline {subsection}{\numberline {2.3.3}Dispersion simulation using long fiber spool}{39}
-\contentsline {subsection}{\numberline {2.3.4}Interferometric measurement}{40}
-\contentsline {subsection}{\numberline {2.3.5}Data collection}{40}
+\contentsline {subsection}{\numberline {2.3.2}Double-pass configuration and phase conjugation}{36}
+\contentsline {subsection}{\numberline {2.3.3}Dispersion simulation using long fiber spool}{38}
+\contentsline {subsection}{\numberline {2.3.4}Interferometric measurement}{41}
+\contentsline {subsection}{\numberline {2.3.5}Data collection}{41}
 \contentsline {section}{\numberline {2.4}Results}{41}
 \contentsline {section}{\numberline {2.5}Conclusions}{44}
 \contentsline {chapter}{\numberline {3}Classical phase-sensitive ghost imaging}{47}

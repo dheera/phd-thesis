@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2-1}{\ignorespaces Schematic of conventional optical coherence tomography (C-OCT).}}{25}
 \contentsline {figure}{\numberline {2-2}{\ignorespaces Schematic of quantum optical coherence tomography (Q-OCT).}}{27}
-\contentsline {figure}{\numberline {2-3}{\ignorespaces Schematic of phase-conjugate optical coherence tomography (PC-OCT).}}{29}
+\contentsline {figure}{\numberline {2-3}{\ignorespaces Schematic of phase-conjugate optical coherence tomography (PC-OCT).}}{28}
 \contentsline {figure}{\numberline {2-4}{\ignorespaces Schematic of setup for parametric fluorescence generation and collection in single-mode fiber. We use type 0 phase matching (signal, idler, pump are polarized on the same axis) in a MgO:PPLN crystal.}}{31}
 \contentsline {figure}{\numberline {2-5}{\ignorespaces Spectrum of a home-built passively mode-locked fiber laser \cite {venkatraman-thesis} used as a seed source.}}{32}
 \contentsline {figure}{\numberline {2-6}{\ignorespaces EDFA output spectrum at maximum output power setting, before and after modifications by IPG Photonics to remove excess internal fiber. The broadening of the spectrum and double peak is caused by self-phase modulation inside the fiber at high power levels.}}{33}
@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {2-10}{\ignorespaces (a) Power spectral densities (solid) and theoretical models based on Sellemeier coefficients (dashed) for various crystal temperatures, with pump power fixed at 2 W. (b) Linear dependence of SPDC output bandwidth as a function of pump power, with temperature fixed at 86$^\circ $C.}}{37}
 \contentsline {figure}{\numberline {2-11}{\ignorespaces PC-OCT experimental setup. CWDM: course Wavelength division Multiplexer, OPA: optical parametric amplifier, PBS: polarizing beamsplitter.}}{38}
 \contentsline {figure}{\numberline {2-12}{\ignorespaces Transmittance of 1550 nm and 1570 nm channels of the CWDM, scanned using a InGaAs detector and tunable fiber-coupled laser with a maximum wavelength of 1575 nm, showing nearly flat-top transmission and sharp falloff, allowing the reference and signal to be efficiently separated.}}{39}
-\contentsline {figure}{\numberline {2-13}{\ignorespaces (a) Center position and (b) FWHM of the PC-OCT interferometric envelope, with (c) synchronized measurements of the ambient room temperature, showing the effect of temperature on the index of refraction of the long fibers in the experiment.}}{41}
+\contentsline {figure}{\numberline {2-13}{\ignorespaces (a) Center position and (b) FWHM of the PC-OCT interferometric envelope, with (c) synchronized measurements of the ambient room temperature, showing the effect of temperature on the index of refraction of the long fibers in the experiment.}}{40}
 \contentsline {figure}{\numberline {2-14}{\ignorespaces Three PC-OCT scans with a high reflectivity mirror used as a target, translated by 450 $\mu $m between subsequent scans.}}{42}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3-1}{\ignorespaces Conceptual ghost imaging schematic, reproduced from Erkmen et al. \cite {erkmen-unified}.}}{49}
