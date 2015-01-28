@@ -441,7 +441,7 @@
             <ITEXT FONT="Roboto Medium" FONTSIZE="80" FEATURES="inherit allcaps" FCOLOR="grey50" CH="3 "/>
             <ITEXT FONT="Roboto Thin" FONTSIZE="80" FEATURES="inherit allcaps" FCOLOR="grey50" CH="EXPERIMENT"/>
             <para ALIGN="1" LINESP="70"/>
-            <ITEXT FONT="Roboto Light" FONTSIZE="35" FCOLOR="grey90" CH="Far-field phase-conjugate ghost imaging"/>
+            <ITEXT FONT="Roboto Light" FONTSIZE="35" FCOLOR="grey90" CH="Far-field phase-sensitive ghost imaging"/>
             <trail ALIGN="1" LINESP="70"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
