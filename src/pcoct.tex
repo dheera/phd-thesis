@@ -2,7 +2,7 @@
 
 The past two decades have witnessed a number of experiments focused on the use of quantum-entangled states of light to achieve enhanced measurement capability in metrology. For example, quantum optical coherence tomography (Q-OCT) proposed by Abouraddy et al. \cite{abouraddy-qoct} and later demonstrated by Nasr et al. \cite{nasr-qoct}, utilized maximally entangled photon states and Hong-Ou-Mandel interferometry \cite{hong-interference} to achieve a 2$\times$ axial resolution improvement and dispersion cancellation over standard conventional OCT.
 
-Such effects, including the enhanced resolution afforded by the width of the Hong-Ou-Mandel interference, and dispersion cancellation \cite{steinberg-dispersion,franson-dispersion}, were initially thought to be distinctly non-classical. However, much of the early research overlooked the possibility of classical light sources that possess no entanglement but are nevertheless maximally correlated in the classical, stochastic sense. Recent advances in nonlinear optical crystals and a better understanding of parametric downconversion have permitted us to generate a variety of these interesting classical light fields that bear properties previously associated exclusively with quantum optics. Of particular note is the ability to generate classical states with classically-maximal phase-sensitive correlations.
+Such effects, including the enhanced resolution afforded by the reduced width of the Hong-Ou-Mandel interference, and dispersion cancellation \cite{steinberg-dispersion,franson-dispersion}, were initially thought to be distinctly non-classical. However, much of the early research overlooked the possibility of classical light sources that possess no entanglement but are nevertheless maximally correlated in the classical, stochastic sense. Recent advances in nonlinear optical crystals and a better understanding of parametric downconversion have permitted us to generate a variety of these interesting classical light fields that bear properties previously associated exclusively with quantum optics. Of particular note is the ability to generate classical states with classically-maximal phase-sensitive correlations.
 
 In particular, in the case of Q-OCT, Erkmen and Shapiro \cite{erkmen-pcoct} have shown that both the 2$\times$ axial resolution improvement and dispersion cancellation are not exclusively quantum effects, but merely a result of the phase-sensitive cross-correlation between the signal and idler of the biphoton state. This leads to the question of whether the same advantages can be obtained from an experiment with classical phase-sensitive light sources, which are uncommon but can be experimentally constructed. Erkmen and Shapiro proposed such a technique \cite{erkmen-pcoct}, called phase-conjugate optical coherence tomography (PC-OCT) which uses an unconventional arrangement using only classical light sources and classical photodetectors to achieve both of these advantages previously associated with Q-OCT.
 
@@ -10,11 +10,11 @@ In this chapter we explore classical, quantum, and phase-conjugate OCT configura
 
 \section{Optical coherence tomography configurations}
 
-Optical coherence tomography (OCT) is a three-dimensional imaging technique that employs interference measurements to derive axial resolution. We explore three main techniques by which this is accomplished: conventional OCT (C-OCT), quantum OCT (Q-OCT), and phase-conjugate OCT (PC-OCT). In our analysis we disregard transverse scanning, and focus solely on axial (depth) resolution which is the differentiating aspect of the three methods.
+Optical coherence tomography (OCT) is a three-dimensional imaging technique that employs interference measurements to derive axial resolution. We explore three main techniques by which this is accomplished: conventional OCT (C-OCT), quantum OCT (Q-OCT), and phase-conjugate OCT (PC-OCT). In our analysis we disregard transverse scanning, and focus solely on axial (depth) resolution, which is the differentiating aspect of the three methods.
 
 \subsection{Conventional OCT}
 
-The basic principle of C-OCT is shown in Figure \ref{figure:pcoct-schematic-coct}. C-OCT uses classical signal and reference light beams that have phase-insensitive cross-correlations, as might be generated using any classical high-flux source with a short coherence length (such as an LED or pulsed laser source) and a 50/50 beamsplitter. The signal beam interrogates the sample and the reflected light is recombined with the reference beam using a simple Michelson interferometer to measure the second-order correlations between the two beams. As the path length of either beam is scanned, the interference envelope reflects the axial profile of the target.
+The basic principle of C-OCT is shown in Figure \ref{figure:pcoct-schematic-coct}. C-OCT uses classical signal and reference light beams that have phase-insensitive cross-correlations, as might be generated using any classical high-flux source with a short coherence length (such as an LED or pulsed laser source) and a 50-50 beam splitter. The signal beam interrogates the sample and the reflected light is recombined with the reference beam using a simple Michelson interferometer to measure the second-order correlations between the two beams. As the path length of either beam is scanned, the interference envelope reflects the axial profile of the target.
 
 \begin{figure}[t]
 \begin{center}
@@ -24,19 +24,19 @@ The basic principle of C-OCT is shown in Figure \ref{figure:pcoct-schematic-coct
 \end{center}
 \end{figure}
 
-Erkmen describes in \cite{erkmen-thesis} the analytic computation of the interference signature of C-OCT, which we briefly summarize here. We assume classical zero-mean, stationary, jointly Gaussian signal and reference fields with complex envelopes $E_S(t)$ and $E_R(t)$ with powers $\bar{h}\omega_0|E_K(t)|^2$ for $K = S, R$, respectively. In the case of C-OCT there are no phase-sensitive cross-correlations, and these fields are completely characterized by their phase-insensitive auto- and cross-correlations:
+Erkmen describes in \cite{erkmen-thesis} the analytic computation of the interference signature of C-OCT, which we briefly summarize here. We assume classical zero-mean, stationary, jointly Gaussian signal and reference fields with complex envelopes $E_S(t)$ and $E_R(t)$ with powers $\hbar\omega_0|E_K(t)|^2$ for $K = S, R$, respectively. In the case of C-OCT there are no phase-sensitive cross-correlations, and these fields are completely characterized by their phase-insensitive auto- and cross-correlations:
 
 \begin{equation}
-\langle E_J^*(t+\tau) E_K(t) \rangle = F^{-1}[S(\Omega)]
+\langle E_J^*(t+\tau) E_K(t) \rangle = \mathcal{F}^{-1}[S(\Omega)]
 \end{equation}
 
 for $J, K = S, R$ where
 
 \begin{equation}
-F^{-1}[S(\Omega)] = \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} S(\Omega) e^{i \Omega r}
+\mathcal{F}^{-1}[S(\Omega)] = \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} S(\Omega) e^{i \Omega r}
 \end{equation}
 
-is the inverse Fourier transform of $S(\Omega)$ and $S(\Omega) = S(-\Omega)$ is the common spectrum of the signal and reference beams at $\pm\Omega$ from the center frequency $\omega_0$. We assume a target with an axial profile $h(t)$ and baseband impulse response $H(\Omega) = F[h(t)]$. In the case of a weakly reflecting mirror located at time delay $T_0$ and complex reflectivity $r$ with $|r| \ll 1$, this baseband impulse response is defined by:
+is the inverse Fourier transform of $S(\Omega)$ and $S(\Omega) = S(-\Omega)$ is the common spectrum of the signal and reference beams at $\pm\Omega$ from the center frequency $\omega_0$. We assume a target with an axial profile $h(t)$, where $t$ is the time delay incurred in interrogating the target, and baseband impulse response $H(\Omega) = \mathcal{F}[h(t)]$. In the case of a weakly reflecting mirror located at time delay $T_0$ and complex reflectivity $r$ with $|r| \ll 1$, this baseband impulse response is defined by:
 
 \begin{equation}
 H(\Omega) = re^{i(\omega_0 + \Omega)T_0}\,\,.
@@ -45,10 +45,10 @@ H(\Omega) = re^{i(\omega_0 + \Omega)T_0}\,\,.
 After the signal field $E_S(t)$ interacts with the sample, the resulting field is described by the convolution of $E_S(t)$ with $h(t)$. An interferometric measurement is then made with the reference beam $E_R(t)$ delayed by time $T$. As shown by Erkmen and Shapiro \cite{erkmen-pcoct}, the resulting interferometric envelope is given by
 
 \begin{equation}
-\langle i_d(t) \rangle = 2q\eta G_A Re\left( \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} H^*(-\Omega) S(\Omega) e^{-i(\Omega-\omega_0)T}   \right)\,\,.
+\langle i_d(t) \rangle = 2q\eta G_A \operatorname{Re}\left( \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} H^*(-\Omega) S(\Omega) e^{-i(\Omega-\omega_0)T}   \right)\,\,.
 \end{equation}
 
-Note that this envelope is linear in $H(\Omega)$. If we insert the response of the weakly reflecting mirror, we obtain an envelope proportional to $e^{-\Omega_S^2 (T_0 - T)^2 / 2}$. For a source with bandwidth $\Omega_S$, this gives us an axial resolution of $4/\Omega_S$, where we define resolution as the full-width between the $e^{-2}$ attenuation points of the visibility envelope.
+Note that this envelope is linear in $H(\Omega)$. If we insert the response of the weakly reflecting mirror, we obtain an envelope proportional to $e^{-\Omega_S^2 (T_0 - T)^2 / 2}$ for $S(\Omega) \propto e^{-\Omega^2/2\Omega_S^2}$. For a source with bandwidth $\Omega_S$, this gives us an axial resolution of $4/\Omega_S$, where we define resolution as the full-width between the $e^{-2}$ attenuation points of the visibility envelope.
 
 Note also that C-OCT is vulnerable to dispersion in the sample, which will manifest itself inside $H(\Omega)$. Due to the linear dependence on $H(\Omega)$, there will be no dispersion-cancelling properties in C-OCT.
 
@@ -65,22 +65,22 @@ In Q-OCT, first proposed by Abouraddy et al. \cite{abouraddy-qoct}, the signal a
 \end{figure}
 
 \begin{equation}
-[ \hat{E_J}(t), \hat{E_K}^+(u) ] = \delta_{JK} \delta(t-u)
+[ \hat{E_J}(t), \hat{E_K}^\dagger(u) ] = \delta_{JK} \delta(t-u)
 \end{equation}
 for $J, K = S, R$. We further assume that the fields have the maximum phase-sensitive cross-correlation permitted by quantum mechanics:
 \begin{equation}
 \langle \hat{E}_S(t+\tau) \hat{E}_R(t) \rangle = F^{-1} [\sqrt{S(\Omega)(S(\Omega) +1)}]\,\,.
 \end{equation}
-Under these conditions, and in the biphoton limit (low photon flux) where HOM is usually performed, $S(\Omega)$ and the photon coincidence counting signature is shown by Erkmen and Shapiro \cite{erkmen-pcoct} to be:
+Under these conditions, and in the biphoton limit (low brightness and low photon flux) where HOM is usually performed, $S(\Omega)$ and the photon coincidence counting signature is shown by Erkmen and Shapiro \cite{erkmen-pcoct} to be:
 \begin{equation}
-\langle C(T) \rangle = \frac{q^2\eta^2}{2} \left[ \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} |H(\Omega)|^2 S(\Omega) - Re\left( \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} H^*(-\Omega)H(\Omega)S(\Omega)e^{-i2\Omega T} \right) \right]\,\,.
+\langle C(T) \rangle = \frac{q^2\eta^2}{2} \left[ \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} |H(\Omega)|^2 S(\Omega) - \operatorname{Re}\left( \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} H^*(-\Omega)H(\Omega)S(\Omega)e^{-i2\Omega T} \right) \right]\,\,.
 \label{equation:pcoct-qoct-envelope}
 \end{equation}
-Using the same partially-reflecting mirror, the dip in the coincidence counts is proportional to  $e^{-2\Omega_S^2 (T_0 - T)^2}$ Note that by the same resolution definition, we obtain an axial resolution of $2/\Omega_S$ which is twice the resolution as C-OCT for the same source bandwidth $\Omega_S$. Moreover, note that unlike C-OCT, the HOM dip term of Eq. \ref{equation:pcoct-qoct-envelope} is nonlinear in $H(\Omega)$ and involves a phase conjugation which will result in the cancellation of all even-order dispersion in the sample.
+Using the same partially-reflecting mirror, the dip in the coincidence counts is proportional to  $e^{-2\Omega_S^2 (T_0 - T)^2}$ Note that by the same resolution definition, we obtain an axial resolution of $2/\Omega_S$ which is two times better than that of C-OCT for the same source bandwidth $\Omega_S$. Moreover, note that unlike C-OCT, the HOM dip term of Eq. \ref{equation:pcoct-qoct-envelope} is nonlinear in $H(\Omega)$ and involves a phase conjugation which will result in the cancellation of all even-order dispersion in the sample.
 
 \subsection{Phase-conjugate OCT}
 
-Although advantages of Q-OCT were earlier attributed to quantum effects, Erkmen and Shapiro showed that they are merely results of the phase-sensitive coherence between the signal and idler and achievable using PC-OCT \cite{erkmen-pcoct}, whose conceptual block diagram is shown in Figure \ref{figure:pcoct-schematic-pcoct}. In this configuration, the signal and idler are classical sources with phase-sensitive cross-correlations. The sample is interrogated twice at the same point with phase conjugation between the two passes.
+Although advantages of Q-OCT were earlier attributed to quantum effects, Erkmen and Shapiro showed that they are merely results of the phase-sensitive coherence between the signal and idler and achievable using PC-OCT \cite{erkmen-pcoct}, whose conceptual block diagram is shown in Figure \ref{figure:pcoct-schematic-pcoct}. In this configuration, the signal and idler are classical sources with a phase-sensitive cross-correlation. The sample is interrogated twice at the same point with phase conjugation between the two passes.
 
 \begin{figure}[t]
 \begin{center}
@@ -90,7 +90,7 @@ Although advantages of Q-OCT were earlier attributed to quantum effects, Erkmen 
 \end{center}
 \end{figure}
 
-In PC-OCT, we assume classical signal and idler fields $E_S(t)$ and $E_R(t)$ with maximal phase-sensitive correlations as permitted by classical physics. The signal beam $E_S(t)$ is focused on a target with axial profile $h(t) = F^{-1}[H(\Omega)]$. The resulting field is
+In PC-OCT, we assume classical signal and idler complex envelopes $E_S(t)$ and $E_R(t)$ with maximal phase-sensitive correlations as permitted by classical physics. The signal beam $E_S(t)$ is focused on a target with axial profile $h(t) = F^{-1}[H(\Omega)]$. The resulting complex envelope is
 \begin{equation}
 E_H(t) = E_S(t) * h(t)
 \end{equation}
@@ -98,27 +98,27 @@ where $*$ denotes convolution. We then pass $E_H(t)$ into a conjugate amplifier 
 \begin{equation}
 E_C(t) = \left[ E_H^*(t) + w(t) \right] * v(t)
 \end{equation}
-where $w(t)$ is zero-mean white Gaussian quantum noise injected by the conjugation process, satisfying $TODO$, and $v(t)$ is the impulse response of the conjugator. After conjugation, the light is focused onto the same sample a second time, resulting in the field
+where $w(t)$ is zero-mean white Gaussian quantum noise injected by the conjugation process, satisfying $TODO$, and $v(t)$ is the impulse response of the conjugator. After conjugation, the light is focused onto the same sample a second time, resulting in
 \begin{equation}
-E_1(t) = \left[ E_C(t) * h(t) \right] * e^{-i\omega_0 t}\,\,.
+E_1(t) = \left[ E_C(t) * h(t) \right]\,\,.
 \end{equation}
-We then recombine $E_1(t)$ with the reference beam, delayed by $T$, in a Michelson interferometer, yielding an interference signature of
+We then recombine $E_1(t)$ with the reference beam, delayed by $T$, in a Michelson interferometer, yielding an interference signature of the form
 \begin{equation}
-\langle i_d(t) \rangle = 2q\eta G_A Re \left( \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} H^*(-\Omega)H(\Omega)V^*(-\Omega)S(\Omega) e^{-i(\Omega-\omega_0)T} \right)\,\,.
+\langle i_d(t) \rangle = 2q\eta G_A \operatorname{Re} \left( \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} H^*(-\Omega)H(\Omega)V^*(-\Omega)S(\Omega) e^{-i(\Omega-\omega_0)T} \right)\,\,.
 \end{equation}
-This interference signature bears much resemblance to the second term of the interference signature of Q-OCT; both PC-OCT and Q-OCT have $H^*(\Omega)H(-\Omega)$ dependence. Indeed, if we use the same $H(\Omega)$ of the low-reflectivity mirror, we obtain a visibility function proportional to $e^{-2\Omega_S^2(T_0 - T/2)^2}$ and axial resolution of $2/\Omega_S$, which is identical to the resolution afforded by Q-OCT. In addition, the $H^*(\Omega)H(-\Omega)$ dependence of PC-OCT will result in even-order dispersion cancellation. Thus, PC-OCT realizes both of these advantages of Q-OCT with an entirely classical experiment.
+This interference signature bears much resemblance to the second term of the interference signature of Q-OCT; both PC-OCT and Q-OCT have $H^*(\Omega)H(-\Omega)$ dependence. Indeed, if we use the same $H(\Omega)$ of the low-reflectivity mirror, we obtain a visibility function proportional to $e^{-2\Omega_S^2(T_0 - T/2)^2}$ and axial resolution of $2/\Omega_S$ for a sufficiently broadband conjugator and $S(\Omega) \propto e^{\Omega^2/2\Omega_S^2}$, which is identical to the resolution afforded by Q-OCT. In addition, the $H^*(\Omega)H(-\Omega)$ dependence of PC-OCT will result in even-order dispersion cancellation. Thus, PC-OCT realizes both of these advantages of Q-OCT with an entirely classical experiment.
 
-It is also worth noting that PC-OCT can be (or may even preferably be) operated in a high-flux regime while Q-OCT cannot, since Q-OCT requires interference between individual photons and coincidence counting in order to perform the measurement. PC-OCT relies solely on classical interferometry, and thus is operable under a much wider range of conditions, including broad daylight, and data acquisition can be performed rapidly with classical detectors without large dwell times at each axial position.
+It is also worth noting that PC-OCT can be (or may even preferably be) operated in a high-flux regime while Q-OCT cannot, since Q-OCT requires interference between individual photons and coincidence counting in order to perform the measurement. PC-OCT relies solely on classical interferometry, and thus is operable under a much wider range of conditions, including broad daylight, and data acquisition can be performed rapidly with classical detectors without long dwell times at each axial position.
 
-\section{Generating phase-sensitive light with parametric downconversion}
+\section{Generating phase-sensitive coherence with parametric downconversion}
 
-Spontaneous parametric downconversion (SPDC) in nonlinear crystals was first observed in the 1960's and its properties extensively studied since then \cite{louisell-spdc,harris-spdc,magde-spdc,akhmanov-spdc,byer-spdc,burnham-spdc,tapster-spdc}. Recently, SPDC has been of particular interest to quantum optics experiments, particularly to generate heralded single photons \cite{fasel-spdc,pittman-spdc} and entangled photons \cite{kurtsiefer-spdc,wong-spdc}. However, while SPDC is useful in the weakly-pumped regime for quantum optics, few works have exploited the strongly-pumped regime for its strong classical phase-sensitive coherence between the signal and idler beams, which we make use of to implement PC-OCT.
+Spontaneous parametric downconversion (SPDC) in nonlinear crystals was first observed in the 1960's and its properties have been extensively studied since then \cite{louisell-spdc,harris-spdc,magde-spdc,akhmanov-spdc,byer-spdc,burnham-spdc,tapster-spdc}. Recently, SPDC has been of particular interest to quantum optics experiments, particularly to generate heralded single photons \cite{fasel-spdc,pittman-spdc} and entangled photons \cite{kurtsiefer-spdc,wong-spdc}. However, while SPDC is useful in the weakly-pumped regime for quantum optics, few works have exploited the strongly-pumped regime for its strong classical phase-sensitive coherence between the signal and idler beams, which we make use of to implement PC-OCT.
 
 \subsection{Single-mode parametric fluorescence}
 
 We would like to couple our SPDC outputs into a single-mode fiber to ensure maximal phase-sensitive cross-correlations between the signal and idler outputs, as well as for the experimental convenience afforded by fiber optics. As SPDC output is typically highly multi-modal, a number of studies \cite{ljunggren-focus,kurtsiefer-spdc,bovino-focus,bennink-focus,fedrizzi-focus,boyd-focus} have explored the idea of manipulating the focusing of the pump beam to concentrate the majority of SPDC output into a single spatial mode. Based on analysis from these earlier studies \cite{legouet-interferometry}, we set our pump focusing parameter to $\xi_p = L/(k_p w_p^2) = \pi/2$ where $w_p$ is the pump waist size and $k_p$ is the wavenumber of the pump beam. However, a later and more comprehensive study by Bennink \cite{bennink-optimal} which was later supported by results by Dixon et al. \cite{dixon-heralding} shows that under the approximation that the focusing parameters of the signal, idler, and pump are similar ($\xi_s \approx \xi_i \approx \xi_p \approx \xi$), the joint spectral density of the signal and idler $|\psi(\omega_s, \omega_i)|^2$ is proportional to:
 \begin{equation}
-|\psi(\omega_s, \omega_i|^2 \propto F(\xi,\Phi) = \int_{-1}^1 \frac{\sqrt{\xi} \exp(i\Phi l/2)}{1-i\xi l} dl
+|\psi(\omega_s, \omega_i)|^2 \propto F(\xi,\Phi) = \int_{-1}^1 \frac{\sqrt{\xi} \exp(i\Phi l/2)}{1-i\xi l} dl
 \end{equation}
 where $\Phi$ is the phase mismatch of the crystal. This is maximized for $\xi \approx 2.84$ and $\Phi \approx -1.04\pi$, yielding $F \approx 2.06$. In our suboptimal focusing case of $\xi = \pi/2$, $F(\xi = \pi/2, \Phi)$ is maximized for $\Phi \approx -0.75\pi$, yielding $F \approx 1.96$, implying that we our joint spectral density is $\sim$5\% less than optimal.
 
@@ -130,7 +130,7 @@ where $\Phi$ is the phase mismatch of the crystal. This is maximized for $\xi \a
 \end{center}
 \end{figure}
 
-Figure \ref{figure:pcoct-setup-spdc} shows a schematic of the SPDC generation setup. A home-built passively mode-locked pulsed Er-doped fiber laser employing polarization-maintaining fiber \cite{venkatraman-thesis} was used as a seed source. The center wavelength of 1560 nm was set by a Bragg grating within the laser cavity. The laser generated 75-ps pulses at a repetition rate of $\sim$31.1 MHz and average output power of $\sim$1.9 mW, with an output spectrum shown in Figure \ref{figure:pcoct-seedspectrum}. This seed laser output was fed into an IPG Photonics Er-doped fiber amplifier (EDFA) with a maximum output of ~6 W. In practice, we set the amplifier output power to a lower setting (typically 3-4 W) to avoid the effects of self-phase modulation (SPM), which at high power levels distorts the pulse shape and destroys the transform-limited properties of the pulse. In order to further reduce the effect of SPM, we had the EDFA serviced by IPG Photonics to reduce the internal fiber length to a bare minimum. The spectrum of the output at maximum power setting, before and after modification, is shown in Figure \ref{figure:pcoct-edfabeforeafter}. The EDFA output power showed linear behavior as a function of drive current, after a minimum threshold of $\sim$400 mA, as shown in Figure \ref{figure:pcoct-edfapower}.
+Figure \ref{figure:pcoct-setup-spdc} shows a schematic of our SPDC generation setup. A home-built passively mode-locked pulsed Er-doped fiber laser employing polarization-maintaining fiber \cite{venkatraman-thesis} was used as a seed source. The center wavelength of 1560 nm was set by a Bragg grating within the laser cavity. The laser generated 75-ps pulses at a repetition rate of $\sim$31.1 MHz and average output power of $\sim$1.9 mW, with an output spectrum shown in Figure \ref{figure:pcoct-seedspectrum}. This seed laser output was fed into an IPG Photonics Er-doped fiber amplifier (EDFA) with a maximum output of ~6 W. In practice, we set the amplifier output power to a lower setting (typically 3-4 W) to avoid the effects of self-phase modulation (SPM), which at high power levels distorts the pulse shape and destroys the transform-limited properties of the pulse. In order to further reduce the effect of SPM, we had the EDFA serviced by IPG Photonics to reduce the internal fiber length to a bare minimum. The spectra of the output, at maximum power setting, before and after modification, are shown in Figure \ref{figure:pcoct-edfabeforeafter}. The EDFA output power showed linear behavior as a function of drive current, after a minimum threshold of $\sim$400 mA, as shown in Figure \ref{figure:pcoct-edfapower}.
 
 \begin{figure}[h]
 \begin{center}
@@ -144,7 +144,7 @@ Figure \ref{figure:pcoct-setup-spdc} shows a schematic of the SPDC generation se
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=16cm]{figure-pcoct-edfabeforeafter.pdf}
-\caption{EDFA output spectrum at maximum output power setting, before and after modifications by IPG Photonics to remove excess internal fiber. The broadening of the spectrum and double peak is caused by self-phase modulation inside the fiber at high power levels.}
+\caption{EDFA output spectra at maximum output power setting, before and after modifications by IPG Photonics to remove excess internal fiber. The broadening of the spectra and the double peak are caused by self-phase modulation inside the fiber at high power levels.}
 \label{figure:pcoct-edfabeforeafter}
 \end{center}
 \end{figure}
@@ -165,11 +165,11 @@ Figure \ref{figure:pcoct-setup-spdc} shows a schematic of the SPDC generation se
 \end{center}
 \end{figure}
 
-We then frequency-doubled the free-space output of the EDFA using a MgO:PPLN crystal with a grating period of 19.47 $\mu$, housed in a temperature-controlled oven set at ~86.5$^\circ$C, which was phase-matched to produce ~50-ps pulses at 780 nm by second harmonic generation (SHG). By focusing the input into the crystal to a waist of 40 $\mu$m and careful optimization of the temperature we were able to convert 3.4 W of 1560 nm input into 2 W of output at 780 nm, indicating a conversion efficiency of 59\%. The SHG output power is quadratic in the input power in the low efficiency regime, but linear in the high efficiency regime, as shown in Figure \ref{figure:pcoct-shg}. Multiple dichroic mirrors were used to filter out the remaining 1560 nm light. Since we intend to use the 780 nm light to pump an SPDC source at 1560 nm with a second nonlinear crystal, it is important that the strong leftover 1560 nm light from the EDFA is almost completely filtered out with a sufficient number of dichroic mirrors after the SHG stage; we placed enough diochroic mirrors to attenuate the residual 1560 nm power to under 1 nW.
+We then frequency-doubled the free-space output of the EDFA using a MgO:PPLN crystal with a grating period of 19.47 $\mu$m, housed in a temperature-controlled oven set at ~86.5$^\circ$C, which was phase-matched to produce ~50-ps pulses at 780 nm by second harmonic generation (SHG). By focusing the input into the crystal to a waist of 40 $\mu$m and careful optimization of the temperature we were able to convert 3.4 W of 1560 nm input into 2 W of output at 780 nm, indicating a conversion efficiency of 59\%. The SHG output power is quadratic in the input power in the low efficiency regime, but linear in the high efficiency regime, as shown in Figure \ref{figure:pcoct-shg}. Multiple dichroic mirrors were used to filter out the remaining 1560 nm light. Since we intend to use the 780 nm light to pump an SPDC source whose outputs will be centered at 1560 nm, it is important that the strong leftover 1560 nm light from the EDFA is almost completely filtered out with a sufficient number of dichroic mirrors after the SHG stage; we placed enough diochroic mirrors to attenuate the residual 1560 nm power to under 1 nW.
 
 We then optimized the pump focusing for the SPDC using our earlier theoretical estimates as a starting point by focusing the pump to a waist of 35 $\mu$m, which gives $\xi_p = \xi_t \sim 1$. With this focusing fixed, we optimize the coupling of the SPDC output into a single mode SMF-28 fiber, measuring the power at the other end of the fiber using a fiber-coupled InGaAs detector with 10-fW sensitivity. In order to measure the coupling efficiency, we also obtained the total SPDC output power by using a multi-mode fiber in its place. Using this initial setting, we obtained a ratio of $\eta_T = 50$\%. However, to account for the coupling losses and deduce the actual single-mode content of the SPDC output, we connected a single-mode 1550 nm fiber laser source to both our single- and multi-mode fiber inputs and obtained an efficiency of $\eta_{f} = 82 \pm 2$\%. Our SPDC single-mode content can then be deduced to be $\eta_{SM} = \eta_{T}/\eta_{f} = 61 \pm 1.5$\%.
 
-We then varied the pump focusing and repeated the efficiency measurement at each setting. At a waist of $w_p = 25\,\mu$m we obtained $\eta_T = 57.5$\% and $\eta_{SM} = 70 \pm 2$\% which corresponds to $\xi_p = \xi_t = 1.7$. One crystal shattered under tight focusing conditions as the pump power was increased, after which we subsequently avoided attempting to focus the pump too tightly as a precaution. However, as described above, later work by Bennink \cite{bennink-optimal} indicates that tighter focusing may have yielder better results.
+We then varied the pump focusing and repeated the efficiency measurement at each setting. At a waist of $w_p = 25\,\mu$m we obtained $\eta_T = 57.5$\% and $\eta_{SM} = 70 \pm 2$\% which corresponds to $\xi_p = \xi_t = 1.7$. One crystal shattered under tight focusing conditions as the pump power was increased, after which we subsequently avoided attempting to focus the pump too tightly as a precaution. However, as described above, later work by Bennink \cite{bennink-optimal} indicates that tighter focusing might have yielder better results.
 
 \subsection{SPDC under strong pumping}
 
