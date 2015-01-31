@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 17:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,32 +541,26 @@ File: figure-ghost-schematic.pdf Graphic file (type pdf)
 <use figure-ghost-schematic.pdf>
 Package pdftex.def Info: figure-ghost-schematic.pdf used on input line 13.
 (pdftex.def)             Requested size: 341.43306pt x 227.64433pt.
-
-Underfull \vbox (badness 2111) has occurred while \output is active []
-
- [47 <./figure-ghost-schematic.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
+ [47 <./figure-ghost-schematic.pdf>] [48]
 [49] <figure-ghost-setup.pdf, id=651, 558.085pt x 177.66376pt>
 File: figure-ghost-setup.pdf Graphic file (type pdf)
 
 <use figure-ghost-setup.pdf>
 Package pdftex.def Info: figure-ghost-setup.pdf used on input line 58.
 (pdftex.def)             Requested size: 369.88582pt x 117.75453pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [50 <./figure-ghost-setup.pdf>]
-Underfull \vbox (badness 2875) has occurred while \output is active []
-
- [51]
-<figure-ghost-usaf.pdf, id=660, 212.93234pt x 163.64764pt>
+<figure-ghost-usaf.pdf, id=657, 212.93234pt x 163.64764pt>
 File: figure-ghost-usaf.pdf Graphic file (type pdf)
 
 <use figure-ghost-usaf.pdf>
 Package pdftex.def Info: figure-ghost-usaf.pdf used on input line 72.
 (pdftex.def)             Requested size: 341.43306pt x 262.43585pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [52 <./figure-ghost-usaf.pdf>]
 <figure-ghost-mitlogo.pdf, id=680, 370.68173pt x 192.27858pt>
 File: figure-ghost-mitlogo.pdf Graphic file (type pdf)
@@ -574,22 +568,22 @@ File: figure-ghost-mitlogo.pdf Graphic file (type pdf)
 <use figure-ghost-mitlogo.pdf>
 Package pdftex.def Info: figure-ghost-mitlogo.pdf used on input line 87.
 (pdftex.def)             Requested size: 341.43306pt x 177.11847pt.
- [53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54 <./figure-ghost-mitlogo.pdf>]
-<figure-ghost-blur.pdf, id=769, 613.00961pt x 174.51302pt>
+<figure-ghost-blur.pdf, id=681, 613.00961pt x 174.51302pt>
 File: figure-ghost-blur.pdf Graphic file (type pdf)
 
 <use figure-ghost-blur.pdf>
-Package pdftex.def Info: figure-ghost-blur.pdf used on input line 100.
+Package pdftex.def Info: figure-ghost-blur.pdf used on input line 96.
 (pdftex.def)             Requested size: 398.33858pt x 113.40015pt.
- [55 <./figure-ghost-blur.pdf>]
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./figure-ghost-mitlogo.pdf>] [55 <./figure-ghost-blur.pdf>]
 <figure-ghost-snr.pdf, id=800, 420.57124pt x 316.18124pt>
 File: figure-ghost-snr.pdf Graphic file (type pdf)
 
 <use figure-ghost-snr.pdf>
-Package pdftex.def Info: figure-ghost-snr.pdf used on input line 118.
+Package pdftex.def Info: figure-ghost-snr.pdf used on input line 113.
 (pdftex.def)             Requested size: 341.43306pt x 256.68916pt.
 
 <figure-ghost-computational-schematic.pdf, id=801, 713.66624pt x 233.87375pt>
@@ -597,124 +591,132 @@ File: figure-ghost-computational-schematic.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-schematic.pdf>
 Package pdftex.def Info: figure-ghost-computational-schematic.pdf used on input
- line 124.
+ line 119.
 (pdftex.def)             Requested size: 341.43306pt x 111.89053pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
-<figure-ghost-computational-setup.pdf, id=805, 524.96124pt x 247.92625pt>
+<figure-ghost-computational-setup.pdf, id=802, 524.96124pt x 247.92625pt>
 File: figure-ghost-computational-setup.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-setup.pdf>
 Package pdftex.def Info: figure-ghost-computational-setup.pdf used on input lin
-e 135.
+e 130.
 (pdftex.def)             Requested size: 369.88582pt x 174.69345pt.
+ [56]
+Underfull \vbox (badness 6893) has occurred while \output is active []
 
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
- [57 <./figure-ghost-snr.pdf>] [58 <./figure-ghost-computational-schematic.pdf>
- <./figure-ghost-computational-setup.pdf>]
-<figure-ghost-slm-speckle.pdf, id=832, 618.22368pt x 314.13058pt>
+ [57 <./figure-ghost-snr.pdf>]
+<figure-ghost-slm-speckle.pdf, id=820, 618.22368pt x 314.13058pt>
 File: figure-ghost-slm-speckle.pdf Graphic file (type pdf)
 
 <use figure-ghost-slm-speckle.pdf>
-Package pdftex.def Info: figure-ghost-slm-speckle.pdf used on input line 156.
+Package pdftex.def Info: figure-ghost-slm-speckle.pdf used on input line 151.
 (pdftex.def)             Requested size: 369.88582pt x 187.94296pt.
- [59 <./figure-ghost-slm-speckle.pdf>]
-<figure-ghost-computational-result0.pdf, id=843, 670.505pt x 121.45375pt>
+
+Underfull \vbox (badness 5939) has occurred while \output is active []
+
+ [58 <./figure-ghost-computational-schematic.pdf> <./figure-ghost-computational
+-setup.pdf>] <figure-ghost-computational-result0.pdf, id=834, 670.505pt x 121.4
+5375pt>
 File: figure-ghost-computational-result0.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-result0.pdf>
 Package pdftex.def Info: figure-ghost-computational-result0.pdf used on input l
-ine 169.
+ine 164.
 (pdftex.def)             Requested size: 455.24408pt x 82.46141pt.
 
-<figure-ghost-computational-result1.pdf, id=844, 670.505pt x 121.45375pt>
+<figure-ghost-computational-result1.pdf, id=835, 670.505pt x 121.45375pt>
 File: figure-ghost-computational-result1.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-result1.pdf>
 Package pdftex.def Info: figure-ghost-computational-result1.pdf used on input l
-ine 170.
+ine 165.
 (pdftex.def)             Requested size: 455.24408pt x 82.46141pt.
 
 
-Package natbib Warning: Citation `TODO' on page 60 undefined on input line 176.
+Package natbib Warning: Citation `TODO' on page 59 undefined on input line 171.
 
 
-
-Underfull \vbox (badness 3364) has occurred while \output is active []
-
- [60 <./figure-ghost-computational-result0.pdf> <./figure-ghost-computational-r
-esult1.pdf>] <figure-ghost-cscam.pdf, id=906, 638.385pt x 275.0275pt>
+[59 <./figure-ghost-slm-speckle.pdf>] [60 <./figure-ghost-computational-result0
+.pdf> <./figure-ghost-computational-result1.pdf>]
+<figure-ghost-cscam.pdf, id=906, 638.385pt x 275.0275pt>
 File: figure-ghost-cscam.pdf Graphic file (type pdf)
 
 <use figure-ghost-cscam.pdf>
-Package pdftex.def Info: figure-ghost-cscam.pdf used on input line 186.
+Package pdftex.def Info: figure-ghost-cscam.pdf used on input line 181.
 (pdftex.def)             Requested size: 398.33858pt x 171.61058pt.
- [61 <./figure-ghost-cscam.pdf>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-<figure-ghost-compressed-dctvstv.pdf, id=920, 642.4pt x 281.05pt>
+ [61 <./figure-ghost-cscam.pdf>]
+<figure-ghost-compressed-dctvstv.pdf, id=917, 642.4pt x 281.05pt>
 File: figure-ghost-compressed-dctvstv.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-dctvstv.pdf>
 Package pdftex.def Info: figure-ghost-compressed-dctvstv.pdf used on input line
- 208.
+ 203.
 (pdftex.def)             Requested size: 455.24408pt x 199.17378pt.
- [63 <./figure-ghost-compressed-dctvstv.pdf>] <figure-ghost-compressed-bszl1.pd
-f, id=928, 620.3175pt x 273.02pt>
+
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+ [62]
+<figure-ghost-compressed-bszl1.pdf, id=921, 620.3175pt x 273.02pt>
 File: figure-ghost-compressed-bszl1.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-bszl1.pdf>
 Package pdftex.def Info: figure-ghost-compressed-bszl1.pdf used on input line 2
-27.
+22.
 (pdftex.def)             Requested size: 455.24408pt x 200.36525pt.
 
-<figure-ghost-compressed-tuning.pdf, id=929, 685.56125pt x 584.1825pt>
+<figure-ghost-compressed-tuning.pdf, id=922, 685.56125pt x 584.1825pt>
 File: figure-ghost-compressed-tuning.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-tuning.pdf>
 Package pdftex.def Info: figure-ghost-compressed-tuning.pdf used on input line 
-235.
+230.
 (pdftex.def)             Requested size: 455.24408pt x 387.93272pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64 <./figure-ghost-compressed-bszl1.pdf>] [65]
-<figure-ghost-compressed-czl1.pdf, id=944, 501.875pt x 274.02374pt>
+[63 <./figure-ghost-compressed-dctvstv.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <./figure-ghost-compressed-bszl1.pdf>]
+<figure-ghost-compressed-czl1.pdf, id=941, 501.875pt x 274.02374pt>
 File: figure-ghost-compressed-czl1.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-czl1.pdf>
 Package pdftex.def Info: figure-ghost-compressed-czl1.pdf used on input line 25
-7.
+2.
 (pdftex.def)             Requested size: 369.88582pt x 201.9674pt.
 
-<figure-ghost-ccgi.pdf, id=945, 1100.11pt x 216.81pt>
+<figure-ghost-ccgi.pdf, id=942, 1100.11pt x 216.81pt>
 File: figure-ghost-ccgi.pdf Graphic file (type pdf)
 
 <use figure-ghost-ccgi.pdf>
-Package pdftex.def Info: figure-ghost-ccgi.pdf used on input line 265.
+Package pdftex.def Info: figure-ghost-ccgi.pdf used on input line 260.
 (pdftex.def)             Requested size: 426.79134pt x 84.11224pt.
 
-<figure-ghost-slm-samples.pdf, id=946, 256.08173pt x 555.81332pt>
+<figure-ghost-slm-samples.pdf, id=943, 256.08173pt x 555.81332pt>
 File: figure-ghost-slm-samples.pdf Graphic file (type pdf)
 
 <use figure-ghost-slm-samples.pdf>
-Package pdftex.def Info: figure-ghost-slm-samples.pdf used on input line 273.
+Package pdftex.def Info: figure-ghost-slm-samples.pdf used on input line 268.
 (pdftex.def)             Requested size: 262.20802pt x 569.05511pt.
 
 
-LaTeX Warning: Float too large for page by 17.45842pt on input line 277.
+LaTeX Warning: Float too large for page by 17.45842pt on input line 272.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66]) [67] [68 <./figure-ghost-compressed-tuning.pdf>] [69 <./figure-ghost-comp
-ressed-czl1.pdf> <./figure-ghost-ccgi.pdf>] [70 <./figure-ghost-slm-samples.pdf
->]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65])
+[66] [67] [68 <./figure-ghost-compressed-tuning.pdf>] [69 <./figure-ghost-compr
+essed-czl1.pdf> <./figure-ghost-ccgi.pdf>] [70 <./figure-ghost-slm-samples.pdf>
+]
 \openout2 = `first.aux'.
 
  (./first.tex
@@ -1182,7 +1184,7 @@ Here is how much of TeX's memory you used:
  8379 multiletter control sequences out of 15000+600000
  11649 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,54p,2185b,1615s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,54p,2186b,1615s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1200,7 +1202,7 @@ ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (144 pages, 15539314 bytes).
+Output written on thesis.pdf (144 pages, 15539201 bytes).
 PDF statistics:
  2728 PDF objects out of 2984 (max. 8388607)
  1727 compressed objects within 18 object streams

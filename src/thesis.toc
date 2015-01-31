@@ -17,14 +17,14 @@
 \contentsline {section}{\numberline {2.5}Conclusions}{43}
 \contentsline {chapter}{\numberline {3}Classical phase-sensitive ghost imaging}{45}
 \contentsline {section}{\numberline {3.1}Near- and far-field ghost imaging}{47}
-\contentsline {section}{\numberline {3.2}Ghost imaging with spatial light modulators}{49}
+\contentsline {section}{\numberline {3.2}Ghost imaging with spatial light modulators}{48}
 \contentsline {subsection}{\numberline {3.2.1}SLM: Principle of operation}{49}
 \contentsline {subsection}{\numberline {3.2.2}Pitfalls}{49}
-\contentsline {section}{\numberline {3.3}Experimental setup}{51}
+\contentsline {section}{\numberline {3.3}Experimental setup}{50}
 \contentsline {section}{\numberline {3.4}Results}{53}
-\contentsline {section}{\numberline {3.5}Signal-to-noise ratio}{56}
-\contentsline {section}{\numberline {3.6}Computational ghost imaging}{57}
-\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{61}
+\contentsline {section}{\numberline {3.5}Signal-to-noise ratio}{55}
+\contentsline {section}{\numberline {3.6}Computational ghost imaging}{56}
+\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{60}
 \contentsline {section}{\numberline {3.8}Computational compressed ghost imaging}{65}
 \contentsline {section}{\numberline {3.9}Conclusions}{66}
 \contentsline {chapter}{\numberline {4}Single-photon imaging}{71}
