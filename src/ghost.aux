@@ -18,6 +18,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Ghost imaging with spatial light modulators}{48}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}SLM: Principle of operation}{49}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Pitfalls}{49}}
+\newlabel{subsection:pitfalls}{{3.2.2}{49}}
 \citation{xun-phase}
 \@writefile{lof}{\contentsline {figure}{\numberline {3-2}{\ignorespaces Pseudothermal SLM-based ghost imaging setup that can be operated in either phase-sensitive mode (anti-correlated SLM phase patterns) or phase-insensitive mode (identical SLM phase patterns).}}{50}}
 \newlabel{figure:ghost-setup}{{3-2}{50}}
@@ -61,29 +62,30 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3-9}{\ignorespaces Pseudothermal, phase-insensitive ghost imaging setup used to test computational and compressed ghost imaging. In computational ghost imaging, we do not use the CCD camera.}}{60}}
 \newlabel{figure:ghost-computational-setup}{{3-9}{60}}
 \citation{duarte-single}
+\citation{duarte-single}
 \@writefile{lof}{\contentsline {figure}{\numberline {3-10}{\ignorespaces Side-by-side results of an MIT logo mask imaged using (a) traditional ghost imaging with optical signal and reference arms and (b) computational ghost imaging in which the reference arm is replaced by a computer simulation, averaged over $M = 300$ to $9600$ independent pseudorandom phase patterns.}}{61}}
 \newlabel{figure:ghost-computational-result}{{3-10}{61}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-11}{\ignorespaces Schematic of the Rice University single pixel camera, reproduced from \cite  {takhar-new}. DMD: digital micromirror device, PD: photodetector, DSP: digital signal processor, RNG: random number generator. (TODO: add (a) and (b) to figure)}}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-11}{\ignorespaces Schematic of the Rice University single pixel camera, reproduced from \cite  {takhar-new}. DMD: digital micromirror device, PD: photodetector, DSP: digital signal processor, RNG: random number generator.}}{62}}
 \newlabel{figure:ghost-cscam}{{3-11}{62}}
 \citation{l1magic}
 \citation{yall1}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-12}{\ignorespaces Ghost images processed using compressed sensing for a binary MIT logo mask, using (a) DCT and (b) TV sparsifying transforms.}}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-12}{\ignorespaces Ghost images processed using compressed sensing for a binary MIT logo mask, using (a) DCT and (b) TV sparsifying transforms, using the first $M$ realizations of the same data set.}}{63}}
 \newlabel{figure:ghost-compressed-dctvstv}{{3-12}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-13}{\ignorespaces Relaxing the constraint to varying degrees in the computational reconstruction using DCT as a sparsifying basis. From top to bottom, we increase the number of realizations, and from left to right, we relax the equality constraint, allowing for errors in the data. We used this process to determine the value of the relaxation parameter $\epsilon $ to use.}}{64}}
+\newlabel{figure:ghost-compressed-tuning}{{3-13}{64}}
 \citation{l1magic}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-13}{\ignorespaces Ghost images of an MIT logo mask imaged using (a) traditional averaging and (b) compressed sensing using the same data set.}}{64}}
-\newlabel{figure:ghost-compressed-bszl1}{{3-13}{64}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.8}Computational compressed ghost imaging}{65}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.9}Conclusions}{66}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-14}{\ignorespaces Relaxing the constraint to varying degrees in the computational reconstruction using DCT as a sparsifying basis. From top to bottom, we increase the number of realizations, and from left to right, we relax the equality constraint, allowing for errors in the data. We used this process to determine the value of the relaxation parameter $\epsilon $ to use.}}{68}}
-\newlabel{figure:ghost-compressed-tuning}{{3-14}{68}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-15}{\ignorespaces Attempts to obtain images of an MIT logo mask imaged using compressed sensing with a computationally-simulated refererence arm. (a) shows the computational ghost imaging result using traditional processing, and (b) shows the result of applying compressed sensing techniques. (TODO: add (a) and (b) to figure)}}{69}}
-\newlabel{figure:ghost-compressed-czl1}{{3-15}{69}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-16}{\ignorespaces Computational compressed ghost imaging using a simpler object. (a) MIT logo mask and ghost image results for (b) covariance-based and (c) compressed sensing using TV minimization for the same number of realizations, showing the same problems seen in Figure 3-15\hbox {}. (d) Simpler square mask and results using (e) covariance-based and (f) compressed sensing using TV minimization.}}{69}}
-\newlabel{figure:ghost-ccgi}{{3-16}{69}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3-17}{\ignorespaces Sample speckle patterns acquired by a CCD array (left) and the corresponding computational simulation results (right). We attribute the large discrepancy to imperfections in the SLM array.}}{70}}
-\newlabel{figure:ghost-slm-samples}{{3-17}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-14}{\ignorespaces Ghost images of an MIT logo mask processed using (a) traditional averaging and (b) compressed sensing in the DCT basis for the same data set, where $M$ is the number of realizations.}}{65}}
+\newlabel{figure:ghost-compressed-bszl1}{{3-14}{65}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.8}Computational compressed ghost imaging}{66}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-15}{\ignorespaces Attempts to obtain images of an MIT logo mask imaged using compressed sensing with a computationally-simulated refererence arm. (a) shows the computational ghost imaging result using traditional processing, and (b) shows the result of applying compressed sensing techniques.}}{67}}
+\newlabel{figure:ghost-compressed-czl1}{{3-15}{67}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.9}Conclusions}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-16}{\ignorespaces Computational compressed ghost imaging using a simpler object. (a) MIT logo mask and ghost image results for (b) covariance-based and (c) compressed sensing using TV minimization for the same number of realizations, showing the same problems seen in Figure 3-15\hbox {}. (d) Simpler square mask and results using (e) covariance-based and (f) compressed sensing using TV minimization.}}{68}}
+\newlabel{figure:ghost-ccgi}{{3-16}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-17}{\ignorespaces Sample speckle patterns acquired by a CCD array (left) and the corresponding computational simulation results (right). We attribute the large discrepancy to imperfections in the SLM array.}}{69}}
+\newlabel{figure:ghost-slm-samples}{{3-17}{69}}
 \@setckpt{ghost}{
-\setcounter{page}{71}
+\setcounter{page}{70}
 \setcounter{equation}{10}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
