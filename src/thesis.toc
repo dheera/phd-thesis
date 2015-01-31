@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {3.4}Results}{53}
 \contentsline {section}{\numberline {3.5}Signal-to-noise ratio}{55}
 \contentsline {section}{\numberline {3.6}Computational ghost imaging}{56}
-\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{60}
+\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{59}
 \contentsline {section}{\numberline {3.8}Computational compressed ghost imaging}{65}
 \contentsline {section}{\numberline {3.9}Conclusions}{66}
 \contentsline {chapter}{\numberline {4}Single-photon imaging}{71}

@@ -261,6 +261,12 @@ Yaron Bromberg, Ori Katz, and Yaron Silberberg.
 \newblock Ghost imaging with a single detector.
 \newblock {\em Phys. Rev. A}, 79:053840, May 2009.
 
+\bibitem{scarcelli-can}
+Giuliano Scarcelli, Vincenzo Berardi, and Yanhua Shih.
+\newblock Can two-photon correlation of chaotic light be considered as
+  correlation of intensity fluctuations?
+\newblock {\em Phys. Rev. Lett.}, 96:063602, Feb 2006.
+
 \bibitem{candes-stable}
 Emmanuel~J. Candès, Justin~K. Romberg, and Terence Tao.
 \newblock Stable signal recovery from incomplete and inaccurate measurements.

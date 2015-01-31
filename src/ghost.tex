@@ -123,7 +123,28 @@ where $T(\rho)$ is the field transmission mask, $T_0$ is the coherence time, $T_
 
 \section{Computational ghost imaging}
 
-The pseudothermal and SPDC-generated signal and idler fields exhibit true randomness. However, SLM-based ghost imaging uses deterministic, pseudorandom modulations imposed by a computer. Since ghost imaging is a product of classical coherence propagation \cite{erkmen-unified}, we can in principle eliminate the reference arm altogether and replace it with a computational simulation of the free-space optical propagation from the SLM plane to the CCD camera plane, as proposed by Shapiro \cite{shapiro-computational,erkmen-from}. As shown in Figure \ref{figure:ghost-computational-schematic}, this computational replacement permits us to image an object using only a signal arm, without any spatially-resolving detectors.
+The pseudothermal and SPDC-generated signal and idler fields exhibit true randomness. However, SLM-based ghost imaging uses deterministic, pseudorandom modulations imposed by a computer. Since ghost imaging is a product of classical coherence propagation \cite{erkmen-unified}, we can in principle eliminate the reference arm altogether, in SLM-based ghost imaging, and replace it with a computational simulation of the free-space optical propagation from the SLM plane to the CCD camera plane, as proposed by Shapiro \cite{shapiro-computational,erkmen-from}. As shown in Figure \ref{figure:ghost-computational-schematic}, this computational replacement permits us to image an object using only a signal arm, without any spatially-resolving detectors.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=13cm]{figure-ghost-slm-speckle.pdf}
+\caption{(a) Sample pseudorandom phase pattern imposed on SLM. The phase modulation at each pixel is independent and uniformly distributed on $\left[0, 2\pi \right]$ and encoded as a gray-scale value in this visualization. (b) Simulated result of the far-field speckle pattern.}
+\label{figure:ghost-slm-speckle}
+\end{center}
+\end{figure}
+
+In order to realize this simulation, we consider the source field $E_R(\rho, t)$ at the SLM plane of the hypothetical reference arm, which is a product of the original cw laser beam field and the phases that would have been deterministically imposed on the reference arm SLM. In the case of phase-insensitive ghost imaging, these would be identical to the phases imposed on the signal arm; in the case of phase-sensitive ghost imaging, they would be the negative of those phases. We assume the SLM to be a square of size $D \times D$, with square pixels of size $d \times d$. Since $d$ is much smaller than the beam waist at the SLM, the light field can be approximated over each pixel as a plane wave. The sum of these plane waves at pixels indexed by $n = \left\{1 ... (D/d)^2\right\}$, multiplied by the phases $\phi_n(t)$ deterministically imposed on them, yields an SLM-plane field
+
+\begin{equation}
+E_R(\rho, t) = \sum_n \operatorname{rect}\left(\frac{x-x_n}{d}\right) \operatorname{rect}\left(\frac{y-y_n}{d}\right) e^{i\phi_n(t)}\,\,,
+\end{equation}
+
+where $\operatorname{rect}(\cdot)$ is the unit-length rectangle function and $\rho_n = (x_n,y_n)$ is the center of pixel $n$. We assume quasimonochromatic paraxial diffraction over a free-space path of length $L$ between the SLM and the CCD of the reference arm, which yields a CCD-plane field $E'$ given by \cite{hardy-thesis}:
+
+\begin{equation}
+E_R'(\rho', t) = \sum_n \frac{d}{\lambda_0 L} \operatorname{sinc}\left(\frac{x'd}{\lambda_0 L}\right) \operatorname{sinc}\left(\frac{y'd}{\lambda_0 L}\right) e^{-i k_0(x'x_n + y'y_n)/L} e^{-ik_0(|x'|^2 + |y'|^2)/2L} e^{i\phi_n(t)}\,\,.
+\end{equation}
+
 
 \begin{figure}[t]
 \begin{center}
@@ -133,44 +154,22 @@ The pseudothermal and SPDC-generated signal and idler fields exhibit true random
 \end{center}
 \end{figure}
 
-In order to realize this simulation, we consider the source field $E_R(\rho, t)e^{i\omega_0 t}$ at the SLM plane of the hypothetical reference arm, which is a product of the original cw laser beam field and the phases that would have been deterministically imposed on the reference arm SLM. In the case of phase-insensitive ghost imaging, these would be identical to the phases imposed on the signal arm; in the case of phase-sensitive ghost imaging, they would be the negative. We assume the SLM to be a square of size $D \times D$, with square pixels of size $d \times d$. Since $d$ is much smaller than the beam waist at the SLM, the light field can be approximated over each pixel as a plane wave. The sum of these plane waves at pixels indexed by $n = \left\{1 ... (D/d)^2\right\}$, multiplied by the phases $\phi_n(t)$ deterministically imposed on them, yields an SLM-plane field
 
-\begin{equation}
-E_R(\rho, t) = \sum_n \operatorname{rect}\left(\frac{x-x_n}{d}\right) \operatorname{rect}\left(\frac{y-y_n}{d}\right) e^{i\phi_n(t)}\,\,,
-\end{equation}
+The far-field intensity pattern that would have been recorded by the reference arm CCD is then given by $I'(\rho, t) \propto |E'(\rho, t)|^2$. Figure \ref{figure:ghost-slm-speckle} shows a sample pseudorandom phase pattern with independent phase values each uniformly distributed over $[0, 2\pi]$, and the resulting computed far-field intensity pattern, which shows a speckle pattern with a feature size on the order of $\rho_L$.
 
-where $\operatorname{rect}(\cdot)$ is the unit-length rectangle function. We assume quasimonochromatic paraxial diffraction over a free-space path of length $L$ between the SLM and the CCD of the reference arm yields a CCD-plane field $E'$ of \cite{hardy-thesis}:
-
-\begin{equation}
-E_R'(\rho', t) = \sum_n \frac{d}{\lambda_0 L} \operatorname{sinc}\left(\frac{x'd}{\lambda_0 L}\right) \operatorname{sinc}\left(\frac{y'd}{\lambda_0 L}\right) e^{-i k_0(x'x_n + y'y_n)/L} e^{-ik_0(|x'|^2 + |y'|^2)/2L} e^{i\phi_n(t)}
-\end{equation}
-where $\rho_n = (x_n, y_n)$ is the center of pixel $n$.
+We tested computational ghost imaging by first switching to a phase-insensitive ghost imaging setup using a single SLM and a beam splitter, as shown in Figure \ref{figure:ghost-computational-setup}. This eliminated any differences between the behaviors of two SLM devices. We performed computational ghost imaging in a fashion similar to traditional ghost imaging, using the computed far-field intensity pattern in place of a CCD image in the reference arm. In Figure \ref{figure:ghost-computational-result} we show side-by-side results of traditional ghost imaging and computational ghost imaging, realized over 9600 pseudorandom phase patterns, noting that the speed of image formation is similar in both cases. Bromberg et al. \cite{bromberg-ghost} also performed a similar experiment which demonstrated high-quality images with SNRs on par with theory for 16000 realizations.
 
 \begin{figure}[t]
 \begin{center}
-\includegraphics[width=13cm]{figure-ghost-slm-speckle.pdf}
-\caption{(a) Sample pseudorandom phase pattern imposed on SLM. The phase modulation at each pixel is independent and uniformly distributed on$\left[0, 2\pi \right]$ and encoded as a greyscale value in this visualization. (b) Simulated result of the far-field speckle pattern.}
-\label{figure:ghost-slm-speckle}
-\end{center}
-\end{figure}
-
-
-The far-field intensity pattern which would have been recorded by the reference arm CCD is then given by $I'(\rho, t) \propto |E'(\rho, t)|$. Figure \ref{figure:ghost-slm-speckle} shows a sample pseudorandom phase pattern with independent phase values each uniformly distributed over $[0, 2\pi]$, and the resulting computed far-field intensity pattern, which shows a speckle pattern with a feature size on the order of $\rho_L$..
-
-We test computational ghost imaging by first switching to a phase-insensitive ghost imaging setup using a single SLM and a beamsplitter, as shown in Figure \ref{figure:ghost-computational-setup}. This eliminates any differences between the behaviors of two SLM devices. We perform computational ghost imaging in a fashion similar to traditional ghost imaging, using this far-field intensity pattern in place of a CCD image in the reference arm. In Figure \ref{figure:ghost-computational-result} we show side-by-side results of traditional ghost imaging and computational ghost imaging, realized over 9600 pseudorandom phase patterns, noting that the speed of image formation is similar in both cases. Bromberg et al. \cite{bromberg-ghost} also performed a similar experiment which demonstrated high-quality images with SNRs on par with theory for 16000 realizations.
-
-\begin{figure}[t]
-\begin{center}
-\includegraphics[width=16cm]{figure-ghost-computational-result0.pdf}
-\includegraphics[width=16cm]{figure-ghost-computational-result1.pdf}
+\includegraphics[width=16cm]{figure-ghost-computational-result.pdf}
 \caption{Side-by-side results of an MIT logo mask imaged using (a) traditional ghost imaging with optical signal and reference arms and (b) computational ghost imaging in which the reference arm is replaced by a computer simulation, averaged over $M = 300$ to $9600$ independent pseudorandom phase patterns.}
 \label{figure:ghost-computational-result}
 \end{center}
 \end{figure}
 
-By replacing the reference arm with a computer simulation and using only a single bucket detector in the signal arm to obtain almost identical results, we show that pseudothermal ghost imaging relies on simple classical coherence propagation, and not non-local quantum correlations as previously suggested in \cite{TODO}.
+By replacing the reference arm with a computer simulation and using only a single bucket detector in the signal arm to obtain almost identical results, we verified that pseudothermal ghost imaging relies on simple classical coherence propagation, and not non-local quantum correlations as previously suggested in \cite{scarcelli-can}.
 
-Although not explored significantly in this research, computational ghost imaging can provide a number of advantages over traditional ghost imaging. First, the elimination of the reference arm allows for a simpler device; this is useful for field applications where building a reference arm of the required length would be impractical. Second, computational ghost imaging can be used to image objects at wavelengths where bucket detectors are available but CCD arrays are not. Third, the intensity patterns can be simultaneously computed at multiple depths for a single phase pattern, allowing depth-of-field effects to be exploited to gain some degree of range resolution. These advantages are discussed in detail in \cite{erkmen-from}.
+Although not explored significantly in this research, computational ghost imaging can provide a number of advantages over traditional ghost imaging. First, the elimination of the reference arm allows for a simpler device. Second, computational ghost imaging can be used to image objects at wavelengths for which bucket detectors are available but CCD arrays are not. Third, the intensity patterns can be simultaneously computed at multiple depths for a single phase pattern, allowing depth-of-field effects to be exploited to gain some degree of range resolution. These advantages are discussed in detail in \cite{erkmen-from}.
 
 \section{Compressed ghost imaging}
 

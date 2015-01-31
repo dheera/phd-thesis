@@ -11,60 +11,59 @@ A level-1 auxiliary file: appendix-ht3read.aux
 A level-1 auxiliary file: appendix-spadcounts.aux
 The style file: unsrt.bst
 Database file #1: thesis.bib
-Repeated entry---line 705 of file thesis.bib
+Repeated entry---line 720 of file thesis.bib
  : @article{shapiro-computational
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "jack-hgcdte" isn't style-file defined
---line 896 of file thesis.bib
-Repeated entry---line 950 of file thesis.bib
+--line 911 of file thesis.bib
+Repeated entry---line 965 of file thesis.bib
  : @article {nicolas-applications
  :                               ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "TODO"
 Warning--empty journal in snyder-random
 Warning--empty journal in mallat-wavelet
 Warning--empty journal in boyd-convex
 Warning--empty journal in bertsekas-introduction
-You've used 72 entries,
+You've used 73 entries,
             1791 wiz_defined-function locations,
-            860 strings with 15637 characters,
-and the built_in function-call counts, 17239 in all, are:
-= -- 1464
-> -- 898
+            863 strings with 15807 characters,
+and the built_in function-call counts, 17467 in all, are:
+= -- 1483
+> -- 909
 < -- 3
-+ -- 327
-- -- 255
-* -- 1406
-:= -- 2843
-add.period$ -- 213
-call.type$ -- 72
-change.case$ -- 69
++ -- 331
+- -- 258
+* -- 1425
+:= -- 2881
+add.period$ -- 216
+call.type$ -- 73
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 651
-empty$ -- 1597
-format.name$ -- 255
-if$ -- 3686
+cite$ -- 77
+duplicate$ -- 660
+empty$ -- 1619
+format.name$ -- 258
+if$ -- 3735
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 65
-newline$ -- 360
-num.names$ -- 74
-pop$ -- 121
+int.to.str$ -- 73
+missing$ -- 66
+newline$ -- 365
+num.names$ -- 75
+pop$ -- 122
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 266
+skip$ -- 269
 stack$ -- 0
-substring$ -- 1356
-swap$ -- 91
+substring$ -- 1374
+swap$ -- 92
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 162
-width$ -- 74
-write$ -- 775
+while$ -- 164
+width$ -- 75
+write$ -- 786
 (There were 2 error messages)
