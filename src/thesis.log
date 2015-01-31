@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 17:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,42 +516,26 @@ File: figure-pcoct-result.pdf Graphic file (type pdf)
 <use figure-pcoct-result.pdf>
 Package pdftex.def Info: figure-pcoct-result.pdf used on input line 254.
 (pdftex.def)             Requested size: 341.43306pt x 287.15848pt.
-
-Underfull \vbox (badness 3872) has occurred while \output is active []
-
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./figure-pcoct-result.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Overfull \hbox (2.87294pt too wide) in paragraph at lines 282--283
-\OT1/cmr/m/n/12 cross-correlations. Our setup re-quires strong and broad-band p
-hase-sensitive cross-correlations
- []
-
-)
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [44]
-[45]
+ [42 <./figure-pcoct-result.pdf>] [43]) [44]
 \openout2 = `ghost.aux'.
 
- (./ghost.tex [46
-
-
-
-]
+ (./ghost.tex
 Chapter 3.
 
 Underfull \vbox (badness 5726) has occurred while \output is active []
 
- [47]
+ [45
+
+
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-<figure-ghost-schematic.pdf, id=531, 301.125pt x 200.75pt>
+ [46]
+<figure-ghost-schematic.pdf, id=525, 301.125pt x 200.75pt>
 File: figure-ghost-schematic.pdf Graphic file (type pdf)
 
 <use figure-ghost-schematic.pdf>
@@ -560,11 +544,11 @@ Package pdftex.def Info: figure-ghost-schematic.pdf used on input line 13.
 
 Underfull \vbox (badness 2111) has occurred while \output is active []
 
- [49 <./figure-ghost-schematic.pdf>]
+ [47 <./figure-ghost-schematic.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-[51] <figure-ghost-setup.pdf, id=657, 558.085pt x 177.66376pt>
+ [48]
+[49] <figure-ghost-setup.pdf, id=651, 558.085pt x 177.66376pt>
 File: figure-ghost-setup.pdf Graphic file (type pdf)
 
 <use figure-ghost-setup.pdf>
@@ -573,42 +557,42 @@ Package pdftex.def Info: figure-ghost-setup.pdf used on input line 58.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./figure-ghost-setup.pdf>]
+ [50 <./figure-ghost-setup.pdf>]
 Underfull \vbox (badness 2875) has occurred while \output is active []
 
- [53]
-<figure-ghost-usaf.pdf, id=666, 212.93234pt x 163.64764pt>
+ [51]
+<figure-ghost-usaf.pdf, id=660, 212.93234pt x 163.64764pt>
 File: figure-ghost-usaf.pdf Graphic file (type pdf)
 
 <use figure-ghost-usaf.pdf>
 Package pdftex.def Info: figure-ghost-usaf.pdf used on input line 72.
 (pdftex.def)             Requested size: 341.43306pt x 262.43585pt.
- [54 <./figure-ghost-usaf.pdf>]
-<figure-ghost-mitlogo.pdf, id=686, 370.68173pt x 192.27858pt>
+ [52 <./figure-ghost-usaf.pdf>]
+<figure-ghost-mitlogo.pdf, id=680, 370.68173pt x 192.27858pt>
 File: figure-ghost-mitlogo.pdf Graphic file (type pdf)
 
 <use figure-ghost-mitlogo.pdf>
 Package pdftex.def Info: figure-ghost-mitlogo.pdf used on input line 87.
 (pdftex.def)             Requested size: 341.43306pt x 177.11847pt.
- [55]
+ [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./figure-ghost-mitlogo.pdf>]
-<figure-ghost-blur.pdf, id=776, 613.00961pt x 174.51302pt>
+ [54 <./figure-ghost-mitlogo.pdf>]
+<figure-ghost-blur.pdf, id=769, 613.00961pt x 174.51302pt>
 File: figure-ghost-blur.pdf Graphic file (type pdf)
 
 <use figure-ghost-blur.pdf>
 Package pdftex.def Info: figure-ghost-blur.pdf used on input line 100.
 (pdftex.def)             Requested size: 398.33858pt x 113.40015pt.
- [57 <./figure-ghost-blur.pdf>]
-<figure-ghost-snr.pdf, id=806, 420.57124pt x 316.18124pt>
+ [55 <./figure-ghost-blur.pdf>]
+<figure-ghost-snr.pdf, id=800, 420.57124pt x 316.18124pt>
 File: figure-ghost-snr.pdf Graphic file (type pdf)
 
 <use figure-ghost-snr.pdf>
 Package pdftex.def Info: figure-ghost-snr.pdf used on input line 118.
 (pdftex.def)             Requested size: 341.43306pt x 256.68916pt.
 
-<figure-ghost-computational-schematic.pdf, id=807, 713.66624pt x 233.87375pt>
+<figure-ghost-computational-schematic.pdf, id=801, 713.66624pt x 233.87375pt>
 File: figure-ghost-computational-schematic.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-schematic.pdf>
@@ -618,8 +602,8 @@ Package pdftex.def Info: figure-ghost-computational-schematic.pdf used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
-<figure-ghost-computational-setup.pdf, id=811, 524.96124pt x 247.92625pt>
+ [56]
+<figure-ghost-computational-setup.pdf, id=805, 524.96124pt x 247.92625pt>
 File: figure-ghost-computational-setup.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-setup.pdf>
@@ -629,16 +613,16 @@ e 135.
 
 Underfull \vbox (badness 4217) has occurred while \output is active []
 
- [59 <./figure-ghost-snr.pdf>] [60 <./figure-ghost-computational-schematic.pdf>
+ [57 <./figure-ghost-snr.pdf>] [58 <./figure-ghost-computational-schematic.pdf>
  <./figure-ghost-computational-setup.pdf>]
-<figure-ghost-slm-speckle.pdf, id=838, 618.22368pt x 314.13058pt>
+<figure-ghost-slm-speckle.pdf, id=832, 618.22368pt x 314.13058pt>
 File: figure-ghost-slm-speckle.pdf Graphic file (type pdf)
 
 <use figure-ghost-slm-speckle.pdf>
 Package pdftex.def Info: figure-ghost-slm-speckle.pdf used on input line 156.
 (pdftex.def)             Requested size: 369.88582pt x 187.94296pt.
- [61 <./figure-ghost-slm-speckle.pdf>]
-<figure-ghost-computational-result0.pdf, id=850, 670.505pt x 121.45375pt>
+ [59 <./figure-ghost-slm-speckle.pdf>]
+<figure-ghost-computational-result0.pdf, id=843, 670.505pt x 121.45375pt>
 File: figure-ghost-computational-result0.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-result0.pdf>
@@ -646,7 +630,7 @@ Package pdftex.def Info: figure-ghost-computational-result0.pdf used on input l
 ine 169.
 (pdftex.def)             Requested size: 455.24408pt x 82.46141pt.
 
-<figure-ghost-computational-result1.pdf, id=851, 670.505pt x 121.45375pt>
+<figure-ghost-computational-result1.pdf, id=844, 670.505pt x 121.45375pt>
 File: figure-ghost-computational-result1.pdf Graphic file (type pdf)
 
 <use figure-ghost-computational-result1.pdf>
@@ -655,32 +639,32 @@ ine 170.
 (pdftex.def)             Requested size: 455.24408pt x 82.46141pt.
 
 
-Package natbib Warning: Citation `TODO' on page 62 undefined on input line 176.
+Package natbib Warning: Citation `TODO' on page 60 undefined on input line 176.
 
 
 
 Underfull \vbox (badness 3364) has occurred while \output is active []
 
- [62 <./figure-ghost-computational-result0.pdf> <./figure-ghost-computational-r
-esult1.pdf>] <figure-ghost-cscam.pdf, id=913, 638.385pt x 275.0275pt>
+ [60 <./figure-ghost-computational-result0.pdf> <./figure-ghost-computational-r
+esult1.pdf>] <figure-ghost-cscam.pdf, id=906, 638.385pt x 275.0275pt>
 File: figure-ghost-cscam.pdf Graphic file (type pdf)
 
 <use figure-ghost-cscam.pdf>
 Package pdftex.def Info: figure-ghost-cscam.pdf used on input line 186.
 (pdftex.def)             Requested size: 398.33858pt x 171.61058pt.
- [63 <./figure-ghost-cscam.pdf>]
+ [61 <./figure-ghost-cscam.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-<figure-ghost-compressed-dctvstv.pdf, id=926, 642.4pt x 281.05pt>
+ [62]
+<figure-ghost-compressed-dctvstv.pdf, id=920, 642.4pt x 281.05pt>
 File: figure-ghost-compressed-dctvstv.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-dctvstv.pdf>
 Package pdftex.def Info: figure-ghost-compressed-dctvstv.pdf used on input line
  208.
 (pdftex.def)             Requested size: 455.24408pt x 199.17378pt.
- [65 <./figure-ghost-compressed-dctvstv.pdf>] <figure-ghost-compressed-bszl1.pd
-f, id=935, 620.3175pt x 273.02pt>
+ [63 <./figure-ghost-compressed-dctvstv.pdf>] <figure-ghost-compressed-bszl1.pd
+f, id=928, 620.3175pt x 273.02pt>
 File: figure-ghost-compressed-bszl1.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-bszl1.pdf>
@@ -688,7 +672,7 @@ Package pdftex.def Info: figure-ghost-compressed-bszl1.pdf used on input line 2
 27.
 (pdftex.def)             Requested size: 455.24408pt x 200.36525pt.
 
-<figure-ghost-compressed-tuning.pdf, id=936, 685.56125pt x 584.1825pt>
+<figure-ghost-compressed-tuning.pdf, id=929, 685.56125pt x 584.1825pt>
 File: figure-ghost-compressed-tuning.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-tuning.pdf>
@@ -699,8 +683,8 @@ Package pdftex.def Info: figure-ghost-compressed-tuning.pdf used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66 <./figure-ghost-compressed-bszl1.pdf>] [67]
-<figure-ghost-compressed-czl1.pdf, id=951, 501.875pt x 274.02374pt>
+[64 <./figure-ghost-compressed-bszl1.pdf>] [65]
+<figure-ghost-compressed-czl1.pdf, id=944, 501.875pt x 274.02374pt>
 File: figure-ghost-compressed-czl1.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-czl1.pdf>
@@ -708,14 +692,14 @@ Package pdftex.def Info: figure-ghost-compressed-czl1.pdf used on input line 25
 7.
 (pdftex.def)             Requested size: 369.88582pt x 201.9674pt.
 
-<figure-ghost-ccgi.pdf, id=952, 1100.11pt x 216.81pt>
+<figure-ghost-ccgi.pdf, id=945, 1100.11pt x 216.81pt>
 File: figure-ghost-ccgi.pdf Graphic file (type pdf)
 
 <use figure-ghost-ccgi.pdf>
 Package pdftex.def Info: figure-ghost-ccgi.pdf used on input line 265.
 (pdftex.def)             Requested size: 426.79134pt x 84.11224pt.
 
-<figure-ghost-slm-samples.pdf, id=953, 256.08173pt x 555.81332pt>
+<figure-ghost-slm-samples.pdf, id=946, 256.08173pt x 555.81332pt>
 File: figure-ghost-slm-samples.pdf Graphic file (type pdf)
 
 <use figure-ghost-slm-samples.pdf>
@@ -728,8 +712,8 @@ LaTeX Warning: Float too large for page by 17.45842pt on input line 277.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[68]) [69] [70 <./figure-ghost-compressed-tuning.pdf>] [71 <./figure-ghost-comp
-ressed-czl1.pdf> <./figure-ghost-ccgi.pdf>] [72 <./figure-ghost-slm-samples.pdf
+[66]) [67] [68 <./figure-ghost-compressed-tuning.pdf>] [69 <./figure-ghost-comp
+ressed-czl1.pdf> <./figure-ghost-ccgi.pdf>] [70 <./figure-ghost-slm-samples.pdf
 >]
 \openout2 = `first.aux'.
 
@@ -738,15 +722,15 @@ Chapter 4.
 
 Underfull \vbox (badness 3872) has occurred while \output is active []
 
- [73
+ [71
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
-[75] <figure-first-setup.pdf, id=1334, 433.62pt x 404.2302pt>
+ [72]
+[73] <figure-first-setup.pdf, id=1328, 433.62pt x 404.2302pt>
 File: figure-first-setup.pdf Graphic file (type pdf)
 
 <use figure-first-setup.pdf>
@@ -755,28 +739,28 @@ Package pdftex.def Info: figure-first-setup.pdf used on input line 26.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77 <./figure-first-setup.pdf>]
-<figure-first-scanning.pdf, id=1345, 300.55142pt x 300.55142pt>
+ [75 <./figure-first-setup.pdf>]
+<figure-first-scanning.pdf, id=1339, 300.55142pt x 300.55142pt>
 File: figure-first-scanning.pdf Graphic file (type pdf)
 
 <use figure-first-scanning.pdf>
 Package pdftex.def Info: figure-first-scanning.pdf used on input line 40.
 (pdftex.def)             Requested size: 256.0748pt x 256.08902pt.
 
-<figure-first-outformat.pdf, id=1346, 558.65855pt x 649.55797pt>
+<figure-first-outformat.pdf, id=1340, 558.65855pt x 649.55797pt>
 File: figure-first-outformat.pdf Graphic file (type pdf)
 
 <use figure-first-outformat.pdf>
 Package pdftex.def Info: figure-first-outformat.pdf used on input line 46.
 (pdftex.def)             Requested size: 284.52756pt x 330.81425pt.
- [78]
+ [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79 <./figure-first-scanning.pdf>]
-<figure-first-pulse.pdf, id=1356, 318.66615pt x 195.59268pt>
+ [77 <./figure-first-scanning.pdf>]
+<figure-first-pulse.pdf, id=1349, 318.66615pt x 195.59268pt>
 File: figure-first-pulse.pdf Graphic file (type pdf)
 
 <use figure-first-pulse.pdf>
@@ -785,28 +769,28 @@ Package pdftex.def Info: figure-first-pulse.pdf used on input line 69.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./figure-first-outformat.pdf>]
+ [78 <./figure-first-outformat.pdf>]
 Underfull \vbox (badness 4569) has occurred while \output is active []
 
- [81 <./figure-first-pulse.pdf>]
-<figure-first-pulses.pdf, id=1369, 296.4039pt x 121.43167pt>
+ [79 <./figure-first-pulse.pdf>]
+<figure-first-pulses.pdf, id=1363, 296.4039pt x 121.43167pt>
 File: figure-first-pulses.pdf Graphic file (type pdf)
 
 <use figure-first-pulses.pdf>
 Package pdftex.def Info: figure-first-pulses.pdf used on input line 84.
 (pdftex.def)             Requested size: 398.33858pt x 163.20674pt.
- [82 <./figure-first-pulses.pdf>]
+ [80 <./figure-first-pulses.pdf>]
 Underfull \vbox (badness 5119) has occurred while \output is active []
 
- [83]
+ [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
-[85] [86]
+ [82]
+[83] [84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
-<figure-first-manflower.pdf, id=1397, 2839.40486pt x 3429.52458pt>
+ [85]
+<figure-first-manflower.pdf, id=1391, 2839.40486pt x 3429.52458pt>
 File: figure-first-manflower.pdf Graphic file (type pdf)
 
 <use figure-first-manflower.pdf>
@@ -816,7 +800,7 @@ Package pdftex.def Info: figure-first-manflower.pdf used on input line 187.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-mannequin.pdf, id=1398, 502.82327pt x 360.0943pt>
+<figure-first-mannequin.pdf, id=1392, 502.82327pt x 360.0943pt>
 File: figure-first-mannequin.pdf Graphic file (type pdf)
 
 <use figure-first-mannequin.pdf>
@@ -826,7 +810,7 @@ Package pdftex.def Info: figure-first-mannequin.pdf used on input line 194.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-mannequin-zoom.pdf, id=1399, 1763.15855pt x 1300.86pt>
+<figure-first-mannequin-zoom.pdf, id=1393, 1763.15855pt x 1300.86pt>
 File: figure-first-mannequin-zoom.pdf Graphic file (type pdf)
 
 <use figure-first-mannequin-zoom.pdf>
@@ -837,19 +821,19 @@ Package pdftex.def Info: figure-first-mannequin-zoom.pdf used on input line 201
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[88]
+[86]
 
-LaTeX Warning: Text page 89 contains only floats.
+LaTeX Warning: Text page 87 contains only floats.
 
 
 Overfull \vbox (3.70871pt too high) has occurred while \output is active []
 
 
-[89 <./figure-first-manflower.pdf>]
+[87 <./figure-first-manflower.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./figure-first-mannequin.pdf>]
-<figure-first-depthchart.pdf, id=1484, 282.54509pt x 669.59383pt>
+ [88 <./figure-first-mannequin.pdf>]
+<figure-first-depthchart.pdf, id=1478, 282.54509pt x 669.59383pt>
 File: figure-first-depthchart.pdf Graphic file (type pdf)
 
 <use figure-first-depthchart.pdf>
@@ -865,8 +849,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91 <./figure-first-mannequin-zoom.pdf>]
-<figure-first-intensitychart.pdf, id=1493, 193.34909pt x 629.9841pt>
+ [89 <./figure-first-mannequin-zoom.pdf>]
+<figure-first-intensitychart.pdf, id=1486, 193.34909pt x 629.9841pt>
 File: figure-first-intensitychart.pdf Graphic file (type pdf)
 
 <use figure-first-intensitychart.pdf>
@@ -880,8 +864,8 @@ LaTeX Warning: Float too large for page by 5.1251pt on input line 227.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[92]
-<figure-first-intensityfromdepth.pdf, id=1497, 617.32335pt x 1161.99121pt>
+[90]
+<figure-first-intensityfromdepth.pdf, id=1490, 617.32335pt x 1161.99121pt>
 File: figure-first-intensityfromdepth.pdf Graphic file (type pdf)
 
 <use figure-first-intensityfromdepth.pdf>
@@ -891,12 +875,12 @@ Package pdftex.def Info: figure-first-intensityfromdepth.pdf used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
-[94]
+ [91]
+[92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
-[96] <figure-first-spad-setup.pdf, id=1510, 596.19711pt x 412.87663pt>
+ [93]
+[94] <figure-first-spad-setup.pdf, id=1504, 596.19711pt x 412.87663pt>
 File: figure-first-spad-setup.pdf Graphic file (type pdf)
 
 <use figure-first-spad-setup.pdf>
@@ -906,7 +890,7 @@ Package pdftex.def Info: figure-first-spad-setup.pdf used on input line 273.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-scanning.pdf, id=1511, 3198.52878pt x 3343.43709pt>
+<figure-first-spad-scanning.pdf, id=1505, 3198.52878pt x 3343.43709pt>
 File: figure-first-spad-scanning.pdf Graphic file (type pdf)
 
 <use figure-first-spad-scanning.pdf>
@@ -917,7 +901,7 @@ Package pdftex.def Info: figure-first-spad-scanning.pdf used on input line 285.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-terms.pdf, id=1512, 502.3051pt x 572.60751pt>
+<figure-first-spad-terms.pdf, id=1506, 502.3051pt x 572.60751pt>
 File: figure-first-spad-terms.pdf Graphic file (type pdf)
 
 <use figure-first-spad-terms.pdf>
@@ -930,14 +914,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [95]
 Overfull \hbox (8.47202pt too wide) detected at line 304
 \OMS/cmsy/m/n/12 L [] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^M [] [] \OMS/cmsy/m/
 n/12 ^^@ \OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/1
 2 ) [] []
  []
 
-[98] [99] <figure-first-spad-pvnrt-i.pdf, id=1523, 523.5996pt x 713.54666pt>
+[96] [97] <figure-first-spad-pvnrt-i.pdf, id=1517, 523.5996pt x 713.54666pt>
 File: figure-first-spad-pvnrt-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-pvnrt-i.pdf>
@@ -950,7 +934,7 @@ LaTeX Warning: Float too large for page by 17.68706pt on input line 335.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-boxbooks-i.pdf, id=1524, 523.59972pt x 713.54678pt>
+<figure-first-spad-boxbooks-i.pdf, id=1518, 523.59972pt x 713.54678pt>
 File: figure-first-spad-boxbooks-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-boxbooks-i.pdf>
@@ -964,7 +948,7 @@ LaTeX Warning: Float too large for page by 17.68715pt on input line 341.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-bball-i.pdf, id=1525, 523.59972pt x 713.54678pt>
+<figure-first-spad-bball-i.pdf, id=1519, 523.59972pt x 713.54678pt>
 File: figure-first-spad-bball-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-bball-i.pdf>
@@ -977,7 +961,7 @@ LaTeX Warning: Float too large for page by 17.68715pt on input line 347.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-first-i.pdf, id=1526, 664.58714pt x 1083.9374pt>
+<figure-first-spad-first-i.pdf, id=1520, 664.58714pt x 1083.9374pt>
 File: figure-first-spad-first-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-first-i.pdf>
@@ -987,7 +971,7 @@ Package pdftex.def Info: figure-first-spad-first-i.pdf used on input line 350.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[100] <figure-first-spad-mannequin-d.pdf, id=1530, 614.72746pt x 485.18756pt>
+[98] <figure-first-spad-mannequin-d.pdf, id=1524, 614.72746pt x 485.18756pt>
 File: figure-first-spad-mannequin-d.pdf Graphic file (type pdf)
 
 <use figure-first-spad-mannequin-d.pdf>
@@ -998,16 +982,16 @@ Package pdftex.def Info: figure-first-spad-mannequin-d.pdf used on input line 3
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[101]) [102] [103 <./figure-first-depthchart.pdf>] [104 <./figure-first-intensi
-tychart.pdf>] [105 <./figure-first-intensityfromdepth.pdf>] [106 <./figure-firs
-t-spad-setup.pdf>] [107 <./figure-first-spad-scanning.pdf>] [108 <./figure-firs
-t-spad-terms.pdf>] [109 <./figure-first-spad-pvnrt-i.pdf>] [110 <./figure-first
--spad-boxbooks-i.pdf>] [111 <./figure-first-spad-bball-i.pdf>] [112 <./figure-f
-irst-spad-first-i.pdf>] [113 <./figure-first-spad-mannequin-d.pdf>]
+[99]) [100] [101 <./figure-first-depthchart.pdf>] [102 <./figure-first-intensit
+ychart.pdf>] [103 <./figure-first-intensityfromdepth.pdf>] [104 <./figure-first
+-spad-setup.pdf>] [105 <./figure-first-spad-scanning.pdf>] [106 <./figure-first
+-spad-terms.pdf>] [107 <./figure-first-spad-pvnrt-i.pdf>] [108 <./figure-first-
+spad-boxbooks-i.pdf>] [109 <./figure-first-spad-bball-i.pdf>] [110 <./figure-fi
+rst-spad-first-i.pdf>] [111 <./figure-first-spad-mannequin-d.pdf>]
 \openout2 = `conclusions.aux'.
 
 
-(./conclusions.tex [114
+(./conclusions.tex [112
 
 
 
@@ -1016,21 +1000,21 @@ Chapter 5.
 
 Underfull \vbox (badness 3872) has occurred while \output is active []
 
- [115]
+ [113]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116]
+ [114]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117])
-[118] [119
+ [115])
+[116] [117
 
 
 
 ]
 \openout2 = `appendix-ht3read.aux'.
 
- (./appendix-ht3read.tex [120
+ (./appendix-ht3read.tex [118
 
 
 ]
@@ -1044,16 +1028,16 @@ File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 19.
 
-[121]
+[119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [124]
 Overfull \hbox (30.05605pt too wide) in paragraph at lines 190--191
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
@@ -1062,10 +1046,10 @@ Overfull \hbox (30.05605pt too wide) in paragraph at lines 190--191
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
+ [123]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [124]
 Overfull \hbox (30.05605pt too wide) in paragraph at lines 274--275
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][] 
@@ -1074,7 +1058,7 @@ Overfull \hbox (30.05605pt too wide) in paragraph at lines 274--275
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
+ [125]
 Overfull \hbox (14.7557pt too wide) in paragraph at lines 318--319
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1082,7 +1066,7 @@ Overfull \hbox (14.7557pt too wide) in paragraph at lines 318--319
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128]
+ [126]
 Overfull \hbox (4.55548pt too wide) in paragraph at lines 348--349
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1095,10 +1079,10 @@ Overfull \hbox (9.6556pt too wide) in paragraph at lines 350--351
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130]
+ [128]
 Overfull \hbox (45.35638pt too wide) in paragraph at lines 420--421
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][] 
@@ -1125,35 +1109,35 @@ Overfull \hbox (45.35638pt too wide) in paragraph at lines 435--436
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]))
-[132]
+ [129]))
+[130]
 \openout2 = `appendix-spadcounts.aux'.
 
  (./appendix-spadcounts.tex
 Appendix B.
-(./spadcounts.c [133
+(./spadcounts.c [131
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [134]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [135]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [136]
 Overfull \hbox (162.65898pt too wide) in paragraph at lines 161--162
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][] 
  []
 
-)) [137] (./thesis.bbl [138
+)) [135] (./thesis.bbl [136
 
 
-] [139] [140]
+] [137] [138]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no â in font cmr12!
@@ -1162,16 +1146,16 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [141] [142]
+ [139] [140]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¨ in font cmr12!
- [143]
+ [141]
 Missing character: There is no â in font cmr12!
 Missing character: There is no „ in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [144]
+ [142]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -1180,7 +1164,7 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no § in font cmr12!
- [145]
+ [143]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
@@ -1188,7 +1172,7 @@ Missing character: There is no ” in font cmr12!
 
 Package natbib Warning: There were undefined citations.
 
-[146] (./thesis.aux (./cover.aux) (./intro.aux) (./pcoct.aux) (./ghost.aux)
+[144] (./thesis.aux (./cover.aux) (./intro.aux) (./pcoct.aux) (./ghost.aux)
 (./first.aux) (./conclusions.aux) (./appendix-ht3read.aux)
 (./appendix-spadcounts.aux)) ) 
 Here is how much of TeX's memory you used:
@@ -1216,10 +1200,10 @@ ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (146 pages, 15540492 bytes).
+Output written on thesis.pdf (144 pages, 15539314 bytes).
 PDF statistics:
- 2736 PDF objects out of 2984 (max. 8388607)
- 1733 compressed objects within 18 object streams
+ 2728 PDF objects out of 2984 (max. 8388607)
+ 1727 compressed objects within 18 object streams
  0 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
