@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 19:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,9 +327,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-Underfull \vbox (badness 6016) has occurred while \output is active []
-
- [14]
+[14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
@@ -1193,7 +1191,7 @@ amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on thesis.pdf (144 pages, 15560893 bytes).
+Output written on thesis.pdf (144 pages, 15560990 bytes).
 PDF statistics:
  2757 PDF objects out of 2984 (max. 8388607)
  1734 compressed objects within 18 object streams
