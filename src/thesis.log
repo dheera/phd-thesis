@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 19:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  31 JAN 2015 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,13 +676,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./figure-ghost-compressed-tuning.pdf>] [65 <./figure-ghost-compressed-bsz
 l1.pdf>]
-<figure-ghost-compressed-czl1.pdf, id=1285, 501.875pt x 274.02374pt>
+<figure-ghost-compressed-czl1.pdf, id=1285, 500.71451pt x 320.22096pt>
 File: figure-ghost-compressed-czl1.pdf Graphic file (type pdf)
 
 <use figure-ghost-compressed-czl1.pdf>
 Package pdftex.def Info: figure-ghost-compressed-czl1.pdf used on input line 25
 2.
-(pdftex.def)             Requested size: 369.88582pt x 201.9674pt.
+(pdftex.def)             Requested size: 426.79134pt x 272.95622pt.
 
 <figure-ghost-ccgi.pdf, id=1286, 1100.11pt x 216.81pt>
 File: figure-ghost-ccgi.pdf Graphic file (type pdf)
@@ -708,24 +708,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
-[67 <./figure-ghost-compressed-czl1.pdf>]) [68 <./figure-ghost-ccgi.pdf>]
-[69 <./figure-ghost-slm-samples.pdf>]
+[67 <./figure-ghost-compressed-czl1.pdf>])
+Underfull \vbox (badness 8094) has occurred while \output is active []
+
+ [68 <./figure-ghost-ccgi.pdf>] [69] [70 <./figure-ghost-slm-samples.pdf>]
 \openout2 = `first.aux'.
 
- (./first.tex [70
-
-
-
-]
+ (./first.tex
 Chapter 4.
 
 Underfull \vbox (badness 3872) has occurred while \output is active []
 
- [71]
+ [71
+
+
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
-[73] <figure-first-setup.pdf, id=1343, 433.62pt x 404.2302pt>
+[73] <figure-first-setup.pdf, id=1359, 433.62pt x 404.2302pt>
 File: figure-first-setup.pdf Graphic file (type pdf)
 
 <use figure-first-setup.pdf>
@@ -738,14 +740,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75 <./figure-first-setup.pdf>]
-<figure-first-scanning.pdf, id=1354, 300.55142pt x 300.55142pt>
+<figure-first-scanning.pdf, id=1370, 300.55142pt x 300.55142pt>
 File: figure-first-scanning.pdf Graphic file (type pdf)
 
 <use figure-first-scanning.pdf>
 Package pdftex.def Info: figure-first-scanning.pdf used on input line 40.
 (pdftex.def)             Requested size: 256.0748pt x 256.08902pt.
 
-<figure-first-outformat.pdf, id=1355, 558.65855pt x 649.55797pt>
+<figure-first-outformat.pdf, id=1371, 558.65855pt x 649.55797pt>
 File: figure-first-outformat.pdf Graphic file (type pdf)
 
 <use figure-first-outformat.pdf>
@@ -755,7 +757,7 @@ Package pdftex.def Info: figure-first-outformat.pdf used on input line 46.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77 <./figure-first-scanning.pdf>]
-<figure-first-pulse.pdf, id=1364, 318.66615pt x 195.59268pt>
+<figure-first-pulse.pdf, id=1380, 318.66615pt x 195.59268pt>
 File: figure-first-pulse.pdf Graphic file (type pdf)
 
 <use figure-first-pulse.pdf>
@@ -768,7 +770,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4569) has occurred while \output is active []
 
  [79 <./figure-first-pulse.pdf>]
-<figure-first-pulses.pdf, id=1378, 296.4039pt x 121.43167pt>
+<figure-first-pulses.pdf, id=1394, 296.4039pt x 121.43167pt>
 File: figure-first-pulses.pdf Graphic file (type pdf)
 
 <use figure-first-pulses.pdf>
@@ -785,7 +787,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85]
-<figure-first-manflower.pdf, id=1406, 2839.40486pt x 3429.52458pt>
+<figure-first-manflower.pdf, id=1422, 2839.40486pt x 3429.52458pt>
 File: figure-first-manflower.pdf Graphic file (type pdf)
 
 <use figure-first-manflower.pdf>
@@ -795,7 +797,7 @@ Package pdftex.def Info: figure-first-manflower.pdf used on input line 187.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-mannequin.pdf, id=1407, 502.82327pt x 360.0943pt>
+<figure-first-mannequin.pdf, id=1423, 502.82327pt x 360.0943pt>
 File: figure-first-mannequin.pdf Graphic file (type pdf)
 
 <use figure-first-mannequin.pdf>
@@ -805,7 +807,7 @@ Package pdftex.def Info: figure-first-mannequin.pdf used on input line 194.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-mannequin-zoom.pdf, id=1408, 1763.15855pt x 1300.86pt>
+<figure-first-mannequin-zoom.pdf, id=1424, 1763.15855pt x 1300.86pt>
 File: figure-first-mannequin-zoom.pdf Graphic file (type pdf)
 
 <use figure-first-mannequin-zoom.pdf>
@@ -828,7 +830,7 @@ Overfull \vbox (3.70871pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [88 <./figure-first-mannequin.pdf>]
-<figure-first-depthchart.pdf, id=1493, 282.54509pt x 669.59383pt>
+<figure-first-depthchart.pdf, id=1509, 282.54509pt x 669.59383pt>
 File: figure-first-depthchart.pdf Graphic file (type pdf)
 
 <use figure-first-depthchart.pdf>
@@ -845,7 +847,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89 <./figure-first-mannequin-zoom.pdf>]
-<figure-first-intensitychart.pdf, id=1501, 193.34909pt x 629.9841pt>
+<figure-first-intensitychart.pdf, id=1517, 193.34909pt x 629.9841pt>
 File: figure-first-intensitychart.pdf Graphic file (type pdf)
 
 <use figure-first-intensitychart.pdf>
@@ -860,7 +862,7 @@ LaTeX Warning: Float too large for page by 5.1251pt on input line 227.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [90]
-<figure-first-intensityfromdepth.pdf, id=1505, 617.32335pt x 1161.99121pt>
+<figure-first-intensityfromdepth.pdf, id=1521, 617.32335pt x 1161.99121pt>
 File: figure-first-intensityfromdepth.pdf Graphic file (type pdf)
 
 <use figure-first-intensityfromdepth.pdf>
@@ -875,7 +877,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
-[94] <figure-first-spad-setup.pdf, id=1519, 596.19711pt x 412.87663pt>
+[94] <figure-first-spad-setup.pdf, id=1535, 596.19711pt x 412.87663pt>
 File: figure-first-spad-setup.pdf Graphic file (type pdf)
 
 <use figure-first-spad-setup.pdf>
@@ -885,7 +887,7 @@ Package pdftex.def Info: figure-first-spad-setup.pdf used on input line 273.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-scanning.pdf, id=1520, 3198.52878pt x 3343.43709pt>
+<figure-first-spad-scanning.pdf, id=1536, 3198.52878pt x 3343.43709pt>
 File: figure-first-spad-scanning.pdf Graphic file (type pdf)
 
 <use figure-first-spad-scanning.pdf>
@@ -896,7 +898,7 @@ Package pdftex.def Info: figure-first-spad-scanning.pdf used on input line 285.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-terms.pdf, id=1521, 502.3051pt x 572.60751pt>
+<figure-first-spad-terms.pdf, id=1537, 502.3051pt x 572.60751pt>
 File: figure-first-spad-terms.pdf Graphic file (type pdf)
 
 <use figure-first-spad-terms.pdf>
@@ -916,7 +918,7 @@ n/12 ^^@ \OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/1
 2 ) [] []
  []
 
-[96] [97] <figure-first-spad-pvnrt-i.pdf, id=1532, 523.5996pt x 713.54666pt>
+[96] [97] <figure-first-spad-pvnrt-i.pdf, id=1548, 523.5996pt x 713.54666pt>
 File: figure-first-spad-pvnrt-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-pvnrt-i.pdf>
@@ -929,7 +931,7 @@ LaTeX Warning: Float too large for page by 17.68706pt on input line 335.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-boxbooks-i.pdf, id=1533, 523.59972pt x 713.54678pt>
+<figure-first-spad-boxbooks-i.pdf, id=1549, 523.59972pt x 713.54678pt>
 File: figure-first-spad-boxbooks-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-boxbooks-i.pdf>
@@ -943,7 +945,7 @@ LaTeX Warning: Float too large for page by 17.68715pt on input line 341.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-bball-i.pdf, id=1534, 523.59972pt x 713.54678pt>
+<figure-first-spad-bball-i.pdf, id=1550, 523.59972pt x 713.54678pt>
 File: figure-first-spad-bball-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-bball-i.pdf>
@@ -956,7 +958,7 @@ LaTeX Warning: Float too large for page by 17.68715pt on input line 347.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure-first-spad-first-i.pdf, id=1535, 664.58714pt x 1083.9374pt>
+<figure-first-spad-first-i.pdf, id=1551, 664.58714pt x 1083.9374pt>
 File: figure-first-spad-first-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-first-i.pdf>
@@ -966,7 +968,7 @@ Package pdftex.def Info: figure-first-spad-first-i.pdf used on input line 350.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[98] <figure-first-spad-mannequin-d.pdf, id=1539, 614.72746pt x 485.18756pt>
+[98] <figure-first-spad-mannequin-d.pdf, id=1555, 614.72746pt x 485.18756pt>
 File: figure-first-spad-mannequin-d.pdf Graphic file (type pdf)
 
 <use figure-first-spad-mannequin-d.pdf>
@@ -1170,7 +1172,7 @@ Missing character: There is no ” in font cmr12!
 Here is how much of TeX's memory you used:
  5367 strings out of 495028
  79572 string characters out of 6181497
- 188031 words of memory out of 5000000
+ 188033 words of memory out of 5000000
  8378 multiletter control sequences out of 15000+600000
  11649 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1191,10 +1193,10 @@ amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on thesis.pdf (144 pages, 15616163 bytes).
+Output written on thesis.pdf (144 pages, 15560893 bytes).
 PDF statistics:
- 2741 PDF objects out of 2984 (max. 8388607)
- 1722 compressed objects within 18 object streams
+ 2757 PDF objects out of 2984 (max. 8388607)
+ 1734 compressed objects within 18 object streams
  0 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

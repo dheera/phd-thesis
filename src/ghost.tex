@@ -220,7 +220,7 @@ for a tunable relaxation parameter $\rho$ which can be solved using the YALL1 pa
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=\textwidth]{figure-ghost-compressed-tuning.pdf}
-\caption{Relaxing the constraint to varying degrees in the computational reconstruction using DCT as a sparsifying basis. From top to bottom, we increase the number of realizations, and from left to right, we relax the equality constraint, allowing for errors in the data. We used this process to determine the value of the relaxation parameter $\epsilon$ to use.}
+\caption{Relaxing the constraint to varying degrees in the computational reconstruction using DCT as a sparsifying basis. From top to bottom, we increase the number of realizations, and from left to right, we relax the equality constraint, allowing for errors in the data. We used this process to optimize the value of the relaxation parameter $\epsilon$.}
 \label{figure:ghost-compressed-tuning}
 \end{center}
 \end{figure}
@@ -249,7 +249,7 @@ In order to debug this issue further, in Figure \ref{figure:ghost-slm-samples} w
 
 \begin{figure}[t]
 \begin{center}
-\includegraphics[width=13cm]{figure-ghost-compressed-czl1.pdf}
+\includegraphics[width=15cm]{figure-ghost-compressed-czl1.pdf}
 \caption{Attempts to obtain images of an MIT logo mask imaged using compressed sensing with a computationally-simulated refererence arm. (a) shows the computational ghost imaging result using traditional processing, and (b) shows the result of applying compressed sensing techniques.}
 \label{figure:ghost-compressed-czl1}
 \end{center}
@@ -258,7 +258,7 @@ In order to debug this issue further, in Figure \ref{figure:ghost-slm-samples} w
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=15cm]{figure-ghost-ccgi.pdf}
-\caption{Computational compressed ghost imaging using a simpler object. (a) MIT logo mask and ghost image results for (b) covariance-based and (c) compressed sensing using TV minimization for the same number of realizations, showing the same problems seen in Figure \ref{figure:ghost-compressed-czl1}. (d) Simpler square mask and results using (e) covariance-based and (f) compressed sensing using TV minimization.}
+\caption{Computational compressed ghost imaging. (a) MIT logo mask and ghost image results for (b) covariance-based and (c) compressed sensing using TV minimization for 200 realizations, showing the same problems seen in Figure \ref{figure:ghost-compressed-czl1}. (d) Simpler square mask and results using (e) covariance-based and (f) compressed sensing using TV minimization for 200 realizations.}
 \label{figure:ghost-ccgi}
 \end{center}
 \end{figure}
