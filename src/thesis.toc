@@ -34,7 +34,7 @@
 \contentsline {subsubsection}{Addition of background noise}{77}
 \contentsline {subsubsection}{Photon flux waveform measurement}{78}
 \contentsline {subsubsection}{Acquisition procedure}{79}
-\contentsline {subsection}{\numberline {4.1.2}Computational reconstruction procedure}{80}
+\contentsline {subsection}{\numberline {4.1.2}Computational reconstruction procedure}{81}
 \contentsline {subsubsection}{Reflectivity reconstruction}{81}
 \contentsline {subsubsection}{Background noise censoring}{83}
 \contentsline {subsubsection}{Depth reconstruction}{84}
