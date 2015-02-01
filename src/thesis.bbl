@@ -1,33 +1,12 @@
 \begin{thebibliography}{10}
 
-\bibitem{venkatraman-thesis}
-Dheera Venkatraman.
-\newblock Tools for quantum optics : pulsed polarization-maintaining er-doped
-  fiber laser and spatial mode manipulation in spontaneous parametric
-  downconversion.
-\newblock Master's thesis, Massachusetts Institute of Technology, 2007.
-
-\bibitem{erkmen-unified}
-Baris~I. Erkmen and Jeffrey~H. Shapiro.
-\newblock Unified theory of ghost imaging with gaussian-state light.
-\newblock {\em Phys. Rev. A}, 77:043809, Apr 2008.
-
-\bibitem{takhar-new}
-Dharmpal Takhar, Jason~N. Laska, Michael~B. Wakin, Marco~F. Duarte, Dror Baron,
-  Shriram Sarvotham, Kevin~F. Kelly, and Richard~G. Baraniuk.
-\newblock A new compressive imaging camera architecture using optical-domain
-  compression.
-\newblock In {\em Proceedings of Computational Imaging IV at SPIE Electronic
-  Imaging}, pages 43--52, San Jose, CA, Jan. 2006.
-
 \bibitem{abouraddy-qoct}
-Ayman~F. Abouraddy, Magued~B. Nasr, Bahaa E.~A. Saleh, Alexander~V. Sergienko,
-  and Malvin~C. Teich.
+A.~F. Abouraddy, M.~B. Nasr, B.~E.~A. Saleh, A.~V. Sergienko, and M.~C. Teich.
 \newblock Quantum-optical coherence tomography with dispersion cancellation.
 \newblock {\em Phys. Rev. A}, 65:053817, May 2002.
 
 \bibitem{nasr-qoct}
-Magued~B. Nasr, Bahaa E.~A. Saleh, Alexander~V. Sergienko, and Malvin~C. Teich.
+M.~B. Nasr, B.~E.~A. Saleh, A.~V. Sergienko, and M.~C. Teich.
 \newblock Demonstration of dispersion-canceled quantum-optical coherence
   tomography.
 \newblock {\em Phys. Rev. Lett.}, 91:083601, Aug 2003.
@@ -50,12 +29,12 @@ J.~D. Franson.
 \newblock {\em Phys. Rev. A}, 45:3126--3132, Mar 1992.
 
 \bibitem{erkmen-pcoct}
-Baris~I. Erkmen and Jeffrey~H. Shapiro.
+B.~I. Erkmen and J.~H. Shapiro.
 \newblock Phase-conjugate optical coherence tomography.
 \newblock {\em Phys. Rev. A}, 74:041601, Oct 2006.
 
 \bibitem{erkmen-thesis}
-Baris~I. Erkmen.
+B.~I. Erkmen.
 \newblock {\em Phase-Sensitive Light: Coherence Theory and Applications to
   Optical Imaging}.
 \newblock PhD thesis, Massachusetts Institute of Technology, May 2008.
@@ -77,7 +56,7 @@ S.~E. Harris, M.~K. Oshman, and R.~L. Byer.
 \newblock {\em Phys. Rev. Lett.}, 18:732--734, May 1967.
 
 \bibitem{magde-spdc}
-Douglas Magde and Herbert Mahr.
+D.~Magde and H.~Mahr.
 \newblock Study in ammonium dihydrogen phosphate of spontaneous parametric
   interaction tunable from 4400 to 16 000 \aa{}.
 \newblock {\em Phys. Rev. Lett.}, 18:905--907, May 1967.
@@ -94,30 +73,30 @@ R.~L. Byer and S.~E. Harris.
 \newblock {\em Phys. Rev.}, 168:1064--1068, Apr 1968.
 
 \bibitem{burnham-spdc}
-David~C. Burnham and Donald~L. Weinberg.
+D.~C. Burnham and D.~L. Weinberg.
 \newblock Observation of simultaneity in parametric production of optical
   photon pairs.
 \newblock {\em Phys. Rev. Lett.}, 25:84--87, Jul 1970.
 
 \bibitem{tapster-spdc}
 P.~R. Tapster, J.~G. Rarity, and J.~S. Satchell.
-\newblock Use of parametric down-conversion to generate sub-poissonian light.
+\newblock Use of parametric down-conversion to generate sub-{P}oissonian light.
 \newblock {\em Phys. Rev. A}, 37:2963--2967, Apr 1988.
 
 \bibitem{fasel-spdc}
-Sylvain Fasel, Olivier Alibart, Sébastien Tanzilli, Pascal Baldi, Alexios
-  Beveratos, Nicolas Gisin, and Hugo Zbinden.
+S.~Fasel, O.~Alibart, S.~Tanzilli, P.~Baldi, A.~Beveratos, N.~Gisin, and
+  H.~Zbinden.
 \newblock High-quality asynchronous heralded single-photon source at telecom
   wavelength.
 \newblock {\em New Journal of Physics}, 6(1):163, 2004.
 
 \bibitem{pittman-spdc}
-T.B. Pittman, B.C. Jacobs, and J.D. Franson.
+T.~B. Pittman, B.~C. Jacobs, and J.~D. Franson.
 \newblock Heralding single photons from pulsed parametric down-conversion.
 \newblock {\em Optics Communications}, 246(4–6):545 -- 550, 2005.
 
 \bibitem{kurtsiefer-spdc}
-Christian Kurtsiefer, Markus Oberparleiter, and Harald Weinfurter.
+C.~Kurtsiefer, M.~Oberparleiter, and H.~Weinfurter.
 \newblock High-efficiency entangled photon pair collection in type-ii
   parametric fluorescence.
 \newblock {\em Phys. Rev. A}, 64:023802, Jul 2001.
@@ -129,55 +108,59 @@ F.N.C. Wong, J.H. Shapiro, and T.~Kim.
 \newblock {\em Laser Physics}, 16(11):1517--1524, 2006.
 
 \bibitem{ljunggren-focus}
-Daniel Ljunggren and Maria Tengner.
+D.~Ljunggren and M.~Tengner.
 \newblock Optimal focusing for maximal collection of entangled narrow-band
   photon pairs into single-mode fibers.
 \newblock {\em Phys. Rev. A}, 72:062301, Dec 2005.
 
 \bibitem{bovino-focus}
-Fabio~Antonio Bovino, Pietro Varisco, Anna~Maria Colla, and Er~V. Sergienko.
+F.~A. Bovino, P.~Varisco, A.~M. Colla, and A.~V. Sergienko.
 \newblock Effective fiber-coupling of entangled photons for quantum
-  communication,” opt.
-\newblock {\em Commun}, pages 343--348, 2003.
+  communication.
+\newblock {\em Opt. Commun.}, pages 343--348, 2003.
 
 \bibitem{bennink-focus}
-Ryan~S. Bennink, Yun Liu, D.~Duncan Earl, and Warren~P. Grice.
+R.~S. Bennink, Y.~Liu, D.~D. Earl, and W.~P. Grice.
 \newblock Spatial distinguishability of photons produced by spontaneous
   parametric down-conversion with a focused pump.
 \newblock {\em Phys. Rev. A}, 74:023802, Aug 2006.
 
 \bibitem{fedrizzi-focus}
-Alessandro Fedrizzi, Thomas Herbst, Andreas Poppe, Thomas Jennewein, and Anton
-  Zeilinger.
+A.~Fedrizzi, T.~Herbst, A.~Poppe, T.~Jennewein, and A.~Zeilinger.
 \newblock A wavelength-tunable fiber-coupled source of narrowband entangled
   photons.
 \newblock {\em Opt. Express}, 15(23):15377--15386, Nov 2007.
 
 \bibitem{boyd-focus}
 G.~D. {Boyd} and D.~A. {Kleinman}.
-\newblock {Parametric Interaction of Focused Gaussian Light Beams}.
+\newblock Parametric interaction of focused {G}aussian light beams.
 \newblock {\em Journal of Applied Physics}, 39:3597--3639, July 1968.
 
 \bibitem{legouet-interferometry}
-Julien~Le Gou\"{e}t, Dheera Venkatraman, Franco N.~C. Wong, and Jeffrey~H.
-  Shapiro.
+J.~Le~Gou\"{e}t, D.~Venkatraman, F.~N.~C. Wong, and J.~H. Shapiro.
 \newblock Classical low-coherence interferometry based on broadband parametric
   fluorescence and amplification.
 \newblock {\em Opt. Express}, 17(20):17874--17887, Sep 2009.
 
 \bibitem{bennink-optimal}
-Ryan~S. Bennink.
-\newblock Optimal collinear gaussian beams for spontaneous parametric
+R.~S. Bennink.
+\newblock Optimal collinear {G}aussian beams for spontaneous parametric
   down-conversion.
 \newblock {\em Phys. Rev. A}, 81:053805, May 2010.
 
 \bibitem{dixon-heralding}
-P.~Ben Dixon, Danna Rosenberg, Veronika Stelmakh, Matthew~E. Grein, Ryan~S.
-  Bennink, Eric~A. Dauler, Andrew~J. Kerman, Richard~J. Molnar, and Franco
-  N.~C. Wong.
+P.~B. Dixon, D.~Rosenberg, V.~Stelmakh, M.~E. Grein, R.~S. Bennink, E.~A.
+  Dauler, A.~J. Kerman, R.~J. Molnar, and F.~N.~C. Wong.
 \newblock Heralding efficiency and correlated-mode coupling of near-ir
   fiber-coupled photon pairs.
 \newblock {\em Phys. Rev. A}, 90:043804, Oct 2014.
+
+\bibitem{venkatraman-thesis}
+D.~Venkatraman.
+\newblock Tools for quantum optics : pulsed polarization-maintaining er-doped
+  fiber laser and spatial mode manipulation in spontaneous parametric
+  downconversion.
+\newblock Master's thesis, Massachusetts Institute of Technology, 2007.
 
 \bibitem{pittman-ghost}
 T.~B. Pittman, Y.~H. Shih, D.~V. Strekalov, and A.~V. Sergienko.
@@ -185,7 +168,7 @@ T.~B. Pittman, Y.~H. Shih, D.~V. Strekalov, and A.~V. Sergienko.
 \newblock {\em Phys. Rev. A}, 52:R3429--R3432, Nov 1995.
 
 \bibitem{valencia-two}
-Alejandra Valencia, Giuliano Scarcelli, Milena D'Angelo, and Yanhua Shih.
+A.~Valencia, G.~Scarcelli, M.~D'Angelo, and Y.~Shih.
 \newblock Two-photon imaging with thermal light.
 \newblock {\em Phys. Rev. Lett.}, 94:063601, Feb 2005.
 
@@ -196,25 +179,23 @@ F.~Ferri, D.~Magatti, A.~Gatti, M.~Bache, E.~Brambilla, and L.~A. Lugiato.
 \newblock {\em Phys. Rev. Lett.}, 94:183602, May 2005.
 
 \bibitem{abouraddy-role}
-Ayman~F. Abouraddy, Bahaa E.~A. Saleh, Alexander~V. Sergienko, and Malvin~C.
-  Teich.
+A.~F. Abouraddy, B.~E.~A. Saleh, A.~V. Sergienko, and M.~C. Teich.
 \newblock Role of entanglement in two-photon imaging.
 \newblock {\em Phys. Rev. Lett.}, 87:123602, Aug 2001.
 
 \bibitem{abouraddy-fourier}
-Ayman~F. Abouraddy, Bahaa E.~A. Saleh, Alexander~V. Sergienko, and Malvin~C.
-  Teich.
+A.~F. Abouraddy, B.~E.~A. Saleh, A.~V. Sergienko, and M.~C. Teich.
 \newblock Entangled-photon fourier optics.
 \newblock {\em J. Opt. Soc. Am. B}, 19(5):1174--1184, May 2002.
 
 \bibitem{dangelo-identifying}
-Milena D'Angelo, Yoon-Ho Kim, Sergei~P. Kulik, and Yanhua Shih.
+M.~D'Angelo, Y.~Kim, S.~P. Kulik, and Y.~Shih.
 \newblock Identifying entanglement using quantum ghost interference and
   imaging.
 \newblock {\em Phys. Rev. Lett.}, 92:233601, Jun 2004.
 
 \bibitem{bennink-quantum}
-Ryan~S. Bennink, Sean~J. Bentley, Robert~W. Boyd, and John~C. Howell.
+R.~S. Bennink, S.~J. Bentley, R.~W. Boyd, and J.~C. Howell.
 \newblock Quantum and classical coincidence imaging.
 \newblock {\em Phys. Rev. Lett.}, 92:033601, Jan 2004.
 
@@ -224,73 +205,87 @@ A.~Gatti, E.~Brambilla, and L.~A. Lugiato.
   the macroscopic realm.
 \newblock {\em Phys. Rev. Lett.}, 90:133603, Apr 2003.
 
+\bibitem{erkmen-unified}
+B.~I. Erkmen and J.~H. Shapiro.
+\newblock Unified theory of ghost imaging with {G}aussian-state light.
+\newblock {\em Phys. Rev. A}, 77:043809, Apr 2008.
+
 \bibitem{xun-phase}
-Xiaodong Xun and Robert~W. Cohn.
+X.~Xun and R.~W. Cohn.
 \newblock Phase calibration of spatially nonuniform spatial light modulators.
 \newblock {\em Appl. Opt.}, 43(35):6400--6406, Dec 2004.
 
 \bibitem{janesick-astronomical}
 J.~Janesick and T.~Elliott.
-\newblock Astronomical ccd observing and reduction techniques.
+\newblock Astronomical {CCD} observing and reduction techniques.
 \newblock {\em Astronomical Society of the Pacific Conference Series},
   23:1--67, 1992.
 
 \bibitem{erkmen-from}
-Baris~I. Erkmen and Jeffrey~H. Shapiro.
+B.~I. Erkmen and J.~H. Shapiro.
 \newblock Ghost imaging: from quantum to classical to computational.
 \newblock {\em Adv. Opt. Photon.}, 2(4):405--450, Dec 2010.
 
 \bibitem{erkmen-signal}
-Baris~I. Erkmen and Jeffrey~H. Shapiro.
-\newblock Signal-to-noise ratio of gaussian-state ghost imaging.
+B.~I. Erkmen and J.~H. Shapiro.
+\newblock Signal-to-noise ratio of {G}aussian-state ghost imaging.
 \newblock {\em Phys. Rev. A}, 79:023833, Feb 2009.
 
 \bibitem{shapiro-computational}
-Jeffrey~H. Shapiro.
+J.~H. Shapiro.
 \newblock Computational ghost imaging.
 \newblock {\em Phys. Rev. A}, 78:061802, Dec 2008.
 
 \bibitem{hardy-thesis}
-Nicholas~D. Hardy.
+N.~D. Hardy.
 \newblock {\em Analyzing and Improving Image Quality in Reflective Ghost
   Imaging}.
 \newblock PhD thesis, Massachusetts Institute of Technology, February 2011.
 
 \bibitem{bromberg-ghost}
-Yaron Bromberg, Ori Katz, and Yaron Silberberg.
+Y.~Bromberg, O.~Katz, and Y.~Silberberg.
 \newblock Ghost imaging with a single detector.
 \newblock {\em Phys. Rev. A}, 79:053840, May 2009.
 
 \bibitem{scarcelli-can}
-Giuliano Scarcelli, Vincenzo Berardi, and Yanhua Shih.
+G.~Scarcelli, V.~Berardi, and Y.~Shih.
 \newblock Can two-photon correlation of chaotic light be considered as
   correlation of intensity fluctuations?
 \newblock {\em Phys. Rev. Lett.}, 96:063602, Feb 2006.
 
 \bibitem{candes-stable}
-Emmanuel~J. Candès, Justin~K. Romberg, and Terence Tao.
+E.~J. Candès, J.~K. Romberg, and T.~Tao.
 \newblock Stable signal recovery from incomplete and inaccurate measurements.
 \newblock {\em Communications on Pure and Applied Mathematics},
   59(8):1207--1223, 2006.
 
 \bibitem{duarte-single}
-M.F. Duarte, M.A. Davenport, D.~Takhar, J.N. Laska, Ting Sun, K.F. Kelly, and
+M.F. Duarte, M.A. Davenport, D.~Takhar, J.N. Laska, T.~Sun, K.F. Kelly, and
   R.G. Baraniuk.
 \newblock Single-pixel imaging via compressive sampling.
 \newblock {\em Signal Processing Magazine, IEEE}, 25(2):83--91, March 2008.
 
 \bibitem{katz-compressive}
-Ori Katz, Yaron Bromberg, and Yaron Silberberg.
+O.~Katz, Y.~Bromberg, and Y.~Silberberg.
 \newblock Compressive ghost imaging.
 \newblock {\em Applied Physics Letters}, 95(13):--, 2009.
 
+\bibitem{takhar-new}
+D.~Takhar, J.~N. Laska, M.~B. Wakin, M.~F. Duarte, D.~Baron, S.~Sarvotham,
+  K.~F. Kelly, and R.~G. Baraniuk.
+\newblock A new compressive imaging camera architecture using optical-domain
+  compression.
+\newblock In {\em Proceedings of Computational Imaging IV at SPIE Electronic
+  Imaging}, pages 43--52, San Jose, CA, Jan. 2006.
+
 \bibitem{l1magic}
-Emmanuel C and Justin Romberg.
-\newblock ℓ1-magic: Recovery of sparse signals via convex programming.
+C.~Emmanuel and J.~Romberg.
+\newblock {L1}-magic: Recovery of sparse signals via convex programming.
+\newblock http://users.ece.gatech.edu/~justin/l1magic/.
 
 \bibitem{yall1}
 J.~Yang and Y.~Zhang.
-\newblock Alternating direction algorithms for l1-problems in compressive
+\newblock Alternating direction algorithms for {L1}-problems in compressive
   sensing.
 
 \bibitem{nicolas-applications}
@@ -306,58 +301,55 @@ W.~Becker, A.~Bergmann, M.A. Hink, K.~König, K.~Benndorf, and C.~Biskup.
 \newblock {\em Microscopy Research and Technique}, 63(1):58--66, 2004.
 
 \bibitem{savage-single}
-Neil Savage.
+N.~Savage.
 \newblock Single-photon counting.
 \newblock {\em Nature Photonics}, 3(12):738--739, 2009.
 
 \bibitem{buller-ranging}
-Gerald~S. Buller and A.M. Wallace.
+G.~S. Buller and A.M. Wallace.
 \newblock Ranging and three-dimensional imaging using time-correlated
   single-photon counting and point-by-point acquisition.
 \newblock {\em Selected Topics in Quantum Electronics, IEEE Journal of},
   13(4):1006--1015, July 2007.
 
 \bibitem{jack-hgcdte}
-Michael Jack, Justin Wehner, John Edwards, George Chapman, Donald N.~B. Hall,
-  and Shane~M. Jacobson.
-\newblock Hgcdte apd-based linear-mode photon counting components and ladar
+M.~Jack, J.~Wehner, J.~Edwards, G.~Chapman, D.~N.~B. Hall, and S.~M. Jacobson.
+\newblock Hgcdte {APD}-based linear-mode photon counting components and ladar
   receivers, 2011.
 
 \bibitem{albota-three}
-Marius~A. Albota, Richard~M. Heinrichs, David~G. Kocher, Daniel~G. Fouche,
-  Brian~E. Player, Michael~E. O'Brien, Brian~F. Aull, John~J. Zayhowski, James
-  Mooney, Berton~C. Willard, and Robert~R. Carlson.
+M.~A. Albota, R.~M. Heinrichs, D.~G. Kocher, D.~G. Fouche, B.~E. Player, M.~E.
+  O'Brien, B.~F. Aull, J.~J. Zayhowski, J.~Mooney, B.~C. Willard, and R.~R.
+  Carlson.
 \newblock Three-dimensional imaging laser radar with a photon-counting
   avalanche photodiode array and microchip laser.
 \newblock {\em Appl. Opt.}, 41(36):7671--7678, Dec 2002.
 
 \bibitem{degnan-photon}
-John~J. Degnan.
+J.~J. Degnan.
 \newblock Photon-counting multikilohertz microlaser altimeters for airborne and
   spaceborne topographic measurements.
 \newblock {\em Journal of Geodynamics}, 34(3–4):503 -- 549, 2002.
 
 \bibitem{snyder-random}
 D.~L. Snyder.
-\newblock Random point processes.
-\newblock 1975.
+\newblock {\em Random point processes}.
+\newblock Wiley, New York.
 
 \bibitem{obrien-simulation}
-Michael~E O’Brien and Daniel~G Fouche.
+M.~E. O’Brien and D.~G. Fouche.
 \newblock Simulation of 3d laser radar systems.
 \newblock {\em Lincoln Laboratory Journal}, 15(1):37--60, 2005.
 
 \bibitem{mccarthy-kilometer}
-Aongus McCarthy, Nils~J. Krichel, Nathan~R. Gemmell, Ximing Ren, Michael~G.
-  Tanner, Sander~N. Dorenbos, Val Zwiller, Robert~H. Hadfield, and Gerald~S.
-  Buller.
+A.~McCarthy, N.~J. Krichel, N.~R. Gemmell, X.~Ren, M.~G. Tanner, S.~N.
+  Dorenbos, V.~Zwiller, R.~H. Hadfield, and G.~S. Buller.
 \newblock Kilometer-range, high resolution depth imaging via 1560 nm wavelength
   single-photon detection.
 \newblock {\em Opt. Express}, 21(7):8904--8915, Apr 2013.
 
 \bibitem{pellegrini-laser}
-Sara Pellegrini, Gerald~S Buller, Jason~M Smith, Andrew~M Wallace, and Sergio
-  Cova.
+S.~Pellegrini, G.~S. Buller, J.~M. Smith, A.~M. Wallace, and S.~Cova.
 \newblock Laser-based distance measurement using picosecond resolution
   time-correlated single-photon counting.
 \newblock {\em Measurement Science and Technology}, 11(6):712, 2000.
@@ -365,63 +357,67 @@ Sara Pellegrini, Gerald~S Buller, Jason~M Smith, Andrew~M Wallace, and Sergio
 \bibitem{villa-spad}
 F.~Villa, B.~Markovic, S.~Bellisai, D.~Bronzi, A.~Tosi, F.~Zappa, S.~Tisa,
   D.~Durini, S.~Weyers, U.~Paschen, and W.~Brockherde.
-\newblock Spad smart pixel for time-of-flight and time-correlated single-photon
-  counting measurements.
+\newblock {SPAD} smart pixel for time-of-flight and time-correlated
+  single-photon counting measurements.
 \newblock {\em Photonics Journal, IEEE}, 4(3):795--804, June 2012.
 
 \bibitem{guerrieri-two}
-Fabrizio Guerrieri, Simone Tisa, Alberto Tosi, and Franco Zappa.
+F.~Guerrieri, S.~Tisa, A.~Tosi, and F.~Zappa.
 \newblock Two-dimensional spad imaging camera for photon counting.
 \newblock {\em Photonics Journal, IEEE}, 2(5):759--774, 2010.
 
 \bibitem{scarcella-low}
-Carmelo Scarcella, Alberto Tosi, Federica Villa, Simone Tisa, and Franco Zappa.
+C.~Scarcella, A.~Tosi, F.~Villa, S.~Tisa, and F.~Zappa.
 \newblock Low-noise low-jitter 32-pixels cmos single-photon avalanche diodes
   array for single-photon counting from 300 nm to 900 nm.
 \newblock {\em Review of Scientific Instruments}, 84(12):--, 2013.
 
 \bibitem{kirmani-first}
-Ahmed Kirmani, Dheera Venkatraman, Dongeek Shin, Andrea Colaço, Franco N.~C.
-  Wong, Jeffrey~H. Shapiro, and Vivek~K Goyal.
+A.~Kirmani, D.~Venkatraman, D.~Shin, A.~Cola\c{c}o, F.~N.~C. Wong, J.~H.
+  Shapiro, and V.~K Goyal.
 \newblock First-photon imaging.
 \newblock {\em Science}, 343(6166):58--61, 2014.
 
 \bibitem{kirmani-photon}
-Dongeek Shin, Ahmed Kirmani, Vivek~K. Goyal, and Jeffrey~H. Shapiro.
-\newblock {Photon-Efficient Computational 3D and Reflectivity Imaging with
-  Single-Photon Detectors}.
+D.~Shin, A.~Kirmani, V.~K. Goyal, and J.~H. Shapiro.
+\newblock Photon-efficient computational {3D} and reflectivity imaging with
+  single-photon detectors.
 \newblock {\em arXiv/stat}, 2014.
 
 \bibitem{mallat-wavelet}
 S.~G. Mallat.
-\newblock A wavelet tour of signal processing.
-\newblock 2009.
+\newblock {\em A Wavelet Tour of Signal Processing}.
+\newblock Elsevier, Amsterdam, 2009.
 
 \bibitem{boyd-convex}
 S.~P. Boyd and L.~Vandenberghe.
-\newblock Convex optimization.
-\newblock 2004.
+\newblock {\em Convex Optimization}.
+\newblock Cambridge University Press, Cambridge, 2004.
 
 \bibitem{garnett-universal}
-Roman Garnett, Timothy Huegerich, Charles Chui, and Wenjie He.
+R.~Garnett, T.~Huegerich, C.~Chui, and W.~He.
 \newblock A universal noise removal algorithm with an impulse detector.
 \newblock {\em Image Processing, IEEE Transactions on}, 14(11):1747--1754,
   2005.
 
 \bibitem{bertsekas-introduction}
 D.~P. Bertsekas and J.~N. Tsitsiklis.
-\newblock Introduction to probability.
-\newblock 2002.
+\newblock {\em Introduction to Probability}.
+\newblock Athena Scientific, Belmont, MA, 2002.
 
 \bibitem{harmany-spiral}
-Zachary~T Harmany, Roummel~F Marcia, and Rebecca~M Willett.
-\newblock This is spiral-tap: sparse poisson intensity reconstruction
-  algorithms—theory and practice.
-\newblock {\em Image Processing, IEEE Transactions on}, 21(3):1084--1096, 2012.
+Z.~T. Harmany, R.~F. Marcia, and R.~M. Willett.
+\newblock This is {SPIRAL-TAP}: sparse {P}oisson intensity reconstruction
+  algorithm.
+\newblock {\em IEEE Transactions on Image Processing}, 21(3):1084--1096, 2012.
 
 \bibitem{villa-thesis}
-Federica~Alberta Villa.
+F.~A. Villa.
 \newblock {\em Time-of-flight camera for long-distance 3D ranging}.
 \newblock PhD thesis, Politecnico di Milano, 2013.
+
+\bibitem{princetonlightwave}
+Princeton {L}ightwave, {I}nc.
+\newblock http://www.princetonlightwave.com/.
 
 \end{thebibliography}

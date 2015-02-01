@@ -16,54 +16,56 @@ Repeated entry---line 720 of file thesis.bib
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "jack-hgcdte" isn't style-file defined
---line 911 of file thesis.bib
-Repeated entry---line 965 of file thesis.bib
+--line 912 of file thesis.bib
+Repeated entry---line 966 of file thesis.bib
  : @article {nicolas-applications
  :                               ,
 I'm skipping whatever remains of this entry
-Warning--empty journal in snyder-random
-Warning--empty journal in mallat-wavelet
-Warning--empty journal in boyd-convex
-Warning--empty journal in bertsekas-introduction
-You've used 73 entries,
+I was expecting a `,' or a `}'---line 996 of file thesis.bib
+ :   
+ :   year={1975},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty year in snyder-random
+You've used 74 entries,
             1791 wiz_defined-function locations,
-            863 strings with 15807 characters,
-and the built_in function-call counts, 17467 in all, are:
-= -- 1483
-> -- 909
+            865 strings with 15228 characters,
+and the built_in function-call counts, 17651 in all, are:
+= -- 1501
+> -- 910
 < -- 3
-+ -- 331
++ -- 332
 - -- 258
-* -- 1425
-:= -- 2881
-add.period$ -- 216
-call.type$ -- 73
-change.case$ -- 70
+* -- 1427
+:= -- 2892
+add.period$ -- 219
+call.type$ -- 74
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 660
-empty$ -- 1619
+cite$ -- 75
+duplicate$ -- 673
+empty$ -- 1657
 format.name$ -- 258
-if$ -- 3735
+if$ -- 3796
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 66
-newline$ -- 365
+int.to.str$ -- 74
+missing$ -- 70
+newline$ -- 370
 num.names$ -- 75
-pop$ -- 122
+pop$ -- 137
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 269
 stack$ -- 0
 substring$ -- 1374
-swap$ -- 92
+swap$ -- 97
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
+warning$ -- 1
 while$ -- 164
-width$ -- 75
-write$ -- 786
-(There were 2 error messages)
+width$ -- 76
+write$ -- 798
+(There were 3 error messages)

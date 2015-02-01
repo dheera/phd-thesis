@@ -41,20 +41,20 @@
 \contentsline {subsubsection}{Software implementation}{85}
 \contentsline {subsection}{\numberline {4.1.3}Results}{86}
 \contentsline {subsubsection}{Mannequin}{86}
-\contentsline {subsubsection}{Depth chart}{86}
-\contentsline {subsubsection}{Reflectivity chart}{90}
-\contentsline {section}{\numberline {4.2}Reflectivity from depth data}{90}
-\contentsline {section}{\numberline {4.3}Imaging using a SPAD array}{91}
-\contentsline {subsection}{\numberline {4.3.1}Hardware specifications}{92}
-\contentsline {subsubsection}{Modes of operation}{92}
-\contentsline {subsection}{\numberline {4.3.2}Experimental setup}{94}
-\contentsline {subsection}{\numberline {4.3.3}Computational reconstruction approach}{96}
-\contentsline {subsubsection}{Reflectivity reconstruction}{96}
-\contentsline {subsubsection}{Background noise rejection}{96}
-\contentsline {subsubsection}{Depth reconstruction}{97}
-\contentsline {subsection}{\numberline {4.3.4}Preliminary results}{97}
-\contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{98}
-\contentsline {section}{\numberline {4.4}Conclusions}{99}
+\contentsline {subsubsection}{Depth chart}{87}
+\contentsline {subsubsection}{Reflectivity chart}{89}
+\contentsline {section}{\numberline {4.2}Reflectivity from depth data}{93}
+\contentsline {section}{\numberline {4.3}Imaging using a SPAD array}{93}
+\contentsline {subsection}{\numberline {4.3.1}Hardware specifications}{95}
+\contentsline {subsubsection}{Modes of operation}{95}
+\contentsline {subsection}{\numberline {4.3.2}Experimental setup}{97}
+\contentsline {subsection}{\numberline {4.3.3}Computational reconstruction approach}{100}
+\contentsline {subsubsection}{Reflectivity reconstruction}{102}
+\contentsline {subsubsection}{Background count rejection}{102}
+\contentsline {subsubsection}{Depth reconstruction}{103}
+\contentsline {subsection}{\numberline {4.3.4}Preliminary results}{103}
+\contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{104}
+\contentsline {section}{\numberline {4.4}Conclusions}{105}
 \contentsline {chapter}{\numberline {5}Conclusions}{113}
 \contentsline {chapter}{Appendices}{117}
 \contentsline {chapter}{\numberline {A}HydraHarp file converter}{119}

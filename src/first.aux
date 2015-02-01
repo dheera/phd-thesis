@@ -33,63 +33,70 @@
 \citation{kirmani-first}
 \citation{mallat-wavelet}
 \citation{boyd-convex}
+\citation{kirmani-first}
 \citation{garnett-universal}
+\newlabel{equation:alpha-est}{{4.6}{83}}
 \@writefile{toc}{\contentsline {subsubsection}{Background noise censoring}{83}}
 \citation{bertsekas-introduction}
 \citation{garnett-universal}
 \@writefile{toc}{\contentsline {subsubsection}{Depth reconstruction}{84}}
-\citation{harmany-spiral}
 \citation{kirmani-first}
+\citation{harmany-spiral}
+\newlabel{equation:depth-ll}{{4.11}{85}}
+\newlabel{equation:depth-est}{{4.13}{85}}
 \@writefile{toc}{\contentsline {subsubsection}{Software implementation}{85}}
+\citation{kirmani-first}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Results}{86}}
 \@writefile{toc}{\contentsline {subsubsection}{Mannequin}{86}}
-\@writefile{toc}{\contentsline {subsubsection}{Depth chart}{86}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-6}{\ignorespaces Early reflectivity and depth images of a mannequin and flower scene imaged using a 300$\times $300-pixel raster scan without added background noise. (a) Reference ("ground truth") measurement obtained using several hundred photon arrivals at each pixel, averaged. (b) Raw ML estimates obtained using only the first photon arrival at each pixel. (c) Our computational reconstruction method applied to the data in (b).}}{87}}
-\newlabel{figure:first-manflower}{{4-6}{87}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-7}{\ignorespaces 3D mesh views of a single first-photon acquisition with added background noise after various stages of processing. (A)-(C): Raw reflectivity ML estimate $\alpha _{ML}(x,y)$ superimposed over depth ML estimate $Z_{ML}(x,y)$ from first photon data, (D)-(F): after reflectivity reconstruction of $\alpha (x,y)$, (G)-(I): after background noise censoring, (J)-(L): after depth reconstruction of $Z(x,y)$.}}{88}}
-\newlabel{figure:first-mannequin}{{4-7}{88}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-8}{\ignorespaces Close-up of two regions of reflectivity data for mannequin target. (a) ML estimate using only 1 photon per pixel and (b) the same data after processing using our computational reconstruction technique.}}{89}}
-\newlabel{figure:first-mannequin-zoom}{{4-8}{89}}
-\@writefile{toc}{\contentsline {subsubsection}{Reflectivity chart}{90}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Reflectivity from depth data}{90}}
+\@writefile{toc}{\contentsline {subsubsection}{Depth chart}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-6}{\ignorespaces Early reflectivity and depth images of a mannequin and flower scene imaged using a 300$\times $300-pixel raster scan without background light injection. (a) Reference (ground truth) measurement obtained by averaging several hundred photon arrivals at each pixel. (b) Pixel-wise ML estimates obtained using only the first photon arrival at each pixel. (c) Our computational reconstruction method applied to the data in (b).}}{88}}
+\newlabel{figure:first-manflower}{{4-6}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-7}{\ignorespaces 3D mesh views of a single first-photon acquisition with added background noise after various stages of processing. (A)-(C): Raw reflectivity ML estimate $\alpha _{ML}(x,y)$ superimposed over depth ML estimate $Z_{ML}(x,y)$ from first photon data, (D)-(F): after reflectivity reconstruction of $\alpha (x,y)$, (G)-(I): after background noise censoring, (J)-(L): after depth reconstruction of $Z(x,y)$.}}{89}}
+\newlabel{figure:first-mannequin}{{4-7}{89}}
+\@writefile{toc}{\contentsline {subsubsection}{Reflectivity chart}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-8}{\ignorespaces Close-up of two regions of reflectivity data for mannequin target. (a) Pixel-wise ML estimate using only 1 photon per pixel and (b) the same data after processing using our computational reconstruction technique.}}{90}}
+\newlabel{figure:first-mannequin-zoom}{{4-8}{90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-9}{\ignorespaces Depth-chart test consisting of square features of linearly increasing height. (a) Image produced by traditional averaging with several hundred detections per pixel, (b) Pixel-wise ML estimate using only the first photon arrival, and (c) data in (b) processed using our computational reconstruction method.}}{91}}
+\newlabel{figure:first-depthchart}{{4-9}{91}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-10}{\ignorespaces Reflectivity-chart test. (a) Image produced by traditional averaging with several hundred detections per pixel, (b) Pixel-wise ML estimate using only the first photon arrival, and (c) data in (b) processed using our computational reconstruction method.}}{92}}
+\newlabel{figure:first-intensitychart}{{4-10}{92}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Reflectivity from depth data}{93}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Imaging using a SPAD array}{93}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-11}{\ignorespaces (a) Raw depth values from a 1000$\times $1000-pixel first-photon acquisition in the presence of high background noise, but range-gated to the indicated scale for visualization purposes. Evidence of high-reflectivity features on the T-shirt and face visually manifest as coherent regions of color, which are the result of low variances in depth. (b) Reflectivity information gained from a version of (a) without range-gating. The number of pulses until the first detection was not used in this method.}}{94}}
+\newlabel{figure:first-intensityfromdepth}{{4-11}{94}}
 \citation{villa-thesis}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Imaging using a SPAD array}{91}}
+\citation{princetonlightwave}
+\citation{villa-thesis}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Hardware specifications}{95}}
+\@writefile{toc}{\contentsline {subsubsection}{Modes of operation}{95}}
 \citation{villa-thesis}
 \citation{villa-thesis}
-\citation{villa-thesis}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Hardware specifications}{92}}
-\@writefile{toc}{\contentsline {subsubsection}{Modes of operation}{92}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Experimental setup}{94}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Experimental setup}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-12}{\ignorespaces Terminology used in the describing the SPAD array imaging acquisition scheme.}}{98}}
+\newlabel{figure:first-spad-terms}{{4-12}{98}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-13}{\ignorespaces Experimental setup for single-photon imaging with a SPAD array. (TODO: Increase font size)}}{99}}
+\newlabel{figure:first-spad-setup}{{4-13}{99}}
 \citation{villa-thesis}
 \citation{kirmani-photon}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Computational reconstruction approach}{100}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-14}{\ignorespaces Scanning scheme to obtain high-resolution images using the 32$\times $32-pixel SPAD array. (a) We translate the array by increments of a full array size (4.8 mm) along both axes to image multiple "tiles" of the entire array. (b) Zoom-in view of individual SPAD pixels showing the active area with no subpixel scanning, (c) 2$\times $2 subpixel scanning by translating along each axis by 75 $\mu $m, multiplying the resolution by 2 and (d) 4$\times $4 subpixel scanning by translating along each axis by 37.5 $\mu $m, 75 $\mu $m, and 112.5 $\mu $m, multiplying the resolution by 4.}}{101}}
+\newlabel{figure:first-spad-scanning}{{4-14}{101}}
 \citation{kirmani-photon}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Computational reconstruction approach}{96}}
-\@writefile{toc}{\contentsline {subsubsection}{Reflectivity reconstruction}{96}}
-\@writefile{toc}{\contentsline {subsubsection}{Background noise rejection}{96}}
+\@writefile{toc}{\contentsline {subsubsection}{Reflectivity reconstruction}{102}}
+\newlabel{equation:spad-ref-ll}{{4.17}{102}}
+\@writefile{toc}{\contentsline {subsubsection}{Background count rejection}{102}}
 \citation{kirmani-photon}
-\@writefile{toc}{\contentsline {subsubsection}{Depth reconstruction}{97}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Preliminary results}{97}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{98}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Conclusions}{99}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-9}{\ignorespaces Depth chart test consisting of square features of linearly increasing height. (a) Image produced by traditional averaging with several hundred detections per pixel, (b) ML estimate using only the first photon arrival, and (c) data in (b) processed using our computational reconstruction method.}}{101}}
-\newlabel{figure:first-depthchart}{{4-9}{101}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-10}{\ignorespaces Reflectivity chart test. (a) Image produced by traditional averaging with several hundred detections per pixel, (b) ML estimate using only the first photon arrival, and (c) data in (b) processed using our computational reconstruction method.}}{102}}
-\newlabel{figure:first-intensitychart}{{4-10}{102}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-11}{\ignorespaces (a) Raw depth values from a 1000$\times $1000-pixel first-photon acquisition in the presence of high background noise, but range-gated to the indicated scale for visualization purposes. Evidence of high-reflectivity features on the T-shirt and face visually manifest as regions of coherent regions of color, which are the result of low variances in depth. (b) Reflectivity information gained from a version of (a) without range-gating. The number of pulses until the first detection was not used in this method.}}{103}}
-\newlabel{figure:first-intensityfromdepth}{{4-11}{103}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-12}{\ignorespaces Experimental setup for single-photon imaging with a SPAD array. (TODO: Increase font size)}}{104}}
-\newlabel{figure:first-spad-setup}{{4-12}{104}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-13}{\ignorespaces Scanning scheme to obtain high-resolution images using the 32$\times $32-pixel SPAD array. (a) We translate the array by increments of a full array size (4.8 mm) along both axes to image multiple "tiles" of the entire array. (b) Zoom-in view of individual SPAD pixels showing the active area with no subpixel scanning, (c) 2$\times $2 subpixel scanning by translating along each axis by 75 $\mu $m, multiplying the resolution by 2 and (d) 4$\times $4 subpixel scanning by translating along each axis by 37.5 $\mu $m, 75 $\mu $m, and 112.5 $\mu $m, multiplying the resolution by 4.}}{105}}
-\newlabel{figure:first-spad-scanning}{{4-13}{105}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-14}{\ignorespaces Terminology used in the describing the SPAD array imaging acquisition scheme.}}{106}}
-\newlabel{figure:first-spad-terms}{{4-14}{106}}
+\@writefile{toc}{\contentsline {subsubsection}{Depth reconstruction}{103}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Preliminary results}{103}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{104}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Conclusions}{105}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-15}{\ignorespaces SPAD array imaging results for 360$\times $360-pixel reflectivity images of a mannequin comparing traditional averaging with spatial regularization. Dwell times are in time units of acquisition frames (65 $\mu $s).}}{107}}
 \newlabel{figure:first-spad-pvnrt-i}{{4-15}{107}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-16}{\ignorespaces SPAD array imaging results for 360$\times $360-pixel reflectivity images of a table, cardboard box, and books comparing traditional averaging with spatial regularization. Dwell times are in time units of acquisition frames (65 $\mu $s).}}{108}}
 \newlabel{figure:first-spad-boxbooks-i}{{4-16}{108}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-17}{\ignorespaces SPAD array imaging results for 360$\times $360-pixel reflectivity images of two basketballs comparing traditional averaging with spatial regularization. Dwell times are in time units of acquisition frames (65 $\mu $s).}}{109}}
 \newlabel{figure:first-spad-bball-i}{{4-17}{109}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4-18}{\ignorespaces First-photon reflectivity imaging of three scenes simulated using the SPAD array, in which only the first arrival at each pixel is used regardless of subsequent arrivals within a fixed dwell time. (a) Traditional ML estimate of the reflectivity and (b) the same data after processing using our first-photon imaging technique described in the previous section. Depth results are not generated since $s(\cdot )$ is nearly a delta function for the laser pulse width and time bin size used.}}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-18}{\ignorespaces First-photon reflectivity imaging of three scenes simulated using the SPAD array, in which only the first arrival at each pixel is employed regardless of subsequent arrivals within a fixed dwell time. (a) Pixel-wise ML estimate of the reflectivity and (b) the same data after processing using our first-photon imaging technique described in the previous section. Depth results are not generated because $s(\cdot )$ is nearly a delta function for the laser pulse width and time bin size used.}}{110}}
 \newlabel{figure:first-spad-first-i}{{4-18}{110}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4-19}{\ignorespaces SPAD array imaging results for 360$\times $360-pixel depth maps of a mannequin comparing traditional averaging with spatial regularization. Dwell times are in time units of acquisition frames (65 $\mu $s). Pixels with no data are represented as depth values of $0$.}}{111}}
 \newlabel{figure:first-spad-mannequin-d}{{4-19}{111}}
