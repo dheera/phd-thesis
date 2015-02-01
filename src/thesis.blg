@@ -11,61 +11,63 @@ A level-1 auxiliary file: appendix-ht3read.aux
 A level-1 auxiliary file: appendix-spadcounts.aux
 The style file: unsrt.bst
 Database file #1: thesis.bib
-Repeated entry---line 720 of file thesis.bib
+Repeated entry---line 736 of file thesis.bib
  : @article{shapiro-computational
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "jack-hgcdte" isn't style-file defined
---line 912 of file thesis.bib
-Repeated entry---line 966 of file thesis.bib
+--line 928 of file thesis.bib
+Repeated entry---line 982 of file thesis.bib
  : @article {nicolas-applications
  :                               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 996 of file thesis.bib
+I was expecting a `,' or a `}'---line 1012 of file thesis.bib
  :   
  :   year={1975},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Name 3 in "Le Gou\"{e}t, J. and Venkatraman, D. and Wong, F. N. C, and Shapiro, J. H." has a comma at the end for entry legouet-experimental
+while executing---line 944 of file unsrt.bst
 Warning--empty year in snyder-random
-You've used 74 entries,
+You've used 76 entries,
             1791 wiz_defined-function locations,
-            865 strings with 15228 characters,
-and the built_in function-call counts, 17651 in all, are:
-= -- 1501
-> -- 910
+            874 strings with 15538 characters,
+and the built_in function-call counts, 18210 in all, are:
+= -- 1553
+> -- 935
 < -- 3
-+ -- 332
-- -- 258
-* -- 1427
-:= -- 2892
-add.period$ -- 219
-call.type$ -- 74
-change.case$ -- 67
++ -- 341
+- -- 265
+* -- 1481
+:= -- 2979
+add.period$ -- 225
+call.type$ -- 76
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 673
-empty$ -- 1657
-format.name$ -- 258
-if$ -- 3796
+cite$ -- 77
+duplicate$ -- 691
+empty$ -- 1709
+format.name$ -- 265
+if$ -- 3914
 int.to.chr$ -- 0
-int.to.str$ -- 74
-missing$ -- 70
-newline$ -- 370
-num.names$ -- 75
-pop$ -- 137
+int.to.str$ -- 76
+missing$ -- 72
+newline$ -- 380
+num.names$ -- 77
+pop$ -- 139
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 269
+skip$ -- 275
 stack$ -- 0
-substring$ -- 1374
-swap$ -- 97
+substring$ -- 1436
+swap$ -- 99
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 164
-width$ -- 76
-write$ -- 798
-(There were 3 error messages)
+while$ -- 170
+width$ -- 78
+write$ -- 820
+(There were 4 error messages)

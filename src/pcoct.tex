@@ -1,6 +1,6 @@
 \chapter{Phase-conjugate optical coherence tomography}
 
-The past two decades have witnessed a number of experiments focused on the use of quantum-entangled states of light to achieve enhanced measurement capability in metrology. For example, quantum optical coherence tomography (Q-OCT) proposed by Abouraddy et al. \cite{abouraddy-qoct} and later demonstrated by Nasr et al. \cite{nasr-qoct}, utilized maximally entangled photon states and Hong-Ou-Mandel interferometry \cite{hong-interference} to achieve a 2$\times$ axial resolution improvement and dispersion cancellation over standard conventional OCT.
+The past two decades have witnessed a number of experiments focused on the use of quantum-entangled states of light to achieve enhanced measurement capability in metrology. For example, quantum optical coherence tomography (Q-OCT) proposed by Abouraddy et al. \cite{abouraddy-qoct} and later demonstrated by Nasr et al. \cite{nasr-qoct}, utilized maximally entangled photon states and Hong-Ou-Mandel interferometry \cite{hong-interference} to achieve a 2$\times$ axial resolution improvement and dispersion cancellation over conventional OCT (C-OCT).
 
 Such effects, including the enhanced resolution afforded by the reduced width of the Hong-Ou-Mandel interference, and dispersion cancellation \cite{steinberg-dispersion,franson-dispersion}, were initially thought to be distinctly non-classical. However, much of the early research overlooked the possibility of classical light sources that possess no entanglement but are nevertheless maximally correlated in the classical, stochastic sense. Recent advances in nonlinear optical crystals and a better understanding of parametric downconversion have permitted us to generate a variety of these interesting classical light fields that bear properties previously associated exclusively with quantum optics. Of particular note is the ability to generate classical states with classically-maximal phase-sensitive correlations.
 
@@ -14,13 +14,13 @@ Optical coherence tomography (OCT) is a three-dimensional imaging technique that
 
 \subsection{Conventional OCT}
 
-The basic principle of C-OCT is shown in Figure \ref{figure:pcoct-schematic-coct}. C-OCT uses classical signal and reference light beams that have phase-insensitive cross-correlations, as might be generated using any classical high-flux source with a short coherence length (such as an LED or pulsed laser source) and a 50-50 beam splitter. The signal beam interrogates the sample and the reflected light is recombined with the reference beam using a simple Michelson interferometer to measure the second-order correlations between the two beams. As the path length of either beam is scanned, the interference envelope reflects the axial profile of the target.
+The basic principle of C-OCT is shown in Figure \ref{figure:pcoct-schematic-combined}(a). C-OCT uses classical signal and reference light beams that have phase-insensitive cross-correlations, as might be generated using any classical high-flux source with a short coherence length (such as an LED or pulsed laser source) and a 50-50 beam splitter. The signal beam interrogates the sample and the reflected light is recombined with the reference beam using a simple Michelson interferometer to measure the second-order correlations between the two beams. As the path length of either beam is scanned, the interference envelope reflects the axial profile of the target.
 
-\begin{figure}[t]
+\begin{figure}[h!]
 \begin{center}
-\includegraphics[width=13cm]{figure-pcoct-schematic-coct.pdf}
-\caption{Schematic of conventional optical coherence tomography (C-OCT).}
-\label{figure:pcoct-schematic-coct}
+\includegraphics[height=18.5cm]{figure-pcoct-schematic-combined.pdf}
+\caption{Schematic of (a) conventional optical coherence tomography (C-OCT), (b) quantum optical coherence tomography (Q-OCT), and (c) phase-conjugate optical coherence tomography (PC-OCT).}
+\label{figure:pcoct-schematic-combined}
 \end{center}
 \end{figure}
 
@@ -54,15 +54,7 @@ Note also that C-OCT is vulnerable to dispersion in the sample, which will manif
 
 \subsection{Quantum OCT}
 
-In Q-OCT, first proposed by Abouraddy et al. \cite{abouraddy-qoct}, the signal and reference beams are replaced by an entangled biphoton source and the Michelson interferometer is replaced by a Hong-Ou-Mandel (HOM) interferometric measurement \cite{hong-measurement}, as shown in Figure \ref{figure:pcoct-schematic-qoct}. In order to analyze Q-OCT we must use the quantum description of the fields. Suppose we have signal and reference beams with photon-unit field operators $\hat{E_S}(t)$ and $\hat{E_R}(t)$, respectively, with commutators
-
-\begin{figure}[t]
-\begin{center}
-\includegraphics[width=13cm]{figure-pcoct-schematic-qoct.pdf}
-\caption{Schematic of quantum optical coherence tomography (Q-OCT).}
-\label{figure:pcoct-schematic-qoct}
-\end{center}
-\end{figure}
+In Q-OCT, first proposed by Abouraddy et al. \cite{abouraddy-qoct}, the signal and reference beams are replaced by an entangled biphoton source and the Michelson interferometer is replaced by a Hong-Ou-Mandel (HOM) interferometric measurement \cite{hong-measurement}, as shown in Figure \ref{figure:pcoct-schematic-combined}(b). In order to analyze Q-OCT we must use the quantum description of the fields. Suppose we have signal and reference beams with photon-unit field operators $\hat{E_S}(t)$ and $\hat{E_R}(t)$, respectively, with commutators
 
 \begin{equation}
 [ \hat{E_J}(t), \hat{E_K}^\dagger(u) ] = \delta_{JK} \delta(t-u)
@@ -80,15 +72,7 @@ Using the same partially-reflecting mirror, the dip in the coincidence counts is
 
 \subsection{Phase-conjugate OCT}
 
-Although advantages of Q-OCT were earlier attributed to quantum effects, Erkmen and Shapiro showed that they are merely results of the phase-sensitive coherence between the signal and idler and achievable using PC-OCT \cite{erkmen-pcoct}, whose conceptual block diagram is shown in Figure \ref{figure:pcoct-schematic-pcoct}. In this configuration, the signal and idler are classical sources with a phase-sensitive cross-correlation. The sample is interrogated twice at the same point with phase conjugation between the two passes.
-
-\begin{figure}[t]
-\begin{center}
-\includegraphics[width=13cm]{figure-pcoct-schematic-pcoct.pdf}
-\caption{Schematic of phase-conjugate optical coherence tomography (PC-OCT).}
-\label{figure:pcoct-schematic-pcoct}
-\end{center}
-\end{figure}
+Although advantages of Q-OCT were earlier attributed to quantum effects, Erkmen and Shapiro showed that they are merely results of the phase-sensitive coherence between the signal and idler and achievable using PC-OCT \cite{erkmen-pcoct}, whose conceptual block diagram is shown in Figure \ref{figure:pcoct-schematic-combined}(c). In this configuration, the signal and idler are classical sources with a phase-sensitive cross-correlation. The sample is interrogated twice at the same point with phase conjugation between the two passes.
 
 In PC-OCT, we assume classical signal and idler complex envelopes $E_S(t)$ and $E_R(t)$ with maximal phase-sensitive correlations as permitted by classical physics. The signal beam $E_S(t)$ is focused on a target with axial profile $h(t) = F^{-1}[H(\Omega)]$. The resulting complex envelope is
 \begin{equation}
@@ -116,7 +100,7 @@ Spontaneous parametric downconversion (SPDC) in nonlinear crystals was first obs
 
 \subsection{Single-mode parametric fluorescence}
 
-We would like to couple our SPDC outputs into a single-mode fiber to ensure maximal phase-sensitive cross-correlations between the signal and idler outputs, as well as for the experimental convenience afforded by fiber optics. As SPDC output is typically highly multi-modal, a number of studies \cite{ljunggren-focus,kurtsiefer-spdc,bovino-focus,bennink-focus,fedrizzi-focus,boyd-focus} have explored the idea of manipulating the focusing of the pump beam to concentrate the majority of SPDC output into a single spatial mode. Based on analysis from these earlier studies \cite{legouet-interferometry}, we set our pump focusing parameter to $\xi_p = L/(k_p w_p^2) = \pi/2$ where $w_p$ is the pump waist size and $k_p$ is the wavenumber of the pump beam. However, a later and more comprehensive study by Bennink \cite{bennink-optimal} which was later supported by results by Dixon et al. \cite{dixon-heralding} shows that under the approximation that the focusing parameters of the signal, idler, and pump are similar ($\xi_s \approx \xi_i \approx \xi_p \approx \xi$), the joint spectral density of the signal and idler $|\psi(\omega_s, \omega_i)|^2$ is proportional to:
+We would like to couple our SPDC outputs into a single-mode fiber to ensure maximal phase-sensitive cross-correlations between the signal and idler outputs, as well as for the experimental convenience afforded by fiber optics. As SPDC output is typically highly multi-modal, a number of studies \cite{ljunggren-focus,kurtsiefer-spdc,bovino-focus,bennink-focus,fedrizzi-focus,boyd-focus} have explored the idea of manipulating the focusing of the pump beam to concentrate the majority of SPDC output into a single spatial mode. Based on our analysis from these earlier studies \cite{legouet-interferometry}, we set our pump focusing parameter to $\xi_p = L/(k_p w_p^2) = \pi/2$, where $w_p$ is the pump waist size and $k_p$ is the wavenumber of the pump beam. However, a later and more comprehensive study by Bennink \cite{bennink-optimal} which was later supported by results by Dixon et al. \cite{dixon-heralding} shows that under the approximation that the focusing parameters of the signal, idler, and pump are similar ($\xi_s \approx \xi_i \approx \xi_p \approx \xi$), the joint spectral density of the signal and idler $|\psi(\omega_s, \omega_i)|^2$ is proportional to:
 \begin{equation}
 |\psi(\omega_s, \omega_i)|^2 \propto F(\xi,\Phi) = \int_{-1}^1 \frac{\sqrt{\xi} \exp(i\Phi l/2)}{1-i\xi l} dl
 \end{equation}
@@ -277,7 +261,7 @@ PC-OCT owes its resolution advantage to its double-pass configuration. However, 
 
 Recent developments in quantum optics have led to new methods in sensing that involve entangled biphotons and other nonclassical states of light to achieve advantages over their conventional counterparts. In particular, Q-OCT uses quantum interferometry to achieve two-fold resolution improvement and even-order dispersion cancellation advantages over C-OCT. Although these advantages have been proposed and demonstrated, we began to question the true nature of the claimed advantages of these quantum techniques, whether those advantages are truly quantum in nature, and moreover, if there is an unconventional classical method to achieve the same results.
 
-In particular, we demonstrated experimentally through PC-OCT that Q-OCT's advantages, although realizable using quantum interferometry, arise from the phase-sensitive cross-correlations in the signal and idler beams and are realizable using a novel classical technique. In addition, PC-OCT is operable at much higher light levels and acquisitions may be performed extremely rapidly, incorporating the best advantages of classical sensing.
+In particular, we demonstrated experimentally \cite{legouet-experimental} through PC-OCT that Q-OCT's advantages, although realizable using quantum interferometry, arise from the phase-sensitive cross-correlations in the signal and idler beams and are realizable using a novel classical technique. In addition, PC-OCT is operable at much higher light levels and acquisitions may be performed extremely rapidly, incorporating the best advantages of classical sensing. In addition to our PC-OCT work, Lavoie et al. \cite{lavoie-quantum} implemented chirped-pulse interferometry (CPI), a related technique that begins with chirped and anti-chirped pulses that also verifies that classical phase-sensitive cross-correlations can realize the advantages of Q-OCT.
 
 In this work, we also addressed the experimental implementation issue of PC-OCT. Most classical light sources have only phase-insensitive cross-correlations and no phase-sensitive cross-correlations. Our setup requires strong and broadband phase-sensitive cross-correlations between signal and idler beams, which in principle can be produced by splitting a laser beam and imposing anti-correlated phase noises on both beams using modulators. However, in this work, we demonstrated an approach that employs nonlinear optics, which provide a bandwidth significantly higher than can be achieved using modulators. We considered the SPDC sources used to generate biphoton states with phase-sensitive cross-correlations for quantum optics experiments, but operated in the high-brightness regime in which parametric fluorescence is amplified before exiting the crystal. Although this amplification makes the phase-sensitive correlation classical, it is sufficient to implement PC-OCT, which makes no use of quantum interference. We implemented such a source and carried out a PC-OCT experiment, demonstrating the realizability of strong, phase-sensitive classical light sources which, while unconventional, are not beyond the limits of classical physics, and may be useful for a variety of other sensing applications.
 
