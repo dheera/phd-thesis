@@ -1,5 +1,86 @@
 \begin{thebibliography}{10}
 
+\bibitem{legouet-experimental}
+J.~Le~Gou\"{e}t, D.~Venkatraman, F.~N.~C Wong, and J.~H. Shapiro.
+\newblock Experimental realization of phase-conjugate optical coherence
+  tomography.
+\newblock {\em Opt. Lett.}, 35(7):1001--1003, Apr 2010.
+
+\bibitem{lavoie-quantum}
+J.~Lavoie, R.~Kaltenbaek, and K.~J. Resch.
+\newblock Quantum-optical coherence tomography with classical light.
+\newblock {\em Opt. Express}, 17(5):3818--3825, Mar 2009.
+
+\bibitem{mazurek-dispersion}
+MD~Mazurek, KM~Schreiter, R~Prevedel, R~Kaltenbaek, and KJ~Resch.
+\newblock Dispersion-cancelled biological imaging with quantum-inspired
+  interferometry.
+\newblock {\em Scientific reports}, 3, 2013.
+
+\bibitem{venkatraman-classical}
+D.~Venkatraman, N.~D. Hardy, F.~N.~C. Wong, and J.~H. Shapiro.
+\newblock Classical far-field phase-sensitive ghost imaging.
+\newblock {\em Opt. Lett.}, 36(18):3684--3686, Sep 2011.
+
+\bibitem{pittman-ghost}
+T.~B. Pittman, Y.~H. Shih, D.~V. Strekalov, and A.~V. Sergienko.
+\newblock Optical imaging by means of two-photon quantum entanglement.
+\newblock {\em Phys. Rev. A}, 52:R3429--R3432, Nov 1995.
+
+\bibitem{shapiro-discord}
+J.~H. Shapiro, D.~Venkatraman, and F.~N.~C. Wong.
+\newblock Ghost imaging without discord.
+\newblock {\em Scientific reports}, 3, 2013.
+
+\bibitem{ragy-nature}
+S.~Ragy and G.~Adesso.
+\newblock Nature of light correlations in ghost imaging.
+\newblock {\em Scientific reports}, 2, 2012.
+
+\bibitem{takhar-new}
+D.~Takhar, J.~N. Laska, M.~B. Wakin, M.~F. Duarte, D.~Baron, S.~Sarvotham,
+  K.~F. Kelly, and R.~G. Baraniuk.
+\newblock A new compressive imaging camera architecture using optical-domain
+  compression.
+\newblock In {\em Proceedings of Computational Imaging IV at SPIE Electronic
+  Imaging}, pages 43--52, San Jose, CA, Jan. 2006.
+
+\bibitem{duarte-single}
+M.F. Duarte, M.A. Davenport, D.~Takhar, J.N. Laska, T.~Sun, K.F. Kelly, and
+  R.G. Baraniuk.
+\newblock Single-pixel imaging via compressive sampling.
+\newblock {\em Signal Processing Magazine, IEEE}, 25(2):83--91, March 2008.
+
+\bibitem{zerom-entangled}
+P.~Zerom, K.~W.~C. Chan, J.~C. Howell, and R.~W. Boyd.
+\newblock Entangled-photon compressive ghost imaging.
+\newblock {\em Phys. Rev. A}, 84:061804, Dec 2011.
+
+\bibitem{kirmani-first}
+A.~Kirmani, D.~Venkatraman, D.~Shin, A.~Cola\c{c}o, F.~N.~C. Wong, J.~H.
+  Shapiro, and V.~K Goyal.
+\newblock First-photon imaging.
+\newblock {\em Science}, 343(6166):58--61, 2014.
+
+\bibitem{villa-spad}
+F.~Villa, B.~Markovic, S.~Bellisai, D.~Bronzi, A.~Tosi, F.~Zappa, S.~Tisa,
+  D.~Durini, S.~Weyers, U.~Paschen, and W.~Brockherde.
+\newblock {SPAD} smart pixel for time-of-flight and time-correlated
+  single-photon counting measurements.
+\newblock {\em Photonics Journal, IEEE}, 4(3):795--804, June 2012.
+
+\bibitem{scarcella-low}
+C.~Scarcella, A.~Tosi, F.~Villa, S.~Tisa, and F.~Zappa.
+\newblock Low-noise low-jitter 32-pixels cmos single-photon avalanche diodes
+  array for single-photon counting from 300 nm to 900 nm.
+\newblock {\em Review of Scientific Instruments}, 84(12):--, 2013.
+
+\bibitem{kirmani-photon}
+D.~Shin, A.~Kirmani, V.~K. Goyal, and J.~H. Shapiro.
+\newblock Photon-efficient computational {3D} and reflectivity imaging with
+  single-photon detectors.
+\newblock {\em arXiv/stat}, 2014.
+
 \bibitem{abouraddy-qoct}
 A.~F. Abouraddy, M.~B. Nasr, B.~E.~A. Saleh, A.~V. Sergienko, and M.~C. Teich.
 \newblock Quantum-optical coherence tomography with dispersion cancellation.
@@ -32,6 +113,12 @@ J.~D. Franson.
 B.~I. Erkmen and J.~H. Shapiro.
 \newblock Phase-conjugate optical coherence tomography.
 \newblock {\em Phys. Rev. A}, 74:041601, Oct 2006.
+
+\bibitem{legouet-interferometry}
+J.~Le~Gou\"{e}t, D.~Venkatraman, F.~N.~C. Wong, and J.~H. Shapiro.
+\newblock Classical low-coherence interferometry based on broadband parametric
+  fluorescence and amplification.
+\newblock {\em Opt. Express}, 17(20):17874--17887, Sep 2009.
 
 \bibitem{erkmen-thesis}
 B.~I. Erkmen.
@@ -136,12 +223,6 @@ G.~D. {Boyd} and D.~A. {Kleinman}.
 \newblock Parametric interaction of focused {G}aussian light beams.
 \newblock {\em Journal of Applied Physics}, 39:3597--3639, July 1968.
 
-\bibitem{legouet-interferometry}
-J.~Le~Gou\"{e}t, D.~Venkatraman, F.~N.~C. Wong, and J.~H. Shapiro.
-\newblock Classical low-coherence interferometry based on broadband parametric
-  fluorescence and amplification.
-\newblock {\em Opt. Express}, 17(20):17874--17887, Sep 2009.
-
 \bibitem{bennink-optimal}
 R.~S. Bennink.
 \newblock Optimal collinear {G}aussian beams for spontaneous parametric
@@ -161,22 +242,6 @@ D.~Venkatraman.
   fiber laser and spatial mode manipulation in spontaneous parametric
   downconversion.
 \newblock Master's thesis, Massachusetts Institute of Technology, 2007.
-
-\bibitem{legouet-experimental}
-J.~Le~Gou\"{e}t, D.~Venkatraman, F.~N.~C Wong, and J.~H. Shapiro.
-\newblock Experimental realization of phase-conjugate optical coherence
-  tomography.
-\newblock {\em Opt. Lett.}, 35(7):1001--1003, Apr 2010.
-
-\bibitem{lavoie-quantum}
-J.~Lavoie, R.~Kaltenbaek, and K.~J. Resch.
-\newblock Quantum-optical coherence tomography with classical light.
-\newblock {\em Opt. Express}, 17(5):3818--3825, Mar 2009.
-
-\bibitem{pittman-ghost}
-T.~B. Pittman, Y.~H. Shih, D.~V. Strekalov, and A.~V. Sergienko.
-\newblock Optical imaging by means of two-photon quantum entanglement.
-\newblock {\em Phys. Rev. A}, 52:R3429--R3432, Nov 1995.
 
 \bibitem{valencia-two}
 A.~Valencia, G.~Scarcelli, M.~D'Angelo, and Y.~Shih.
@@ -221,6 +286,16 @@ B.~I. Erkmen and J.~H. Shapiro.
 \newblock Unified theory of ghost imaging with {G}aussian-state light.
 \newblock {\em Phys. Rev. A}, 77:043809, Apr 2008.
 
+\bibitem{shapiro-computational}
+J.~H. Shapiro.
+\newblock Computational ghost imaging.
+\newblock {\em Phys. Rev. A}, 78:061802, Dec 2008.
+
+\bibitem{katz-compressive}
+O.~Katz, Y.~Bromberg, and Y.~Silberberg.
+\newblock Compressive ghost imaging.
+\newblock {\em Applied Physics Letters}, 95(13):--, 2009.
+
 \bibitem{xun-phase}
 X.~Xun and R.~W. Cohn.
 \newblock Phase calibration of spatially nonuniform spatial light modulators.
@@ -241,11 +316,6 @@ B.~I. Erkmen and J.~H. Shapiro.
 B.~I. Erkmen and J.~H. Shapiro.
 \newblock Signal-to-noise ratio of {G}aussian-state ghost imaging.
 \newblock {\em Phys. Rev. A}, 79:023833, Feb 2009.
-
-\bibitem{shapiro-computational}
-J.~H. Shapiro.
-\newblock Computational ghost imaging.
-\newblock {\em Phys. Rev. A}, 78:061802, Dec 2008.
 
 \bibitem{hardy-thesis}
 N.~D. Hardy.
@@ -269,25 +339,6 @@ E.~J. Candès, J.~K. Romberg, and T.~Tao.
 \newblock Stable signal recovery from incomplete and inaccurate measurements.
 \newblock {\em Communications on Pure and Applied Mathematics},
   59(8):1207--1223, 2006.
-
-\bibitem{duarte-single}
-M.F. Duarte, M.A. Davenport, D.~Takhar, J.N. Laska, T.~Sun, K.F. Kelly, and
-  R.G. Baraniuk.
-\newblock Single-pixel imaging via compressive sampling.
-\newblock {\em Signal Processing Magazine, IEEE}, 25(2):83--91, March 2008.
-
-\bibitem{katz-compressive}
-O.~Katz, Y.~Bromberg, and Y.~Silberberg.
-\newblock Compressive ghost imaging.
-\newblock {\em Applied Physics Letters}, 95(13):--, 2009.
-
-\bibitem{takhar-new}
-D.~Takhar, J.~N. Laska, M.~B. Wakin, M.~F. Duarte, D.~Baron, S.~Sarvotham,
-  K.~F. Kelly, and R.~G. Baraniuk.
-\newblock A new compressive imaging camera architecture using optical-domain
-  compression.
-\newblock In {\em Proceedings of Computational Imaging IV at SPIE Electronic
-  Imaging}, pages 43--52, San Jose, CA, Jan. 2006.
 
 \bibitem{l1magic}
 C.~Emmanuel and J.~Romberg.
@@ -365,35 +416,10 @@ S.~Pellegrini, G.~S. Buller, J.~M. Smith, A.~M. Wallace, and S.~Cova.
   time-correlated single-photon counting.
 \newblock {\em Measurement Science and Technology}, 11(6):712, 2000.
 
-\bibitem{villa-spad}
-F.~Villa, B.~Markovic, S.~Bellisai, D.~Bronzi, A.~Tosi, F.~Zappa, S.~Tisa,
-  D.~Durini, S.~Weyers, U.~Paschen, and W.~Brockherde.
-\newblock {SPAD} smart pixel for time-of-flight and time-correlated
-  single-photon counting measurements.
-\newblock {\em Photonics Journal, IEEE}, 4(3):795--804, June 2012.
-
 \bibitem{guerrieri-two}
 F.~Guerrieri, S.~Tisa, A.~Tosi, and F.~Zappa.
 \newblock Two-dimensional spad imaging camera for photon counting.
 \newblock {\em Photonics Journal, IEEE}, 2(5):759--774, 2010.
-
-\bibitem{scarcella-low}
-C.~Scarcella, A.~Tosi, F.~Villa, S.~Tisa, and F.~Zappa.
-\newblock Low-noise low-jitter 32-pixels cmos single-photon avalanche diodes
-  array for single-photon counting from 300 nm to 900 nm.
-\newblock {\em Review of Scientific Instruments}, 84(12):--, 2013.
-
-\bibitem{kirmani-first}
-A.~Kirmani, D.~Venkatraman, D.~Shin, A.~Cola\c{c}o, F.~N.~C. Wong, J.~H.
-  Shapiro, and V.~K Goyal.
-\newblock First-photon imaging.
-\newblock {\em Science}, 343(6166):58--61, 2014.
-
-\bibitem{kirmani-photon}
-D.~Shin, A.~Kirmani, V.~K. Goyal, and J.~H. Shapiro.
-\newblock Photon-efficient computational {3D} and reflectivity imaging with
-  single-photon detectors.
-\newblock {\em arXiv/stat}, 2014.
 
 \bibitem{mallat-wavelet}
 S.~G. Mallat.

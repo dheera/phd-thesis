@@ -11,17 +11,17 @@ A level-1 auxiliary file: appendix-ht3read.aux
 A level-1 auxiliary file: appendix-spadcounts.aux
 The style file: unsrt.bst
 Database file #1: thesis.bib
-Repeated entry---line 736 of file thesis.bib
+Repeated entry---line 761 of file thesis.bib
  : @article{shapiro-computational
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "jack-hgcdte" isn't style-file defined
---line 928 of file thesis.bib
-Repeated entry---line 982 of file thesis.bib
+--line 985 of file thesis.bib
+Repeated entry---line 1039 of file thesis.bib
  : @article {nicolas-applications
  :                               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1012 of file thesis.bib
+I was expecting a `,' or a `}'---line 1069 of file thesis.bib
  :   
  :   year={1975},
 (Error may have been on previous line)
@@ -29,45 +29,45 @@ I'm skipping whatever remains of this entry
 Name 3 in "Le Gou\"{e}t, J. and Venkatraman, D. and Wong, F. N. C, and Shapiro, J. H." has a comma at the end for entry legouet-experimental
 while executing---line 944 of file unsrt.bst
 Warning--empty year in snyder-random
-You've used 76 entries,
+You've used 81 entries,
             1791 wiz_defined-function locations,
-            874 strings with 15538 characters,
-and the built_in function-call counts, 18210 in all, are:
-= -- 1553
-> -- 935
+            892 strings with 16174 characters,
+and the built_in function-call counts, 19242 in all, are:
+= -- 1637
+> -- 999
 < -- 3
-+ -- 341
-- -- 265
-* -- 1481
-:= -- 2979
-add.period$ -- 225
-call.type$ -- 76
-change.case$ -- 69
++ -- 364
+- -- 283
+* -- 1558
+:= -- 3161
+add.period$ -- 240
+call.type$ -- 81
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 691
-empty$ -- 1709
-format.name$ -- 265
-if$ -- 3914
+cite$ -- 82
+duplicate$ -- 733
+empty$ -- 1799
+format.name$ -- 283
+if$ -- 4132
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 72
-newline$ -- 380
-num.names$ -- 77
-pop$ -- 139
+int.to.str$ -- 81
+missing$ -- 77
+newline$ -- 405
+num.names$ -- 82
+pop$ -- 144
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 275
+skip$ -- 294
 stack$ -- 0
-substring$ -- 1436
-swap$ -- 99
+substring$ -- 1485
+swap$ -- 104
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 170
-width$ -- 78
-write$ -- 820
+while$ -- 178
+width$ -- 83
+write$ -- 875
 (There were 4 error messages)
