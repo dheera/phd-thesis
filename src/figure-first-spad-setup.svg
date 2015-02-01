@@ -944,9 +944,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-927.05992"
-     inkscape:cy="743.26528"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-852.25902"
+     inkscape:cy="754.02463"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -963,7 +963,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1121,7 +1121,7 @@
          id="tspan3776-3"
          x="-552.10968"
          y="329.24823"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">55mm photographic lens (mount fixed)</tspan></text>
+         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman;font-size:15px">55mm photographic lens (mount fixed)</tspan></text>
     <path
        style="fill:url(#radialGradient5834);fill-opacity:1;stroke:none"
        d="m -606.19521,393.6408 -163.82738,-51.27862 0,155.96194 160.05232,-42.19471"
@@ -1512,7 +1512,7 @@
          id="tspan3776-2"
          x="-690.29449"
          y="329.82391"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">35mm image circle</tspan></text>
+         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman;font-size:15px">35mm image circle</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.0976733px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -668.42574,337.22301 -55.11409,55.20074"
@@ -1539,7 +1539,7 @@
          id="tspan3776-2-1"
          x="-743.49493"
          y="295.0575"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">SPAD camera (imaging area: 4.8 x 4.8 mm)</tspan></text>
+         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman;font-size:15px">SPAD camera (imaging area: 4.8 x 4.8 mm)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.0976733px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -723.05476,300.09025 -53.68551,82.3436"
@@ -1549,15 +1549,15 @@
     <text
        xml:space="preserve"
        style="font-size:13.08395958px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-1023.9378"
+       x="-1049.1917"
        y="295.63318"
        id="text3774-1-3-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3776-2-1-1"
-         x="-1023.9378"
+         x="-1049.1917"
          y="295.63318"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">Motorized translation stages</tspan></text>
+         style="font-size:15px;font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">Motorized translation stages</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -853.57143,291.6479 25.71429,0"
@@ -1627,14 +1627,14 @@
     <text
        xml:space="preserve"
        style="font-size:13.08395958px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-787.92493"
+       x="-831.36151"
        y="78.815689"
        id="text3774-1-3-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-787.92493"
+         x="-831.36151"
          y="78.815689"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman"
+         style="font-size:15px;font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman"
          id="tspan7848">640-nm pulsed diode laser</tspan></text>
     <text
        xml:space="preserve"
@@ -1646,7 +1646,7 @@
          sodipodi:role="line"
          x="-611.65741"
          y="81.210052"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman"
+         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman;font-size:15px"
          id="tspan7848-1">Diffusers</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1668,14 +1668,14 @@
        xml:space="preserve"
        style="font-size:13.08395958px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="-767.50916"
-       y="535.63318"
+       y="539.67377"
        id="text3774-1-3-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3776-2-1-2"
          x="-767.50916"
-         y="535.63318"
-         style="font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">640-nm interference filter</tspan></text>
+         y="539.67377"
+         style="font-size:15px;font-family:Latin Modern Roman;-inkscape-font-specification:Latin Modern Roman">640-nm interference filter</tspan></text>
     <path
        sodipodi:type="arc"
        style="opacity:0.41284407;fill:#b3b3b3;fill-opacity:1;stroke:none"

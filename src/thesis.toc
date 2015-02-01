@@ -24,13 +24,13 @@
 \contentsline {section}{\numberline {3.4}Results}{53}
 \contentsline {section}{\numberline {3.5}Signal-to-noise ratio}{55}
 \contentsline {section}{\numberline {3.6}Computational ghost imaging}{56}
-\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{59}
+\contentsline {section}{\numberline {3.7}Compressed ghost imaging}{60}
 \contentsline {section}{\numberline {3.8}Computational compressed ghost imaging}{66}
-\contentsline {section}{\numberline {3.9}Conclusions}{67}
+\contentsline {section}{\numberline {3.9}Conclusions}{68}
 \contentsline {chapter}{\numberline {4}Single-photon imaging}{71}
 \contentsline {section}{\numberline {4.1}First-photon imaging}{73}
 \contentsline {subsection}{\numberline {4.1.1}Experimental setup and calibration}{73}
-\contentsline {subsubsection}{Focusing of laser beam}{76}
+\contentsline {subsubsection}{Focusing of laser beam}{77}
 \contentsline {subsubsection}{Addition of background noise}{77}
 \contentsline {subsubsection}{Photon flux waveform measurement}{78}
 \contentsline {subsubsection}{Acquisition procedure}{79}
@@ -54,7 +54,7 @@
 \contentsline {subsubsection}{Depth reconstruction}{103}
 \contentsline {subsection}{\numberline {4.3.4}Preliminary results}{103}
 \contentsline {subsection}{\numberline {4.3.5}Comparison to first-photon imaging}{104}
-\contentsline {section}{\numberline {4.4}Conclusions}{105}
+\contentsline {section}{\numberline {4.4}Conclusions}{106}
 \contentsline {chapter}{\numberline {5}Conclusions}{113}
 \contentsline {chapter}{Appendices}{117}
 \contentsline {chapter}{\numberline {A}HydraHarp file converter}{119}
