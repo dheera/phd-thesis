@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  1 FEB 2015 12:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  2 FEB 2015 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,7 +403,10 @@ LaTeX Warning: Text page 26 contains only floats.
 Overfull \vbox (3.44597pt too high) has occurred while \output is active []
 
 
-[26 <./figure-pcoct-schematic-combined.pdf>] [27]
+[26 <./figure-pcoct-schematic-combined.pdf>]
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -414,14 +417,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figure-pcoct-setup-spdc.pdf Graphic file (type pdf)
 
 <use figure-pcoct-setup-spdc.pdf>
-Package pdftex.def Info: figure-pcoct-setup-spdc.pdf used on input line 111.
+Package pdftex.def Info: figure-pcoct-setup-spdc.pdf used on input line 109.
 (pdftex.def)             Requested size: 369.88582pt x 148.03592pt.
 
 <figure-pcoct-seedspectrum.pdf, id=406, 290.08376pt x 217.81375pt>
 File: figure-pcoct-seedspectrum.pdf Graphic file (type pdf)
 
 <use figure-pcoct-seedspectrum.pdf>
-Package pdftex.def Info: figure-pcoct-seedspectrum.pdf used on input line 121.
+Package pdftex.def Info: figure-pcoct-seedspectrum.pdf used on input line 119.
 (pdftex.def)             Requested size: 369.88582pt x 277.75371pt.
 
 
@@ -431,8 +434,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure-pcoct-edfabeforeafter.pdf Graphic file (type pdf)
 
 <use figure-pcoct-edfabeforeafter.pdf>
-Package pdftex.def Info: figure-pcoct-edfabeforeafter.pdf used on input line 13
-0.
+Package pdftex.def Info: figure-pcoct-edfabeforeafter.pdf used on input line 12
+8.
 (pdftex.def)             Requested size: 455.24408pt x 181.05824pt.
 
 
@@ -442,7 +445,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure-pcoct-edfapower.pdf Graphic file (type pdf)
 
 <use figure-pcoct-edfapower.pdf>
-Package pdftex.def Info: figure-pcoct-edfapower.pdf used on input line 138.
+Package pdftex.def Info: figure-pcoct-edfapower.pdf used on input line 136.
 (pdftex.def)             Requested size: 284.52756pt x 227.03665pt.
 
 
@@ -452,7 +455,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure-pcoct-shg.pdf Graphic file (type pdf)
 
 <use figure-pcoct-shg.pdf>
-Package pdftex.def Info: figure-pcoct-shg.pdf used on input line 146.
+Package pdftex.def Info: figure-pcoct-shg.pdf used on input line 144.
 (pdftex.def)             Requested size: 284.52756pt x 226.37592pt.
 
 
@@ -467,14 +470,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figure-pcoct-data-power.pdf Graphic file (type pdf)
 
 <use figure-pcoct-data-power.pdf>
-Package pdftex.def Info: figure-pcoct-data-power.pdf used on input line 165.
+Package pdftex.def Info: figure-pcoct-data-power.pdf used on input line 163.
 (pdftex.def)             Requested size: 341.43306pt x 288.50255pt.
 
 <figure-pcoct-data-spectrum.pdf, id=436, 376.84775pt x 170.60028pt>
 File: figure-pcoct-data-spectrum.pdf Graphic file (type pdf)
 
 <use figure-pcoct-data-spectrum.pdf>
-Package pdftex.def Info: figure-pcoct-data-spectrum.pdf used on input line 173.
+Package pdftex.def Info: figure-pcoct-data-spectrum.pdf used on input line 171.
 
 (pdftex.def)             Requested size: 469.75502pt x 212.65887pt.
 
@@ -482,7 +485,7 @@ Package pdftex.def Info: figure-pcoct-data-spectrum.pdf used on input line 173.
 File: figure-pcoct-setup.pdf Graphic file (type pdf)
 
 <use figure-pcoct-setup.pdf>
-Package pdftex.def Info: figure-pcoct-setup.pdf used on input line 184.
+Package pdftex.def Info: figure-pcoct-setup.pdf used on input line 182.
 (pdftex.def)             Requested size: 455.24408pt x 273.0382pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -492,7 +495,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figure-pcoct-cwdm.pdf Graphic file (type pdf)
 
 <use figure-pcoct-cwdm.pdf>
-Package pdftex.def Info: figure-pcoct-cwdm.pdf used on input line 200.
+Package pdftex.def Info: figure-pcoct-cwdm.pdf used on input line 198.
 (pdftex.def)             Requested size: 341.43306pt x 256.84567pt.
 
 Underfull \vbox (badness 1048) has occurred while \output is active []
@@ -512,14 +515,14 @@ Underfull \vbox (badness 2698) has occurred while \output is active []
 File: figure-pcoct-dpplot.pdf Graphic file (type pdf)
 
 <use figure-pcoct-dpplot.pdf>
-Package pdftex.def Info: figure-pcoct-dpplot.pdf used on input line 220.
+Package pdftex.def Info: figure-pcoct-dpplot.pdf used on input line 218.
 (pdftex.def)             Requested size: 369.88582pt x 363.10265pt.
  [40 <./figure-pcoct-dpplot.pdf>]
 <figure-pcoct-result.pdf, id=510, 515.06018pt x 433.1645pt>
 File: figure-pcoct-result.pdf Graphic file (type pdf)
 
 <use figure-pcoct-result.pdf>
-Package pdftex.def Info: figure-pcoct-result.pdf used on input line 238.
+Package pdftex.def Info: figure-pcoct-result.pdf used on input line 236.
 (pdftex.def)             Requested size: 341.43306pt x 287.15848pt.
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -906,7 +909,7 @@ Package pdftex.def Info: figure-first-spad-terms.pdf used on input line 282.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [100]
-Underfull \vbox (badness 3482) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [101 <./figure-first-spad-terms.pdf>]
 <figure-first-spad-setup.pdf, id=1648, 603.16963pt x 412.87663pt>
@@ -927,18 +930,21 @@ Package pdftex.def Info: figure-first-spad-scanning.pdf used on input line 302.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[103]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+Overfull \vbox (16.4098pt too high) has occurred while \output is active []
+
+
+[104 <./figure-first-spad-scanning.pdf>]
 Overfull \hbox (17.73578pt too wide) detected at line 317
 \OMS/cmsy/m/n/12 L [] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^M [] [] \OMS/cmsy/m/
 n/12 ^^@ \OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/1
 2 ) [] []   \OML/cmm/m/it/12 :
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104 <./figure-first-spad-scanning.pdf>] [105] [106]
-<figure-first-spad-pvnrt-i.pdf, id=2511, 523.5996pt x 713.54666pt>
+[105] [106] <figure-first-spad-pvnrt-i.pdf, id=2511, 523.5996pt x 713.54666pt>
 File: figure-first-spad-pvnrt-i.pdf Graphic file (type pdf)
 
 <use figure-first-spad-pvnrt-i.pdf>
@@ -1171,18 +1177,18 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [145] [146])
-[147] (./thesis.aux (./cover.aux) (./intro.aux) (./pcoct.aux) (./ghost.aux)
+ [145])
+[146] (./thesis.aux (./cover.aux) (./intro.aux) (./pcoct.aux) (./ghost.aux)
 (./first.aux) (./conclusions.aux) (./appendix-ht3read.aux)
 (./appendix-spadcounts.aux)) ) 
 Here is how much of TeX's memory you used:
- 5404 strings out of 495028
- 80393 string characters out of 6181497
- 188246 words of memory out of 5000000
- 8410 multiletter control sequences out of 15000+600000
+ 5402 strings out of 495028
+ 80336 string characters out of 6181497
+ 188230 words of memory out of 5000000
+ 8408 multiletter control sequences out of 15000+600000
  12270 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,54p,2185b,1615s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,54p,2181b,1615s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -1200,10 +1206,10 @@ s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on thesis.pdf (147 pages, 15616668 bytes).
+Output written on thesis.pdf (146 pages, 15617151 bytes).
 PDF statistics:
- 2784 PDF objects out of 2984 (max. 8388607)
- 1750 compressed objects within 18 object streams
+ 2781 PDF objects out of 2984 (max. 8388607)
+ 1748 compressed objects within 18 object streams
  0 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

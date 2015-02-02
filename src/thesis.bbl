@@ -92,7 +92,7 @@ M.~B. Nasr, B.~E.~A. Saleh, A.~V. Sergienko, and M.~C. Teich.
   tomography.
 \newblock {\em Phys. Rev. Lett.}, 91:083601, Aug 2003.
 
-\bibitem{hong-interference}
+\bibitem{hong-measurement}
 C.~K. Hong, Z.~Y. Ou, and L.~Mandel.
 \newblock Measurement of subpicosecond time intervals between two photons by
   interference.
@@ -125,12 +125,6 @@ B.~I. Erkmen.
 \newblock {\em Phase-Sensitive Light: Coherence Theory and Applications to
   Optical Imaging}.
 \newblock PhD thesis, Massachusetts Institute of Technology, May 2008.
-
-\bibitem{hong-measurement}
-C.~K. Hong, Z.~Y. Ou, and L.~Mandel.
-\newblock Measurement of subpicosecond time intervals between two photons by
-  interference.
-\newblock {\em Phys. Rev. Lett.}, 59:2044--2046, Nov 1987.
 
 \bibitem{louisell-spdc}
 W.~H. Louisell, A.~Yariv, and A.~E. Siegman.
@@ -294,7 +288,7 @@ J.~H. Shapiro.
 \bibitem{katz-compressive}
 O.~Katz, Y.~Bromberg, and Y.~Silberberg.
 \newblock Compressive ghost imaging.
-\newblock {\em Applied Physics Letters}, 95(13):--, 2009.
+\newblock {\em Applied Physics Letters}, 95(13):131110, 2009.
 
 \bibitem{xun-phase}
 X.~Xun and R.~W. Cohn.
@@ -346,9 +340,10 @@ C.~Emmanuel and J.~Romberg.
 \newblock http://users.ece.gatech.edu/~justin/l1magic/.
 
 \bibitem{yall1}
-J.~Yang and Y.~Zhang.
-\newblock Alternating direction algorithms for {L1}-problems in compressive
-  sensing.
+Junfeng Yang and Yin Zhang.
+\newblock Alternating direction algorithms for $\backslash$ell\_1-problems in
+  compressive sensing.
+\newblock {\em SIAM journal on scientific computing}, 33(1):250--278, 2011.
 
 \bibitem{nicolas-applications}
 J.~C. Nicolas.
@@ -376,8 +371,9 @@ G.~S. Buller and A.M. Wallace.
 
 \bibitem{jack-hgcdte}
 M.~Jack, J.~Wehner, J.~Edwards, G.~Chapman, D.~N.~B. Hall, and S.~M. Jacobson.
-\newblock Hgcdte {APD}-based linear-mode photon counting components and ladar
-  receivers, 2011.
+\newblock {HgCdTe} {APD}-based linear-mode photon counting components and ladar
+  receivers.
+\newblock {\em Proc. SPIE}, 8033:80330M--80330M--18, 2011.
 
 \bibitem{albota-three}
 M.~A. Albota, R.~M. Heinrichs, D.~G. Kocher, D.~G. Fouche, B.~E. Player, M.~E.

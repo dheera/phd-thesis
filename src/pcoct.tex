@@ -1,6 +1,6 @@
 \chapter{Phase-conjugate optical coherence tomography}
 
-The past two decades have witnessed a number of experiments focused on the use of quantum-entangled states of light to achieve enhanced measurement capability in metrology. For example, quantum optical coherence tomography (Q-OCT) proposed by Abouraddy et al. \cite{abouraddy-qoct} and later demonstrated by Nasr et al. \cite{nasr-qoct}, utilized maximally entangled photon states and Hong-Ou-Mandel interferometry \cite{hong-interference} to achieve a 2$\times$ axial resolution improvement and dispersion cancellation over conventional OCT (C-OCT).
+The past two decades have witnessed a number of experiments focused on the use of quantum-entangled states of light to achieve enhanced measurement capability in metrology. For example, quantum optical coherence tomography (Q-OCT) proposed by Abouraddy et al. \cite{abouraddy-qoct} and later demonstrated by Nasr et al. \cite{nasr-qoct}, utilized maximally entangled photon states and Hong-Ou-Mandel interferometry \cite{hong-measurement} to achieve a 2$\times$ axial resolution improvement and dispersion cancellation over conventional OCT (C-OCT).
 
 Such effects, including the enhanced resolution afforded by the reduced width of the Hong-Ou-Mandel interference, and dispersion cancellation \cite{steinberg-dispersion,franson-dispersion}, were initially thought to be distinctly non-classical. However, much of the early research overlooked the possibility of classical light sources that possess no entanglement but are nevertheless maximally correlated in the classical, stochastic sense. Recent advances in nonlinear optical crystals and a better understanding of parametric downconversion have permitted us to generate a variety of these interesting classical light fields that bear properties previously associated exclusively with quantum optics. Of particular note is the ability to generate classical states with classically-maximal phase-sensitive correlations.
 
@@ -31,11 +31,9 @@ Erkmen describes in \cite{erkmen-thesis} the analytic computation of the interfe
 \end{equation}
 
 for $J, K = S, R$ where
-
 \begin{equation}
 \mathcal{F}^{-1}[S(\Omega)] = \int_{-\infty}^{\infty} \frac{d\Omega}{2\pi} S(\Omega) e^{i \Omega r}
 \end{equation}
-
 is the inverse Fourier transform of $S(\Omega)$ and $S(\Omega) = S(-\Omega)$ is the common spectrum of the signal and reference beams at $\pm\Omega$ from the center frequency $\omega_0$. We assume a target with an axial profile $h(t)$, where $t$ is the time delay incurred in interrogating the target, and baseband impulse response $H(\Omega) = \mathcal{F}[h(t)]$. In the case of a weakly reflecting mirror located at time delay $T_0$ and complex reflectivity $r$ with $|r| \ll 1$, this baseband impulse response is defined by:
 
 \begin{equation}
@@ -104,7 +102,7 @@ We would like to couple our SPDC outputs into a single-mode fiber to ensure maxi
 \begin{equation}
 |\psi(\omega_s, \omega_i)|^2 \propto F(\xi,\Phi) = \int_{-1}^1 \frac{\sqrt{\xi} \exp(i\Phi l/2)}{1-i\xi l} dl
 \end{equation}
-where $\Phi$ is the phase mismatch of the crystal. This is maximized for $\xi \approx 2.84$ and $\Phi \approx -1.04\pi$, yielding $F \approx 2.06$. In our suboptimal focusing case of $\xi = \pi/2$, $F(\xi = \pi/2, \Phi)$ is maximized for $\Phi \approx -0.75\pi$, yielding $F \approx 1.96$, implying that we our joint spectral density is $\sim$5\% less than optimal.
+where $\Phi$ is the phase mismatch of the crystal. This is maximized for $\xi \approx 2.84$ and $\Phi \approx -1.04\pi$, yielding $F \approx 2.06$. In our suboptimal focusing case of $\xi = \pi/2$, $F(\xi = \pi/2, \Phi)$ is maximized for $\Phi \approx -0.75\pi$, yielding $F \approx 1.96$, implying that our joint spectral density is $\sim$5\% less than optimal.
 
 \begin{figure}[t]
 \begin{center}
@@ -151,7 +149,7 @@ Figure \ref{figure:pcoct-setup-spdc} shows a schematic of our SPDC generation se
 
 We then frequency-doubled the free-space output of the EDFA using a MgO:PPLN crystal with a grating period of 19.47 $\mu$m, housed in a temperature-controlled oven set at ~86.5$^\circ$C, which was phase-matched to produce ~50-ps pulses at 780 nm by second harmonic generation (SHG). By focusing the input into the crystal to a waist of 40 $\mu$m and careful optimization of the temperature we were able to convert 3.4 W of 1560 nm input into 2 W of output at 780 nm, indicating a conversion efficiency of 59\%. The SHG output power is quadratic in the input power in the low efficiency regime, but linear in the high efficiency regime, as shown in Figure \ref{figure:pcoct-shg}. Multiple dichroic mirrors were used to filter out the remaining 1560 nm light. Since we intend to use the 780 nm light to pump an SPDC source whose outputs will be centered at 1560 nm, it is important that the strong leftover 1560 nm light from the EDFA is almost completely filtered out with a sufficient number of dichroic mirrors after the SHG stage; we placed enough diochroic mirrors to attenuate the residual 1560 nm power to under 1 nW.
 
-We then optimized the pump focusing for the SPDC using our earlier theoretical estimates as a starting point by focusing the pump to a waist of 35 $\mu$m, which gives $\xi_p = \xi_t \sim 1$. With this focusing fixed, we optimize the coupling of the SPDC output into a single mode SMF-28 fiber, measuring the power at the other end of the fiber using a fiber-coupled InGaAs detector with 10-fW sensitivity. In order to measure the coupling efficiency, we also obtained the total SPDC output power by using a multi-mode fiber in its place. Using this initial setting, we obtained a ratio of $\eta_T = 50$\%. However, to account for the coupling losses and deduce the actual single-mode content of the SPDC output, we connected a single-mode 1550 nm fiber laser source to both our single- and multi-mode fiber inputs and obtained an efficiency of $\eta_{f} = 82 \pm 2$\%. Our SPDC single-mode content can then be deduced to be $\eta_{SM} = \eta_{T}/\eta_{f} = 61 \pm 1.5$\%.
+We then optimized the pump focusing for the SPDC using our earlier theoretical estimates as a starting point by focusing the pump to a waist of 35 $\mu$m, which gives $\xi_p = \xi_t \sim 1$. With this focusing fixed, we optimized the coupling of the SPDC output into a single mode SMF-28 fiber, measuring the power at the other end of the fiber using a fiber-coupled InGaAs detector with 10-fW sensitivity. In order to measure the coupling efficiency, we also obtained the total SPDC output power by using a multi-mode fiber in its place. Using this initial setting, we obtained a ratio of $\eta_T = 50$\%. However, to account for the coupling losses and deduce the actual single-mode content of the SPDC output, we connected a single-mode 1550 nm fiber laser source to both our single- and multi-mode fiber inputs and obtained an efficiency of $\eta_{f} = 82 \pm 2$\%. Our SPDC single-mode content can then be deduced to be $\eta_{SM} = \eta_{T}/\eta_{f} = 61 \pm 1.5$\%.
 
 We then varied the pump focusing and repeated the efficiency measurement at each setting. At a waist of $w_p = 25\,\mu$m we obtained $\eta_T = 57.5$\% and $\eta_{SM} = 70 \pm 2$\% which corresponds to $\xi_p = \xi_t = 1.7$. One crystal shattered under tight focusing conditions as the pump power was increased, after which we subsequently avoided attempting to focus the pump too tightly as a precaution. However, as described above, later work by Bennink \cite{bennink-optimal} indicates that tighter focusing might have yielder better results.
 
