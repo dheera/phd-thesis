@@ -1,8 +1,8 @@
 Quantum-mimetic imaging
 =======================
 
-**by Dheera Venkatraman**
-Doctoral thesis
+**by Dheera Venkatraman**<br/>
+Doctoral thesis<br/>
 &copy; Massachusetts Institute of Technology 2015. All rights reserved.
 
 Many recent experiments have explored the use of nonclassical states of 
