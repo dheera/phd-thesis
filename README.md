@@ -27,3 +27,4 @@ pixel. This paradigm is also extended to the case of single-photon APD
 arrays which may offer few-photon low-light imaging capabilities
 beyond what is possible with current camera technologies.
 
+![Result image](http://www.sciencemag.org/content/343/6166/58/F2.large.jpg)  
